@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida, Baker County Main Page -->
+  <!-- Florida, Calhoun County Main Page -->
   <sitemap>
-    <loc>https://baker-county.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://calhoun-florida.mydripnurse.com/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
   
-  <!-- Florida, Baker cities -->
+  <!-- Florida, Calhoun cities -->
   <sitemap>
-    <loc>https://glenstmary-city.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://altha-city.mydripnurse.com/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
   <sitemap>
-    <loc>https://macclenny-city.mydripnurse.com/sitemap.xml</loc>
+    <loc>https://blountstown-city.mydripnurse.com/sitemap.xml</loc>
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
