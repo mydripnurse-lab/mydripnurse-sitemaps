@@ -529,7 +529,7 @@
       shownEl.textContent = String(filtered.length);
 
       list.innerHTML = filtered.map(c => {
-        const href = `/states/florida/${c.slug}/sitemap.xml`;
+        const href = `/states/florida/counties/${c.slug}/sitemap.xml`;
         return `
           <div class="item">
             <div class="itemLeft">
