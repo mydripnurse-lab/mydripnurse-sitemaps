@@ -1,0 +1,15 @@
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- CORE PAGES -->
+  <sitemap>
+    <loc>https://mydripnurse.com/sitemaps.xml</loc>
+  </sitemap>
+
+  <!-- STATES -->
+  <sitemap>
+    <loc>https://mydripnurse.com/sitemaps/states.xml</loc>
+  </sitemap>
+
+</sitemapindex>
+
+
