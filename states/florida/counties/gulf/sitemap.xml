@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Florida, Gulf County Main Page -->
+  <sitemap>
+    <loc>https://gulf-county.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+  
+  <!-- Florida, Gulf cities -->
+  <sitemap>
+    <loc>https://port-st-joe-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://wewahitchka-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+</sitemapindex>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Florida, Lafayette County Main Page -->
+  <sitemap>
+    <loc>https://lafayette-county.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+  
+  <!-- Florida, Lafayette cities -->
+  <sitemap>
+    <loc>https://mayo-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+</sitemapindex>

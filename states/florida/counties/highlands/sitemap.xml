@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Florida, Highlands County Main Page -->
+  <sitemap>
+    <loc>https://highlands-county.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+  
+  <!-- Florida, Highlands cities -->
+  <sitemap>
+    <loc>https://avon-park-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://lake-placid-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://sebring-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+</sitemapindex>

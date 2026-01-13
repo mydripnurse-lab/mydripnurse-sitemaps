@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Florida, Hernando County Main Page -->
+  <sitemap>
+    <loc>https://hernando-county.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+  
+  <!-- Florida, Hernando cities -->
+  <sitemap>
+    <loc>https://brooksville-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://weeki-wachee-city.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
+</sitemapindex>
