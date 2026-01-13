@@ -1,0 +1,498 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l
+  ]=w[l
+  ]||[];w[l
+  ].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'
+  });var f=d.getElementsByTagName(s)[
+    0
+  ],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https: //www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T7P9KHNV');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DCSTB5TP54"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);
+}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DCSTB5TP54');
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a
+  ]=c[a
+  ]||function(){(c[a
+    ].q=c[a
+    ].q||[]).push(arguments)
+  };
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[
+    0
+  ];y.parentNode.insertBefore(t,y);
+})(window, document,
+"clarity",
+"script",
+"m8wzenvij7");
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)
+  };
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[
+    0
+  ];
+s.parentNode.insertBefore(t,s)
+}(window, document,'script',
+'https: //connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1027370922374198');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1027370922374198&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+<!-- ========= LocalBusiness (Entidad madre) ========= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "{{ custom_values.website_url }}#localbusiness",
+  "name": "My Drip Nurse",
+  "url": "{{ custom_values.website_url }}",
+  "image": "https://assets.cdn.filesafe.space/vMfl1L5xb2wJfNFNW5fb/media/6653ec9514fedb34a28eb645.png",
+  "telephone": "{{custom_values.business__phone}}",
+  "areaServed": [
+    {
+      "@type": "AdministrativeArea",
+      "name": "{{custom_values.county_name_and_state}}"
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ custom_values.business__county_name }}",
+    "addressRegion": "{{custom_values.website__state}}",
+    "addressCountry": "{{custom_values.website__region}}"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61559593842957",
+    "https://www.instagram.com/mydripnurse/"
+  ]
+}
+</script>
+
+<!-- ========= WebSite (limpio; sin SearchAction si no existe /search) ========= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "@id": "{{ custom_values.website_url }}#website",
+  "name": "My Drip Nurse",
+  "url": "{{ custom_values.website_url }}"
+}
+</script>
+
+<!-- ========= OfferCatalog (MENÚ completo) ========= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "OfferCatalog",
+  "@id": "{{custom_values.website_url}}/#iv-therapy-offer-catalog",
+  "name": "Mobile IV Therapy Menu in {{custom_values.county_name_and_state}}",
+  "description": "Full mobile IV therapy menu delivered by appointment to homes and hotels in {{custom_values.county_name_and_state}}. Browse IV drips and NAD+ infusions, view pricing, and book online.",
+  "url": "{{custom_values.website_url}}/",
+  "itemListElement": [
+    {
+      "@type": "OfferCatalog",
+      "@id": "{{custom_values.website_url}}/#catalog-iv-drips",
+      "name": "IV Therapy (IV Drips)",
+      "itemListElement": [
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/hydration-mobile-iv-therapy#offer",
+          "name": "Hydration IV Therapy",
+          "price": "{{custom_values.price__hydrate}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/hydration-mobile-iv-therapy",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/hydration-mobile-iv-therapy#service",
+            "name": "Hydration IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile hydration IV therapy delivered by appointment in {{custom_values.county_name_and_state}} for fast rehydration and recovery support.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/hydration-mobile-iv-therapy",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/hydrate-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-brain-storm#offer",
+          "name": "Brain Storm IV Therapy",
+          "price": "{{custom_values.price__brain_storm}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-brain-storm",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-brain-storm#service",
+            "name": "Brain Storm IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile IV therapy designed to support mental clarity and everyday performance. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-brain-storm",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/brain-storm-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-alleviate#offer",
+          "name": "Alleviate IV Therapy",
+          "price": "{{custom_values.price__alleviate}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-alleviate",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-alleviate#service",
+            "name": "Alleviate IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile IV therapy focused on hydration and relief support. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-alleviate",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/alleviate-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-recovery-and-performance#offer",
+          "name": "Recovery & Performance IV Therapy",
+          "price": "{{custom_values.price__recovery__performance}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-recovery-and-performance",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-recovery-and-performance#service",
+            "name": "Recovery & Performance IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile IV therapy built for post-workout recovery and performance support. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-recovery-and-performance",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/recovery-performance-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail#offer",
+          "name": "Myers' Cocktail IV Therapy",
+          "price": "{{custom_values.price__myers_cocktail}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail#service",
+            "name": "Myers' Cocktail IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "A classic wellness IV drip delivered by appointment in {{custom_values.county_name_and_state}} to support hydration and overall wellness.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/myers-cocktail-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail-and-glutathione-push#offer",
+          "name": "Myers' Cocktail & Glutathione Push",
+          "price": "{{custom_values.price__myers_cocktail__glutathione}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail-and-glutathione-push",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail-and-glutathione-push#service",
+            "name": "Myers' Cocktail & Glutathione Push",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Myers' Cocktail with a glutathione push for enhanced wellness support. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-myers-cocktail-and-glutathione-push",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/myers-cockatil-and-glutathione-push-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/get-lean-weight-loss-mobile-iv-therapy#offer",
+          "name": "Get Lean / Weight Loss IV Therapy",
+          "price": "{{custom_values.price__get_lean__weight_loss}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/get-lean-weight-loss-mobile-iv-therapy",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/get-lean-weight-loss-mobile-iv-therapy#service",
+            "name": "Get Lean / Weight Loss IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "A mobile IV drip designed to support wellness and metabolism as part of a healthy routine. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/get-lean-weight-loss-mobile-iv-therapy",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/get-lean-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-hangover-jet-lag#offer",
+          "name": "Hangover / Jet Lag IV Therapy",
+          "price": "{{custom_values.price__hangover__jet_lag}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-hangover-jet-lag",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-hangover-jet-lag#service",
+            "name": "Hangover / Jet Lag IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile IV therapy for rehydration and recovery support after travel or a long night. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-hangover-jet-lag",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/hangover-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-the-glow-beauty-iv-drip#offer",
+          "name": "The Glow / Beauty IV Drip",
+          "price": "{{custom_values.price__the_glow}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-the-glow-beauty-iv-drip",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-the-glow-beauty-iv-drip#service",
+            "name": "The Glow / Beauty IV Drip",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile beauty-focused IV drip for hydration and wellness support. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-the-glow-beauty-iv-drip",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/the-glow-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu#offer",
+          "name": "Immunity Defense / Cold & Flu IV Therapy",
+          "price": "{{custom_values.price__immunity_defense}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu#service",
+            "name": "Immunity Defense / Cold & Flu IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile immunity-focused IV therapy to support hydration and overall wellness. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/select-your-immunity-defense-cold-and-flu-glutathione" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu-and-glutathione#offer",
+          "name": "Immunity Defense / Cold & Flu + Glutathione Push",
+          "price": "{{custom_values.price__immunity_defense__glutathione_push}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu-and-glutathione",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu-and-glutathione#service",
+            "name": "Immunity Defense / Cold & Flu + Glutathione Push",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile immunity IV therapy with an added glutathione push for enhanced wellness support. Delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/mobile-iv-therapy-immunity-defense-cold-flu-and-glutathione",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/immunity-defense-and-glutathione-push-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        }
+
+      ]
+    },
+
+    {
+      "@type": "OfferCatalog",
+      "@id": "{{custom_values.website_url}}/#catalog-nad",
+      "name": "NAD+ IV Therapy",
+      "itemListElement": [
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/nad-plus-mobile-iv-therapy#offer",
+          "name": "NAD+ IV Therapy",
+          "price": "{{custom_values.price__nad}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/nad-plus-mobile-iv-therapy",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/nad-plus-mobile-iv-therapy#service",
+            "name": "NAD+ IV Therapy",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile NAD+ IV therapy delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/nad-plus-mobile-iv-therapy",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/nad-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        },
+
+        {
+          "@type": "Offer",
+          "@id": "{{custom_values.website_url}}/nad-plus-boost-mobile-iv-therapy#offer",
+          "name": "NAD+ Boost",
+          "price": "{{custom_values.price__nad_boost}}",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/InStock",
+          "url": "{{custom_values.website_url}}/nad-plus-boost-mobile-iv-therapy",
+          "itemOffered": {
+            "@type": "Service",
+            "@id": "{{custom_values.website_url}}/nad-plus-boost-mobile-iv-therapy#service",
+            "name": "NAD+ Boost",
+            "serviceType": "Mobile IV Therapy",
+            "description": "Mobile NAD+ Boost IV therapy delivered by appointment in {{custom_values.county_name_and_state}}.",
+            "provider": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+            "areaServed": { "@type": "AdministrativeArea", "name": "{{custom_values.county_name_and_state}}" },
+            "url": "{{custom_values.website_url}}/nad-plus-boost-mobile-iv-therapy",
+            "potentialAction": {
+              "@type": "ReserveAction",
+              "target": { "@type": "EntryPoint", "urlTemplate": "{{custom_values.business__county_domain}}/nad-boost-mobile-iv-therapy-survey-book-appointment" }
+            }
+          }
+        }
+
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- ========= Dataset + DataCatalog (LLM-friendly, sin target-type errors) ========= -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "{{custom_values.website_url}}/#dataset",
+  "name": "Mobile IV Therapy Services in {{custom_values.county_name_and_state}}",
+  "description": "Structured dataset of mobile IV therapy services available in {{custom_values.county_name_and_state}} including IV drips and NAD+ infusions with pricing and booking links.",
+  "url": "{{custom_values.website_url}}/",
+  "inLanguage": "en-US",
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": { "@id": "{{ custom_values.website_url }}#localbusiness" },
+  "spatialCoverage": {
+    "@type": "AdministrativeArea",
+    "name": "{{custom_values.county_name_and_state}}"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{custom_values.website_url}}/"
+  },
+  "includedInDataCatalog": {
+    "@type": "DataCatalog",
+    "@id": "{{custom_values.website_url}}/#data-catalog",
+    "name": "My Drip Nurse Service Catalog - {{custom_values.county_name_and_state}}",
+    "url": "{{custom_values.website_url}}/",
+    "mainEntity": {
+      "@type": "OfferCatalog",
+      "@id": "{{custom_values.website_url}}/#iv-therapy-offer-catalog"
+    }
+  },
+  "keywords": [
+    "mobile IV therapy {{custom_values.county_name_and_state}}",
+    "IV therapy near me {{custom_values.county_name_and_state}}",
+    "IV hydration {{custom_values.county_name_and_state}}",
+    "NAD+ IV therapy {{custom_values.county_name_and_state}}"
+  ]
+}
+</script>
