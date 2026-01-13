@@ -1,0 +1,1061 @@
+{
+    "Counties": [
+        {
+            "County Name": "Alachua",
+            "Cities": [
+                "Alachua",
+                "Archer",
+                "Gainesville",
+                "Hawthorne",
+                "High Springs",
+                "La Crosse",
+                "Micanopy",
+                "Newberry",
+                "Waldo"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Baker",
+            "Cities": [
+                "Glen St. Mary",
+                "Macclenny"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Bay",
+            "Cities": [
+                "Callaway",
+                "Lynn Haven",
+                "Mexico Beach",
+                "Panama City",
+                "Panama City Beach",
+                "Parker",
+                "Springfield"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Bradford",
+            "Cities": [
+                "Brooker",
+                "Hampton",
+                "Lawtey",
+                "Starke"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Brevard",
+            "Cities": [
+                "Cape Canaveral",
+                "Cocoa",
+                "Cocoa Beach",
+                "Grant-Valkaria",
+                "Indialantic",
+                "Indian Harbour Beach",
+                "Malabar",
+                "Melbourne",
+                "Melbourne Beach",
+                "Melbourne Village",
+                "Palm Bay",
+                "Palm Shores",
+                "Rockledge",
+                "Satellite Beach",
+                "Titusville",
+                "West Melbourne"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Broward",
+            "Cities": [
+                "Coconut Creek",
+                "Cooper City",
+                "Coral Springs",
+                "Dania Beach",
+                "Davie",
+                "Deerfield Beach",
+                "Fort Lauderdale",
+                "Hallandale Beach",
+                "Hillsboro Beach",
+                "Hollywood",
+                "Lauderdale Lakes",
+                "Lauderdale-by-the-Sea",
+                "Lauderhill",
+                "Lazy Lake",
+                "Lighthouse Point",
+                "Margate",
+                "Miramar",
+                "North Lauderdale",
+                "Oakland Park",
+                "Parkland",
+                "Pembroke Park",
+                "Pembroke Pines",
+                "Plantation",
+                "Pompano Beach",
+                "Sea Ranch Lakes",
+                "Southwest Ranches",
+                "Sunrise",
+                "Tamarac",
+                "West Park",
+                "Weston",
+                "Wilton Manors"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Calhoun",
+            "Cities": [
+                "Altha",
+                "Blountstown"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Charlotte",
+            "Cities": [
+                "Punta Gorda"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Citrus",
+            "Cities": [
+                "Crystal River",
+                "Inverness"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Clay",
+            "Cities": [
+                "Green Cove Springs",
+                "Keystone Heights",
+                "Orange Park",
+                "Penney Farms"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Collier",
+            "Cities": [
+                "Everglades City",
+                "Marco Island",
+                "Naples"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Columbia",
+            "Cities": [
+                "Fort White",
+                "Lake City"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "DeSoto",
+            "Cities": [
+                "Arcadia"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Dixie",
+            "Cities": [
+                "Cross City",
+                "Horseshoe Beach"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Duval",
+            "Cities": [
+                "Atlantic Beach",
+                "Baldwin",
+                "Jacksonville",
+                "Jacksonville Beach",
+                "Neptune Beach"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Escambia",
+            "Cities": [
+                "Century",
+                "Pensacola"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Flagler",
+            "Cities": [
+                "Beverly Beach",
+                "Bunnell",
+                "Flagler Beach",
+                "Marineland",
+                "Palm Coast"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Franklin",
+            "Cities": [
+                "Apalachicola",
+                "Carrabelle"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Gadsden",
+            "Cities": [
+                "Chattahoochee",
+                "Greensboro",
+                "Gretna",
+                "Havana",
+                "Midway",
+                "Quincy"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Gilchrist",
+            "Cities": [
+                "Bell",
+                "Fanning Springs",
+                "Trenton"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Glades",
+            "Cities": [
+                "Moore Haven"
+            ]
+        },
+        {
+            "County Name": "Gulf",
+            "Cities": [
+                "Port St. Joe",
+                "Wewahitchka"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Hamilton",
+            "Cities": [
+                "Jasper",
+                "White Springs"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Hardee",
+            "Cities": [
+                "Bowling Green",
+                "Wauchula",
+                "Zolfo Springs"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Hendry",
+            "Cities": [
+                "Clewiston",
+                "LaBelle"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Hernando",
+            "Cities": [
+                "Brooksville",
+                "Weeki Wachee"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Highlands",
+            "Cities": [
+                "Avon Park",
+                "Lake Placid",
+                "Sebring"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Hillsborough",
+            "Cities": [
+                "Plant City",
+                "Tampa",
+                "Temple Terrace"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Holmes",
+            "Cities": [
+                "Bonifay",
+                "Esto",
+                "Noma",
+                "Ponce de Leon",
+                "Westville"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Indian River",
+            "Cities": [
+                "Fellsmere",
+                "Indian River Shores",
+                "Orchid",
+                "Sebastian",
+                "Vero Beach"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Jackson",
+            "Cities": [
+                "Alford",
+                "Bascom",
+                "Campbellton",
+                "Cottondale",
+                "Graceville",
+                "Grand Ridge",
+                "Greenwood",
+                "Jacob City",
+                "Malone",
+                "Marianna",
+                "Sneads"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Jefferson",
+            "Cities": [
+                "Monticello"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Lafayette",
+            "Cities": [
+                "Mayo"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Lake",
+            "Cities": [
+                "Astatula",
+                "Clermont",
+                "Eustis",
+                "Fruitland Park",
+                "Groveland",
+                "Howey-in-the-Hills",
+                "Lady Lake",
+                "Leesburg",
+                "Mascotte",
+                "Minneola",
+                "Montverde",
+                "Mount Dora",
+                "Tavares",
+                "Umatilla"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Lee",
+            "Cities": [
+                "Bonita Springs",
+                "Cape Coral",
+                "Estero",
+                "Fort Myers",
+                "Fort Myers Beach",
+                "Sanibel"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Leon",
+            "Cities": [
+                "Tallahassee"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Levy",
+            "Cities": [
+                "Bronson",
+                "Cedar Key",
+                "Chiefland",
+                "Fanning Springs",
+                "Inglis",
+                "Otter Creek",
+                "Williston",
+                "Yankeetown"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Liberty",
+            "Cities": [
+                "Bristol"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Madison",
+            "Cities": [
+                "Greenville",
+                "Lee",
+                "Madison"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Manatee",
+            "Cities": [
+                "Anna Maria",
+                "Bradenton",
+                "Bradenton Beach",
+                "Holmes Beach",
+                "Longboat Key",
+                "Palmetto"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Marion",
+            "Cities": [
+                "Belleview",
+                "Dunnellon",
+                "McIntosh",
+                "Ocala",
+                "Reddick"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Martin",
+            "Cities": [
+                "Jupiter Island",
+                "Ocean Breeze",
+                "Sewall's Point",
+                "Stuart"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Miami-Dade",
+            "Cities": [
+                "Aventura",
+                "Bal Harbour",
+                "Bay Harbor Islands",
+                "Biscayne Park",
+                "Coral Gables",
+                "Cutler Bay",
+                "Doral",
+                "El Portal",
+                "Florida City",
+                "Golden Beach",
+                "Hialeah",
+                "Hialeah Gardens",
+                "Homestead",
+                "Indian Creek",
+                "Key Biscayne",
+                "Medley",
+                "Miami",
+                "Miami Beach",
+                "Miami Gardens",
+                "Miami Lakes",
+                "Miami Shores",
+                "Miami Springs",
+                "North Bay Village",
+                "North Miami",
+                "North Miami Beach",
+                "Opa-locka",
+                "Palmetto Bay",
+                "Pinecrest",
+                "South Miami",
+                "Sunny Isles Beach",
+                "Surfside",
+                "Sweetwater",
+                "Virginia Gardens",
+                "West Miami"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Monroe",
+            "Cities": [
+                "Key Colony Beach",
+                "Key West",
+                "Layton",
+                "Marathon",
+                "Islamorada"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Nassau",
+            "Cities": [
+                "Callahan",
+                "Fernandina Beach",
+                "Hilliard"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Okaloosa",
+            "Cities": [
+                "Crestview",
+                "Destin",
+                "Fort Walton Beach",
+                "Laurel Hill",
+                "Mary Esther",
+                "Niceville",
+                "Valparaiso"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Okeechobee",
+            "Cities": [
+                "Okeechobee"
+            ]
+        },
+        {
+            "County Name": "Orange",
+            "Cities": [
+                "Apopka",
+                "Bay Lake",
+                "Belle Isle",
+                "Eatonville",
+                "Edgewood",
+                "Lake Buena Vista",
+                "Maitland",
+                "Oakland",
+                "Ocoee",
+                "Orlando",
+                "Windermere",
+                "Winter Garden",
+                "Winter Park"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Osceola",
+            "Cities": [
+                "Kissimmee",
+                "St. Cloud"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Palm Beach",
+            "Cities": [
+                "Atlantis",
+                "Belle Glade",
+                "Boca Raton",
+                "Boynton Beach",
+                "Briny Breezes",
+                "Cloud Lake",
+                "Delray Beach",
+                "Golf",
+                "Greenacres",
+                "Gulf Stream",
+                "Haverhill",
+                "Highland Beach",
+                "Hypoluxo",
+                "Juno Beach",
+                "Jupiter",
+                "Lake Clarke Shores",
+                "Lake Worth",
+                "Lantana",
+                "Loxahatchee Groves",
+                "Manalapan",
+                "Mangonia Park",
+                "North Palm Beach",
+                "Ocean Ridge",
+                "Pahokee",
+                "Palm Beach",
+                "Palm Beach Gardens",
+                "Palm Springs",
+                "Riviera Beach",
+                "Royal Palm Beach",
+                "South Bay",
+                "Tequesta",
+                "Wellington",
+                "West Palm Beach"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Pasco",
+            "Cities": [
+                "Dade City",
+                "New Port Richey",
+                "Port Richey",
+                "San Antonio",
+                "St. Leo",
+                "Zephyrhills"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Pinellas",
+            "Cities": [
+                "Belleair",
+                "Belleair Beach",
+                "Belleair Bluffs",
+                "Clearwater",
+                "Dunedin",
+                "Gulfport",
+                "Indian Rocks Beach",
+                "Indian Shores",
+                "Kenneth City",
+                "Largo",
+                "Madeira Beach",
+                "North Redington Beach",
+                "Oldsmar",
+                "Pinellas Park",
+                "Redington Beach",
+                "Redington Shores",
+                "Safety Harbor",
+                "Seminole",
+                "South Pasadena",
+                "St. Pete Beach",
+                "St. Petersburg",
+                "Tarpon Springs",
+                "Treasure Island"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Polk",
+            "Cities": [
+                "Auburndale",
+                "Bartow",
+                "Davenport",
+                "Eagle Lake",
+                "Frostproof",
+                "Haines City",
+                "Lake Alfred",
+                "Lake Wales",
+                "Lakeland",
+                "Mulberry",
+                "Polk City",
+                "Winter Haven"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Putnam",
+            "Cities": [
+                "Crescent City",
+                "Interlachen",
+                "Palatka",
+                "Pomona Park",
+                "Welaka"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Santa Rosa",
+            "Cities": [
+                "Gulf Breeze",
+                "Jay",
+                "Milton"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Sarasota",
+            "Cities": [
+                "North Port",
+                "Sarasota",
+                "Venice"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Seminole",
+            "Cities": [
+                "Altamonte Springs",
+                "Casselberry",
+                "Lake Mary",
+                "Longwood",
+                "Oviedo",
+                "Sanford",
+                "Winter Springs"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "St. Johns",
+            "Cities": [
+                "Hastings",
+                "St. Augustine",
+                "St. Augustine Beach"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "St. Lucie",
+            "Cities": [
+                "Fort Pierce",
+                "Port St. Lucie",
+                "St. Lucie Village"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Sumter",
+            "Cities": [
+                "Bushnell",
+                "Center Hill",
+                "Coleman",
+                "Webster",
+                "Wildwood"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Suwannee",
+            "Cities": [
+                "Branford",
+                "Live Oak"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Taylor",
+            "Cities": [
+                "Perry"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Union",
+            "Cities": [
+                "Lake Butler",
+                "Raiford",
+                "Worthington Springs"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Volusia",
+            "Cities": [
+                "Daytona Beach",
+                "Daytona Beach Shores",
+                "DeBary",
+                "DeLand",
+                "Deltona",
+                "Edgewater",
+                "Holly Hill",
+                "Lake Helen",
+                "New Smyrna Beach",
+                "Oak Hill",
+                "Orange City",
+                "Ormond Beach",
+                "Ponce Inlet",
+                "Port Orange",
+                "South Daytona"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Wakulla",
+            "Cities": [
+                "Sopchoppy",
+                "St. Marks"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "GMT_Offset": "(GMT-05:00)"
+            }
+        },
+        {
+            "County Name": "Walton",
+            "Cities": [
+                "DeFuniak Springs",
+                "Freeport",
+                "Paxton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        },
+        {
+            "County Name": "Washington",
+            "Cities": [
+                "Chipley",
+                "Vernon"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "GMT_Offset": "(GMT-06:00)"
+            }
+        }
+    ],
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla Caraballo",
+    "Phone": "9392749203"
+}
