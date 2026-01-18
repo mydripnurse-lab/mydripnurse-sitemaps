@@ -3,1026 +3,2576 @@
         {
             "County Name": "Autauga",
             "Cities": [
-                "Autaugaville",
-                "Billingsley",
-                "Marbury",
-                "Prattville",
-                "Pine Level"
+                {
+                    "cityName": "Autaugaville",
+                    "cityDomain": "https://autaugaville-city-al.mydripnurse.com",
+                    "citySitemap": "https://autaugaville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Billingsley",
+                    "cityDomain": "https://billingsley-city-al.mydripnurse.com",
+                    "citySitemap": "https://billingsley-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Marbury",
+                    "cityDomain": "https://marbury-city-al.mydripnurse.com",
+                    "citySitemap": "https://marbury-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Prattville",
+                    "cityDomain": "https://prattville-city-al.mydripnurse.com",
+                    "citySitemap": "https://prattville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pine Level",
+                    "cityDomain": "https://pine-level-city-al.mydripnurse.com",
+                    "citySitemap": "https://pine-level-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://autauga-county-al.mydripnurse.com",
+            "countySitemap": "https://autauga-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Baldwin",
             "Cities": [
-                "Bay Minette",
-                "Daphne",
-                "Fairhope",
-                "Foley",
-                "Gulf Shores",
-                "Orange Beach",
-                "Robertsdale",
-                "Spanish Fort",
-                "Elberta",
-                "Lillian",
-                "Magnolia Springs",
-                "Perdido Beach",
-                "Summerdale"
+                {
+                    "cityName": "Bay Minette",
+                    "cityDomain": "https://bay-minette-city-al.mydripnurse.com",
+                    "citySitemap": "https://bay-minette-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Daphne",
+                    "cityDomain": "https://daphne-city-al.mydripnurse.com",
+                    "citySitemap": "https://daphne-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairhope",
+                    "cityDomain": "https://fairhope-city-al.mydripnurse.com",
+                    "citySitemap": "https://fairhope-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Foley",
+                    "cityDomain": "https://foley-city-al.mydripnurse.com",
+                    "citySitemap": "https://foley-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gulf Shores",
+                    "cityDomain": "https://gulf-shores-city-al.mydripnurse.com",
+                    "citySitemap": "https://gulf-shores-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Orange Beach",
+                    "cityDomain": "https://orange-beach-city-al.mydripnurse.com",
+                    "citySitemap": "https://orange-beach-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Robertsdale",
+                    "cityDomain": "https://robertsdale-city-al.mydripnurse.com",
+                    "citySitemap": "https://robertsdale-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spanish Fort",
+                    "cityDomain": "https://spanish-fort-city-al.mydripnurse.com",
+                    "citySitemap": "https://spanish-fort-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Elberta",
+                    "cityDomain": "https://elberta-city-al.mydripnurse.com",
+                    "citySitemap": "https://elberta-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lillian",
+                    "cityDomain": "https://lillian-city-al.mydripnurse.com",
+                    "citySitemap": "https://lillian-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Magnolia Springs",
+                    "cityDomain": "https://magnolia-springs-city-al.mydripnurse.com",
+                    "citySitemap": "https://magnolia-springs-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Perdido Beach",
+                    "cityDomain": "https://perdido-beach-city-al.mydripnurse.com",
+                    "citySitemap": "https://perdido-beach-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Summerdale",
+                    "cityDomain": "https://summerdale-city-al.mydripnurse.com",
+                    "citySitemap": "https://summerdale-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://baldwin-county-al.mydripnurse.com",
+            "countySitemap": "https://baldwin-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Barbour",
             "Cities": [
-                "Clayton",
-                "Eufaula",
-                "Louisville"
+                {
+                    "cityName": "Clayton",
+                    "cityDomain": "https://clayton-city-al.mydripnurse.com",
+                    "citySitemap": "https://clayton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eufaula",
+                    "cityDomain": "https://eufaula-city-al.mydripnurse.com",
+                    "citySitemap": "https://eufaula-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Louisville",
+                    "cityDomain": "https://louisville-city-al.mydripnurse.com",
+                    "citySitemap": "https://louisville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://barbour-county-al.mydripnurse.com",
+            "countySitemap": "https://barbour-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Bibb",
             "Cities": [
-                "Brent",
-                "Centreville",
-                "West Blocton"
+                {
+                    "cityName": "Brent",
+                    "cityDomain": "https://brent-city-al.mydripnurse.com",
+                    "citySitemap": "https://brent-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Centreville",
+                    "cityDomain": "https://centreville-city-al.mydripnurse.com",
+                    "citySitemap": "https://centreville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Blocton",
+                    "cityDomain": "https://west-blocton-city-al.mydripnurse.com",
+                    "citySitemap": "https://west-blocton-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://bibb-county-al.mydripnurse.com",
+            "countySitemap": "https://bibb-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Blount",
             "Cities": [
-                "Blountsville",
-                "Cleveland",
-                "Hayden",
-                "Oneonta",
-                "Snead"
+                {
+                    "cityName": "Blountsville",
+                    "cityDomain": "https://blountsville-city-al.mydripnurse.com",
+                    "citySitemap": "https://blountsville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cleveland",
+                    "cityDomain": "https://cleveland-city-al.mydripnurse.com",
+                    "citySitemap": "https://cleveland-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hayden",
+                    "cityDomain": "https://hayden-city-al.mydripnurse.com",
+                    "citySitemap": "https://hayden-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oneonta",
+                    "cityDomain": "https://oneonta-city-al.mydripnurse.com",
+                    "citySitemap": "https://oneonta-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Snead",
+                    "cityDomain": "https://snead-city-al.mydripnurse.com",
+                    "citySitemap": "https://snead-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://blount-county-al.mydripnurse.com",
+            "countySitemap": "https://blount-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Bullock",
             "Cities": [
-                "Union Springs"
+                {
+                    "cityName": "Union Springs",
+                    "cityDomain": "https://union-springs-city-al.mydripnurse.com",
+                    "citySitemap": "https://union-springs-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://bullock-county-al.mydripnurse.com",
+            "countySitemap": "https://bullock-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Butler",
             "Cities": [
-                "Georgiana",
-                "Greenville",
-                "McKenzie"
+                {
+                    "cityName": "Georgiana",
+                    "cityDomain": "https://georgiana-city-al.mydripnurse.com",
+                    "citySitemap": "https://georgiana-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greenville",
+                    "cityDomain": "https://greenville-city-al.mydripnurse.com",
+                    "citySitemap": "https://greenville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McKenzie",
+                    "cityDomain": "https://mckenzie-city-al.mydripnurse.com",
+                    "citySitemap": "https://mckenzie-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://butler-county-al.mydripnurse.com",
+            "countySitemap": "https://butler-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Calhoun",
             "Cities": [
-                "Anniston",
-                "Jacksonville",
-                "Oxford",
-                "Piedmont",
-                "Hobson City"
+                {
+                    "cityName": "Anniston",
+                    "cityDomain": "https://anniston-city-al.mydripnurse.com",
+                    "citySitemap": "https://anniston-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jacksonville",
+                    "cityDomain": "https://jacksonville-city-al.mydripnurse.com",
+                    "citySitemap": "https://jacksonville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oxford",
+                    "cityDomain": "https://oxford-city-al.mydripnurse.com",
+                    "citySitemap": "https://oxford-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Piedmont",
+                    "cityDomain": "https://piedmont-city-al.mydripnurse.com",
+                    "citySitemap": "https://piedmont-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hobson City",
+                    "cityDomain": "https://hobson-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://hobson-city-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://calhoun-county-al.mydripnurse.com",
+            "countySitemap": "https://calhoun-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Chambers",
             "Cities": [
-                "Cusseta",
-                "LaFayette",
-                "Lanett",
-                "Valley"
+                {
+                    "cityName": "Cusseta",
+                    "cityDomain": "https://cusseta-city-al.mydripnurse.com",
+                    "citySitemap": "https://cusseta-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "LaFayette",
+                    "cityDomain": "https://lafayette-city-al.mydripnurse.com",
+                    "citySitemap": "https://lafayette-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lanett",
+                    "cityDomain": "https://lanett-city-al.mydripnurse.com",
+                    "citySitemap": "https://lanett-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Valley",
+                    "cityDomain": "https://valley-city-al.mydripnurse.com",
+                    "citySitemap": "https://valley-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://chambers-county-al.mydripnurse.com",
+            "countySitemap": "https://chambers-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Cherokee",
             "Cities": [
-                "Centre",
-                "Leesburg",
-                "Sand Rock",
-                "Spring Garden",
-                "Gaylesville"
+                {
+                    "cityName": "Centre",
+                    "cityDomain": "https://centre-city-al.mydripnurse.com",
+                    "citySitemap": "https://centre-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leesburg",
+                    "cityDomain": "https://leesburg-city-al.mydripnurse.com",
+                    "citySitemap": "https://leesburg-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sand Rock",
+                    "cityDomain": "https://sand-rock-city-al.mydripnurse.com",
+                    "citySitemap": "https://sand-rock-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Spring Garden",
+                    "cityDomain": "https://spring-garden-city-al.mydripnurse.com",
+                    "citySitemap": "https://spring-garden-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gaylesville",
+                    "cityDomain": "https://gaylesville-city-al.mydripnurse.com",
+                    "citySitemap": "https://gaylesville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://cherokee-county-al.mydripnurse.com",
+            "countySitemap": "https://cherokee-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Chilton",
             "Cities": [
-                "Clanton",
-                "Jemison",
-                "Maplesville",
-                "Thorsby"
+                {
+                    "cityName": "Clanton",
+                    "cityDomain": "https://clanton-city-al.mydripnurse.com",
+                    "citySitemap": "https://clanton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jemison",
+                    "cityDomain": "https://jemison-city-al.mydripnurse.com",
+                    "citySitemap": "https://jemison-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Maplesville",
+                    "cityDomain": "https://maplesville-city-al.mydripnurse.com",
+                    "citySitemap": "https://maplesville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thorsby",
+                    "cityDomain": "https://thorsby-city-al.mydripnurse.com",
+                    "citySitemap": "https://thorsby-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://chilton-county-al.mydripnurse.com",
+            "countySitemap": "https://chilton-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Choctaw",
             "Cities": [
-                "Butler",
-                "Lisman",
-                "Silas",
-                "Toxey"
+                {
+                    "cityName": "Butler",
+                    "cityDomain": "https://butler-city-al.mydripnurse.com",
+                    "citySitemap": "https://butler-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lisman",
+                    "cityDomain": "https://lisman-city-al.mydripnurse.com",
+                    "citySitemap": "https://lisman-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Silas",
+                    "cityDomain": "https://silas-city-al.mydripnurse.com",
+                    "citySitemap": "https://silas-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Toxey",
+                    "cityDomain": "https://toxey-city-al.mydripnurse.com",
+                    "citySitemap": "https://toxey-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://choctaw-county-al.mydripnurse.com",
+            "countySitemap": "https://choctaw-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Clarke",
             "Cities": [
-                "Coffeeville",
-                "Grove Hill",
-                "Jackson",
-                "Thomasville"
+                {
+                    "cityName": "Coffeeville",
+                    "cityDomain": "https://coffeeville-city-al.mydripnurse.com",
+                    "citySitemap": "https://coffeeville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grove Hill",
+                    "cityDomain": "https://grove-hill-city-al.mydripnurse.com",
+                    "citySitemap": "https://grove-hill-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jackson",
+                    "cityDomain": "https://jackson-city-al.mydripnurse.com",
+                    "citySitemap": "https://jackson-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Thomasville",
+                    "cityDomain": "https://thomasville-city-al.mydripnurse.com",
+                    "citySitemap": "https://thomasville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://clarke-county-al.mydripnurse.com",
+            "countySitemap": "https://clarke-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Clay",
             "Cities": [
-                "Ashland",
-                "Delta",
-                "Lineville"
+                {
+                    "cityName": "Ashland",
+                    "cityDomain": "https://ashland-city-al.mydripnurse.com",
+                    "citySitemap": "https://ashland-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Delta",
+                    "cityDomain": "https://delta-city-al.mydripnurse.com",
+                    "citySitemap": "https://delta-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lineville",
+                    "cityDomain": "https://lineville-city-al.mydripnurse.com",
+                    "citySitemap": "https://lineville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://clay-county-al.mydripnurse.com",
+            "countySitemap": "https://clay-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Cleburne",
             "Cities": [
-                "Edwardsville",
-                "Heflin",
-                "Ranburne"
+                {
+                    "cityName": "Edwardsville",
+                    "cityDomain": "https://edwardsville-city-al.mydripnurse.com",
+                    "citySitemap": "https://edwardsville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Heflin",
+                    "cityDomain": "https://heflin-city-al.mydripnurse.com",
+                    "citySitemap": "https://heflin-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ranburne",
+                    "cityDomain": "https://ranburne-city-al.mydripnurse.com",
+                    "citySitemap": "https://ranburne-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://cleburne-county-al.mydripnurse.com",
+            "countySitemap": "https://cleburne-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Coffee",
             "Cities": [
-                "Elba",
-                "Enterprise",
-                "New Brockton"
+                {
+                    "cityName": "Elba",
+                    "cityDomain": "https://elba-city-al.mydripnurse.com",
+                    "citySitemap": "https://elba-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Enterprise",
+                    "cityDomain": "https://enterprise-city-al.mydripnurse.com",
+                    "citySitemap": "https://enterprise-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Brockton",
+                    "cityDomain": "https://new-brockton-city-al.mydripnurse.com",
+                    "citySitemap": "https://new-brockton-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://coffee-county-al.mydripnurse.com",
+            "countySitemap": "https://coffee-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Colbert",
             "Cities": [
-                "Leighton",
-                "Muscle Shoals",
-                "Sheffield",
-                "Tuscumbia"
+                {
+                    "cityName": "Leighton",
+                    "cityDomain": "https://leighton-city-al.mydripnurse.com",
+                    "citySitemap": "https://leighton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Muscle Shoals",
+                    "cityDomain": "https://muscle-shoals-city-al.mydripnurse.com",
+                    "citySitemap": "https://muscle-shoals-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sheffield",
+                    "cityDomain": "https://sheffield-city-al.mydripnurse.com",
+                    "citySitemap": "https://sheffield-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tuscumbia",
+                    "cityDomain": "https://tuscumbia-city-al.mydripnurse.com",
+                    "citySitemap": "https://tuscumbia-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://colbert-county-al.mydripnurse.com",
+            "countySitemap": "https://colbert-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Conecuh",
             "Cities": [
-                "Evergreen",
-                "Repton"
+                {
+                    "cityName": "Evergreen",
+                    "cityDomain": "https://evergreen-city-al.mydripnurse.com",
+                    "citySitemap": "https://evergreen-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Repton",
+                    "cityDomain": "https://repton-city-al.mydripnurse.com",
+                    "citySitemap": "https://repton-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://conecuh-county-al.mydripnurse.com",
+            "countySitemap": "https://conecuh-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Coosa",
             "Cities": [
-                "Goodwater",
-                "Rockford"
+                {
+                    "cityName": "Goodwater",
+                    "cityDomain": "https://goodwater-city-al.mydripnurse.com",
+                    "citySitemap": "https://goodwater-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rockford",
+                    "cityDomain": "https://rockford-city-al.mydripnurse.com",
+                    "citySitemap": "https://rockford-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://coosa-county-al.mydripnurse.com",
+            "countySitemap": "https://coosa-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Covington",
             "Cities": [
-                "Andalusia",
-                "Florala",
-                "Lockhart",
-                "Opp"
+                {
+                    "cityName": "Andalusia",
+                    "cityDomain": "https://andalusia-city-al.mydripnurse.com",
+                    "citySitemap": "https://andalusia-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Florala",
+                    "cityDomain": "https://florala-city-al.mydripnurse.com",
+                    "citySitemap": "https://florala-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lockhart",
+                    "cityDomain": "https://lockhart-city-al.mydripnurse.com",
+                    "citySitemap": "https://lockhart-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Opp",
+                    "cityDomain": "https://opp-city-al.mydripnurse.com",
+                    "citySitemap": "https://opp-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://covington-county-al.mydripnurse.com",
+            "countySitemap": "https://covington-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Crenshaw",
             "Cities": [
-                "Brantley",
-                "Luverne"
+                {
+                    "cityName": "Brantley",
+                    "cityDomain": "https://brantley-city-al.mydripnurse.com",
+                    "citySitemap": "https://brantley-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Luverne",
+                    "cityDomain": "https://luverne-city-al.mydripnurse.com",
+                    "citySitemap": "https://luverne-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://crenshaw-county-al.mydripnurse.com",
+            "countySitemap": "https://crenshaw-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Cullman",
             "Cities": [
-                "Cullman",
-                "Arab",
-                "Good Hope",
-                "Hanceville",
-                "Holly Pond",
-                "South Vinemont",
-                "West Point"
+                {
+                    "cityName": "Cullman",
+                    "cityDomain": "https://cullman-city-al.mydripnurse.com",
+                    "citySitemap": "https://cullman-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arab",
+                    "cityDomain": "https://arab-city-al.mydripnurse.com",
+                    "citySitemap": "https://arab-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Good Hope",
+                    "cityDomain": "https://good-hope-city-al.mydripnurse.com",
+                    "citySitemap": "https://good-hope-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hanceville",
+                    "cityDomain": "https://hanceville-city-al.mydripnurse.com",
+                    "citySitemap": "https://hanceville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Holly Pond",
+                    "cityDomain": "https://holly-pond-city-al.mydripnurse.com",
+                    "citySitemap": "https://holly-pond-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "South Vinemont",
+                    "cityDomain": "https://south-vinemont-city-al.mydripnurse.com",
+                    "citySitemap": "https://south-vinemont-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Point",
+                    "cityDomain": "https://west-point-city-al.mydripnurse.com",
+                    "citySitemap": "https://west-point-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://cullman-county-al.mydripnurse.com",
+            "countySitemap": "https://cullman-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Dale",
             "Cities": [
-                "Daleville",
-                "Grimes",
-                "Midland City",
-                "Newton",
-                "Ozark"
+                {
+                    "cityName": "Daleville",
+                    "cityDomain": "https://daleville-city-al.mydripnurse.com",
+                    "citySitemap": "https://daleville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Grimes",
+                    "cityDomain": "https://grimes-city-al.mydripnurse.com",
+                    "citySitemap": "https://grimes-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Midland City",
+                    "cityDomain": "https://midland-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://midland-city-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newton",
+                    "cityDomain": "https://newton-city-al.mydripnurse.com",
+                    "citySitemap": "https://newton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ozark",
+                    "cityDomain": "https://ozark-city-al.mydripnurse.com",
+                    "citySitemap": "https://ozark-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://dale-county-al.mydripnurse.com",
+            "countySitemap": "https://dale-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Dallas",
             "Cities": [
-                "Marion",
-                "Selma"
+                {
+                    "cityName": "Marion",
+                    "cityDomain": "https://marion-city-al.mydripnurse.com",
+                    "citySitemap": "https://marion-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Selma",
+                    "cityDomain": "https://selma-city-al.mydripnurse.com",
+                    "citySitemap": "https://selma-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://dallas-county-al.mydripnurse.com",
+            "countySitemap": "https://dallas-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "DeKalb",
             "Cities": [
-                "Fort Payne",
-                "Collinsville",
-                "Crossville",
-                "Fyffe",
-                "Geraldine",
-                "Hammondville",
-                "Henagar",
-                "Ider",
-                "Rainsville",
-                "Valley Head"
+                {
+                    "cityName": "Fort Payne",
+                    "cityDomain": "https://fort-payne-city-al.mydripnurse.com",
+                    "citySitemap": "https://fort-payne-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Collinsville",
+                    "cityDomain": "https://collinsville-city-al.mydripnurse.com",
+                    "citySitemap": "https://collinsville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Crossville",
+                    "cityDomain": "https://crossville-city-al.mydripnurse.com",
+                    "citySitemap": "https://crossville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fyffe",
+                    "cityDomain": "https://fyffe-city-al.mydripnurse.com",
+                    "citySitemap": "https://fyffe-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Geraldine",
+                    "cityDomain": "https://geraldine-city-al.mydripnurse.com",
+                    "citySitemap": "https://geraldine-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hammondville",
+                    "cityDomain": "https://hammondville-city-al.mydripnurse.com",
+                    "citySitemap": "https://hammondville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Henagar",
+                    "cityDomain": "https://henagar-city-al.mydripnurse.com",
+                    "citySitemap": "https://henagar-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ider",
+                    "cityDomain": "https://ider-city-al.mydripnurse.com",
+                    "citySitemap": "https://ider-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rainsville",
+                    "cityDomain": "https://rainsville-city-al.mydripnurse.com",
+                    "citySitemap": "https://rainsville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Valley Head",
+                    "cityDomain": "https://valley-head-city-al.mydripnurse.com",
+                    "citySitemap": "https://valley-head-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://dekalb-county-al.mydripnurse.com",
+            "countySitemap": "https://dekalb-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Elmore",
             "Cities": [
-                "Coosada",
-                "Eclectic",
-                "Millbrook",
-                "Tallassee",
-                "Wetumpka"
+                {
+                    "cityName": "Coosada",
+                    "cityDomain": "https://coosada-city-al.mydripnurse.com",
+                    "citySitemap": "https://coosada-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eclectic",
+                    "cityDomain": "https://eclectic-city-al.mydripnurse.com",
+                    "citySitemap": "https://eclectic-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millbrook",
+                    "cityDomain": "https://millbrook-city-al.mydripnurse.com",
+                    "citySitemap": "https://millbrook-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tallassee",
+                    "cityDomain": "https://tallassee-city-al.mydripnurse.com",
+                    "citySitemap": "https://tallassee-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wetumpka",
+                    "cityDomain": "https://wetumpka-city-al.mydripnurse.com",
+                    "citySitemap": "https://wetumpka-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://elmore-county-al.mydripnurse.com",
+            "countySitemap": "https://elmore-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Escambia",
             "Cities": [
-                "Atmore",
-                "Brewton",
-                "East Brewton"
+                {
+                    "cityName": "Atmore",
+                    "cityDomain": "https://atmore-city-al.mydripnurse.com",
+                    "citySitemap": "https://atmore-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brewton",
+                    "cityDomain": "https://brewton-city-al.mydripnurse.com",
+                    "citySitemap": "https://brewton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "East Brewton",
+                    "cityDomain": "https://east-brewton-city-al.mydripnurse.com",
+                    "citySitemap": "https://east-brewton-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://escambia-county-al.mydripnurse.com",
+            "countySitemap": "https://escambia-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Etowah",
             "Cities": [
-                "Attalla",
-                "Gadsden",
-                "Glencoe",
-                "Hokes Bluff",
-                "Mountainboro",
-                "Rainbow City",
-                "Reece City",
-                "Ridgeville",
-                "Southside",
-                "Walnut Grove"
+                {
+                    "cityName": "Attalla",
+                    "cityDomain": "https://attalla-city-al.mydripnurse.com",
+                    "citySitemap": "https://attalla-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gadsden",
+                    "cityDomain": "https://gadsden-city-al.mydripnurse.com",
+                    "citySitemap": "https://gadsden-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glencoe",
+                    "cityDomain": "https://glencoe-city-al.mydripnurse.com",
+                    "citySitemap": "https://glencoe-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hokes Bluff",
+                    "cityDomain": "https://hokes-bluff-city-al.mydripnurse.com",
+                    "citySitemap": "https://hokes-bluff-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mountainboro",
+                    "cityDomain": "https://mountainboro-city-al.mydripnurse.com",
+                    "citySitemap": "https://mountainboro-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rainbow City",
+                    "cityDomain": "https://rainbow-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://rainbow-city-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reece City",
+                    "cityDomain": "https://reece-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://reece-city-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ridgeville",
+                    "cityDomain": "https://ridgeville-city-al.mydripnurse.com",
+                    "citySitemap": "https://ridgeville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Southside",
+                    "cityDomain": "https://southside-city-al.mydripnurse.com",
+                    "citySitemap": "https://southside-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Walnut Grove",
+                    "cityDomain": "https://walnut-grove-city-al.mydripnurse.com",
+                    "citySitemap": "https://walnut-grove-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://etowah-county-al.mydripnurse.com",
+            "countySitemap": "https://etowah-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Fayette",
             "Cities": [
-                "Fayette",
-                "Glen Allen"
+                {
+                    "cityName": "Fayette",
+                    "cityDomain": "https://fayette-city-al.mydripnurse.com",
+                    "citySitemap": "https://fayette-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Glen Allen",
+                    "cityDomain": "https://glen-allen-city-al.mydripnurse.com",
+                    "citySitemap": "https://glen-allen-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://fayette-county-al.mydripnurse.com",
+            "countySitemap": "https://fayette-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Franklin",
             "Cities": [
-                "Red Bay",
-                "Russellville",
-                "Vina"
+                {
+                    "cityName": "Red Bay",
+                    "cityDomain": "https://red-bay-city-al.mydripnurse.com",
+                    "citySitemap": "https://red-bay-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Russellville",
+                    "cityDomain": "https://russellville-city-al.mydripnurse.com",
+                    "citySitemap": "https://russellville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vina",
+                    "cityDomain": "https://vina-city-al.mydripnurse.com",
+                    "citySitemap": "https://vina-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://franklin-county-al.mydripnurse.com",
+            "countySitemap": "https://franklin-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Geneva",
             "Cities": [
-                "Black",
-                "Coffee Springs",
-                "Geneva",
-                "Hartford",
-                "Malvern",
-                "Samson",
-                "Slocomb"
+                {
+                    "cityName": "Black",
+                    "cityDomain": "https://black-city-al.mydripnurse.com",
+                    "citySitemap": "https://black-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Coffee Springs",
+                    "cityDomain": "https://coffee-springs-city-al.mydripnurse.com",
+                    "citySitemap": "https://coffee-springs-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Geneva",
+                    "cityDomain": "https://geneva-city-al.mydripnurse.com",
+                    "citySitemap": "https://geneva-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartford",
+                    "cityDomain": "https://hartford-city-al.mydripnurse.com",
+                    "citySitemap": "https://hartford-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Malvern",
+                    "cityDomain": "https://malvern-city-al.mydripnurse.com",
+                    "citySitemap": "https://malvern-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Samson",
+                    "cityDomain": "https://samson-city-al.mydripnurse.com",
+                    "citySitemap": "https://samson-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Slocomb",
+                    "cityDomain": "https://slocomb-city-al.mydripnurse.com",
+                    "citySitemap": "https://slocomb-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://geneva-county-al.mydripnurse.com",
+            "countySitemap": "https://geneva-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Greene",
             "Cities": [
-                "Boligee",
-                "Eutaw"
+                {
+                    "cityName": "Boligee",
+                    "cityDomain": "https://boligee-city-al.mydripnurse.com",
+                    "citySitemap": "https://boligee-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Eutaw",
+                    "cityDomain": "https://eutaw-city-al.mydripnurse.com",
+                    "citySitemap": "https://eutaw-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://greene-county-al.mydripnurse.com",
+            "countySitemap": "https://greene-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Hale",
             "Cities": [
-                "Akron",
-                "Greensboro",
-                "Moundville"
+                {
+                    "cityName": "Akron",
+                    "cityDomain": "https://akron-city-al.mydripnurse.com",
+                    "citySitemap": "https://akron-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Greensboro",
+                    "cityDomain": "https://greensboro-city-al.mydripnurse.com",
+                    "citySitemap": "https://greensboro-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moundville",
+                    "cityDomain": "https://moundville-city-al.mydripnurse.com",
+                    "citySitemap": "https://moundville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://hale-county-al.mydripnurse.com",
+            "countySitemap": "https://hale-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Henry",
             "Cities": [
-                "Abbeville",
-                "Haleburg",
-                "Headland",
-                "Newville"
+                {
+                    "cityName": "Abbeville",
+                    "cityDomain": "https://abbeville-city-al.mydripnurse.com",
+                    "citySitemap": "https://abbeville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Haleburg",
+                    "cityDomain": "https://haleburg-city-al.mydripnurse.com",
+                    "citySitemap": "https://haleburg-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Headland",
+                    "cityDomain": "https://headland-city-al.mydripnurse.com",
+                    "citySitemap": "https://headland-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Newville",
+                    "cityDomain": "https://newville-city-al.mydripnurse.com",
+                    "citySitemap": "https://newville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://henry-county-al.mydripnurse.com",
+            "countySitemap": "https://henry-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Houston",
             "Cities": [
-                "Ashford",
-                "Columbia",
-                "Cottonwood",
-                "Cowarts",
-                "Dothan",
-                "Gordon",
-                "Kinsey",
-                "Rehobeth",
-                "Taylor",
-                "Webb"
+                {
+                    "cityName": "Ashford",
+                    "cityDomain": "https://ashford-city-al.mydripnurse.com",
+                    "citySitemap": "https://ashford-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbia",
+                    "cityDomain": "https://columbia-city-al.mydripnurse.com",
+                    "citySitemap": "https://columbia-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cottonwood",
+                    "cityDomain": "https://cottonwood-city-al.mydripnurse.com",
+                    "citySitemap": "https://cottonwood-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cowarts",
+                    "cityDomain": "https://cowarts-city-al.mydripnurse.com",
+                    "citySitemap": "https://cowarts-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dothan",
+                    "cityDomain": "https://dothan-city-al.mydripnurse.com",
+                    "citySitemap": "https://dothan-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gordon",
+                    "cityDomain": "https://gordon-city-al.mydripnurse.com",
+                    "citySitemap": "https://gordon-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kinsey",
+                    "cityDomain": "https://kinsey-city-al.mydripnurse.com",
+                    "citySitemap": "https://kinsey-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rehobeth",
+                    "cityDomain": "https://rehobeth-city-al.mydripnurse.com",
+                    "citySitemap": "https://rehobeth-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Taylor",
+                    "cityDomain": "https://taylor-city-al.mydripnurse.com",
+                    "citySitemap": "https://taylor-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Webb",
+                    "cityDomain": "https://webb-city-al.mydripnurse.com",
+                    "citySitemap": "https://webb-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://houston-county-al.mydripnurse.com",
+            "countySitemap": "https://houston-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Jackson",
             "Cities": [
-                "Bridgeport",
-                "Dutton",
-                "Hollywood",
-                "Paint Rock",
-                "Scottsboro",
-                "Section",
-                "Skyline",
-                "Stevenson",
-                "Woodville"
+                {
+                    "cityName": "Bridgeport",
+                    "cityDomain": "https://bridgeport-city-al.mydripnurse.com",
+                    "citySitemap": "https://bridgeport-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dutton",
+                    "cityDomain": "https://dutton-city-al.mydripnurse.com",
+                    "citySitemap": "https://dutton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hollywood",
+                    "cityDomain": "https://hollywood-city-al.mydripnurse.com",
+                    "citySitemap": "https://hollywood-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Paint Rock",
+                    "cityDomain": "https://paint-rock-city-al.mydripnurse.com",
+                    "citySitemap": "https://paint-rock-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Scottsboro",
+                    "cityDomain": "https://scottsboro-city-al.mydripnurse.com",
+                    "citySitemap": "https://scottsboro-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Section",
+                    "cityDomain": "https://section-city-al.mydripnurse.com",
+                    "citySitemap": "https://section-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Skyline",
+                    "cityDomain": "https://skyline-city-al.mydripnurse.com",
+                    "citySitemap": "https://skyline-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Stevenson",
+                    "cityDomain": "https://stevenson-city-al.mydripnurse.com",
+                    "citySitemap": "https://stevenson-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Woodville",
+                    "cityDomain": "https://woodville-city-al.mydripnurse.com",
+                    "citySitemap": "https://woodville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://jackson-county-al.mydripnurse.com",
+            "countySitemap": "https://jackson-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Jefferson",
             "Cities": [
-                "Birmingham",
-                "Bessemer",
-                "Brighton",
-                "Brookside",
-                "Center Point",
-                "Clay",
-                "Concord",
-                "Cordova",
-                "County Line",
-                "Dora",
-                "Fairfield",
-                "Fultondale",
-                "Gardendale",
-                "Graysville",
-                "Helena",
-                "Hoover",
-                "Hueytown",
-                "Irondale",
-                "Kimberly",
-                "Leeds",
-                "Lipscomb",
-                "Midfield",
-                "Mountain Brook",
-                "Mulga",
-                "Oak Grove",
-                "Pinson",
-                "Pleasant Grove",
-                "Quinton",
-                "Sumiton",
-                "Trussville",
-                "Tarrant",
-                "Vestavia Hills",
-                "Warrior",
-                "West Jefferson"
+                {
+                    "cityName": "Birmingham",
+                    "cityDomain": "https://birmingham-city-al.mydripnurse.com",
+                    "citySitemap": "https://birmingham-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bessemer",
+                    "cityDomain": "https://bessemer-city-al.mydripnurse.com",
+                    "citySitemap": "https://bessemer-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brighton",
+                    "cityDomain": "https://brighton-city-al.mydripnurse.com",
+                    "citySitemap": "https://brighton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brookside",
+                    "cityDomain": "https://brookside-city-al.mydripnurse.com",
+                    "citySitemap": "https://brookside-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Center Point",
+                    "cityDomain": "https://center-point-city-al.mydripnurse.com",
+                    "citySitemap": "https://center-point-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Clay",
+                    "cityDomain": "https://clay-city-al.mydripnurse.com",
+                    "citySitemap": "https://clay-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Concord",
+                    "cityDomain": "https://concord-city-al.mydripnurse.com",
+                    "citySitemap": "https://concord-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cordova",
+                    "cityDomain": "https://cordova-city-al.mydripnurse.com",
+                    "citySitemap": "https://cordova-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "County Line",
+                    "cityDomain": "https://county-line-city-al.mydripnurse.com",
+                    "citySitemap": "https://county-line-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dora",
+                    "cityDomain": "https://dora-city-al.mydripnurse.com",
+                    "citySitemap": "https://dora-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fairfield",
+                    "cityDomain": "https://fairfield-city-al.mydripnurse.com",
+                    "citySitemap": "https://fairfield-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fultondale",
+                    "cityDomain": "https://fultondale-city-al.mydripnurse.com",
+                    "citySitemap": "https://fultondale-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gardendale",
+                    "cityDomain": "https://gardendale-city-al.mydripnurse.com",
+                    "citySitemap": "https://gardendale-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Graysville",
+                    "cityDomain": "https://graysville-city-al.mydripnurse.com",
+                    "citySitemap": "https://graysville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Helena",
+                    "cityDomain": "https://helena-city-al.mydripnurse.com",
+                    "citySitemap": "https://helena-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hoover",
+                    "cityDomain": "https://hoover-city-al.mydripnurse.com",
+                    "citySitemap": "https://hoover-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hueytown",
+                    "cityDomain": "https://hueytown-city-al.mydripnurse.com",
+                    "citySitemap": "https://hueytown-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Irondale",
+                    "cityDomain": "https://irondale-city-al.mydripnurse.com",
+                    "citySitemap": "https://irondale-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Kimberly",
+                    "cityDomain": "https://kimberly-city-al.mydripnurse.com",
+                    "citySitemap": "https://kimberly-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leeds",
+                    "cityDomain": "https://leeds-city-al.mydripnurse.com",
+                    "citySitemap": "https://leeds-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lipscomb",
+                    "cityDomain": "https://lipscomb-city-al.mydripnurse.com",
+                    "citySitemap": "https://lipscomb-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Midfield",
+                    "cityDomain": "https://midfield-city-al.mydripnurse.com",
+                    "citySitemap": "https://midfield-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mountain Brook",
+                    "cityDomain": "https://mountain-brook-city-al.mydripnurse.com",
+                    "citySitemap": "https://mountain-brook-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mulga",
+                    "cityDomain": "https://mulga-city-al.mydripnurse.com",
+                    "citySitemap": "https://mulga-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oak Grove",
+                    "cityDomain": "https://oak-grove-city-al.mydripnurse.com",
+                    "citySitemap": "https://oak-grove-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pinson",
+                    "cityDomain": "https://pinson-city-al.mydripnurse.com",
+                    "citySitemap": "https://pinson-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pleasant Grove",
+                    "cityDomain": "https://pleasant-grove-city-al.mydripnurse.com",
+                    "citySitemap": "https://pleasant-grove-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Quinton",
+                    "cityDomain": "https://quinton-city-al.mydripnurse.com",
+                    "citySitemap": "https://quinton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sumiton",
+                    "cityDomain": "https://sumiton-city-al.mydripnurse.com",
+                    "citySitemap": "https://sumiton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Trussville",
+                    "cityDomain": "https://trussville-city-al.mydripnurse.com",
+                    "citySitemap": "https://trussville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tarrant",
+                    "cityDomain": "https://tarrant-city-al.mydripnurse.com",
+                    "citySitemap": "https://tarrant-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vestavia Hills",
+                    "cityDomain": "https://vestavia-hills-city-al.mydripnurse.com",
+                    "citySitemap": "https://vestavia-hills-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Warrior",
+                    "cityDomain": "https://warrior-city-al.mydripnurse.com",
+                    "citySitemap": "https://warrior-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "West Jefferson",
+                    "cityDomain": "https://west-jefferson-city-al.mydripnurse.com",
+                    "citySitemap": "https://west-jefferson-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://jefferson-county-al.mydripnurse.com",
+            "countySitemap": "https://jefferson-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Lamar",
             "Cities": [
-                "Sulligent",
-                "Vernon",
-                "Millport"
+                {
+                    "cityName": "Sulligent",
+                    "cityDomain": "https://sulligent-city-al.mydripnurse.com",
+                    "citySitemap": "https://sulligent-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vernon",
+                    "cityDomain": "https://vernon-city-al.mydripnurse.com",
+                    "citySitemap": "https://vernon-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millport",
+                    "cityDomain": "https://millport-city-al.mydripnurse.com",
+                    "citySitemap": "https://millport-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lamar-county-al.mydripnurse.com",
+            "countySitemap": "https://lamar-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Lauderdale",
             "Cities": [
-                "Florence",
-                "Killen",
-                "Rogersville",
-                "Waterloo"
+                {
+                    "cityName": "Florence",
+                    "cityDomain": "https://florence-city-al.mydripnurse.com",
+                    "citySitemap": "https://florence-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Killen",
+                    "cityDomain": "https://killen-city-al.mydripnurse.com",
+                    "citySitemap": "https://killen-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Rogersville",
+                    "cityDomain": "https://rogersville-city-al.mydripnurse.com",
+                    "citySitemap": "https://rogersville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Waterloo",
+                    "cityDomain": "https://waterloo-city-al.mydripnurse.com",
+                    "citySitemap": "https://waterloo-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lauderdale-county-al.mydripnurse.com",
+            "countySitemap": "https://lauderdale-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Lawrence",
             "Cities": [
-                "Courtland",
-                "Hillsboro",
-                "Moulton",
-                "Town Creek"
+                {
+                    "cityName": "Courtland",
+                    "cityDomain": "https://courtland-city-al.mydripnurse.com",
+                    "citySitemap": "https://courtland-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hillsboro",
+                    "cityDomain": "https://hillsboro-city-al.mydripnurse.com",
+                    "citySitemap": "https://hillsboro-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moulton",
+                    "cityDomain": "https://moulton-city-al.mydripnurse.com",
+                    "citySitemap": "https://moulton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Town Creek",
+                    "cityDomain": "https://town-creek-city-al.mydripnurse.com",
+                    "citySitemap": "https://town-creek-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lawrence-county-al.mydripnurse.com",
+            "countySitemap": "https://lawrence-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Lee",
             "Cities": [
-                "Auburn",
-                "Opelika",
-                "Loachapoka",
-                "Smiths Station",
-                "Salem"
+                {
+                    "cityName": "Auburn",
+                    "cityDomain": "https://auburn-city-al.mydripnurse.com",
+                    "citySitemap": "https://auburn-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Opelika",
+                    "cityDomain": "https://opelika-city-al.mydripnurse.com",
+                    "citySitemap": "https://opelika-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Loachapoka",
+                    "cityDomain": "https://loachapoka-city-al.mydripnurse.com",
+                    "citySitemap": "https://loachapoka-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Smiths Station",
+                    "cityDomain": "https://smiths-station-city-al.mydripnurse.com",
+                    "citySitemap": "https://smiths-station-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Salem",
+                    "cityDomain": "https://salem-city-al.mydripnurse.com",
+                    "citySitemap": "https://salem-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lee-county-al.mydripnurse.com",
+            "countySitemap": "https://lee-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Limestone",
             "Cities": [
-                "Ardmore",
-                "Athens",
-                "Lester",
-                "Mooresville"
+                {
+                    "cityName": "Ardmore",
+                    "cityDomain": "https://ardmore-city-al.mydripnurse.com",
+                    "citySitemap": "https://ardmore-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Athens",
+                    "cityDomain": "https://athens-city-al.mydripnurse.com",
+                    "citySitemap": "https://athens-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lester",
+                    "cityDomain": "https://lester-city-al.mydripnurse.com",
+                    "citySitemap": "https://lester-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mooresville",
+                    "cityDomain": "https://mooresville-city-al.mydripnurse.com",
+                    "citySitemap": "https://mooresville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://limestone-county-al.mydripnurse.com",
+            "countySitemap": "https://limestone-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Lowndes",
             "Cities": [
-                "Hayneville",
-                "Fort Deposit"
+                {
+                    "cityName": "Hayneville",
+                    "cityDomain": "https://hayneville-city-al.mydripnurse.com",
+                    "citySitemap": "https://hayneville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fort Deposit",
+                    "cityDomain": "https://fort-deposit-city-al.mydripnurse.com",
+                    "citySitemap": "https://fort-deposit-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://lowndes-county-al.mydripnurse.com",
+            "countySitemap": "https://lowndes-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Macon",
             "Cities": [
-                "Notasulga",
-                "Shorter",
-                "Tuskegee"
+                {
+                    "cityName": "Notasulga",
+                    "cityDomain": "https://notasulga-city-al.mydripnurse.com",
+                    "citySitemap": "https://notasulga-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Shorter",
+                    "cityDomain": "https://shorter-city-al.mydripnurse.com",
+                    "citySitemap": "https://shorter-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tuskegee",
+                    "cityDomain": "https://tuskegee-city-al.mydripnurse.com",
+                    "citySitemap": "https://tuskegee-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://macon-county-al.mydripnurse.com",
+            "countySitemap": "https://macon-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Madison",
             "Cities": [
-                "Huntsville",
-                "Madison",
-                "Triana",
-                "Gurley",
-                "Harvest",
-                "Meridianville",
-                "Monrovia",
-                "New Hope",
-                "Owens Cross Roads",
-                "Redstone Arsenal"
+                {
+                    "cityName": "Huntsville",
+                    "cityDomain": "https://huntsville-city-al.mydripnurse.com",
+                    "citySitemap": "https://huntsville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Madison",
+                    "cityDomain": "https://madison-city-al.mydripnurse.com",
+                    "citySitemap": "https://madison-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Triana",
+                    "cityDomain": "https://triana-city-al.mydripnurse.com",
+                    "citySitemap": "https://triana-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gurley",
+                    "cityDomain": "https://gurley-city-al.mydripnurse.com",
+                    "citySitemap": "https://gurley-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Harvest",
+                    "cityDomain": "https://harvest-city-al.mydripnurse.com",
+                    "citySitemap": "https://harvest-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Meridianville",
+                    "cityDomain": "https://meridianville-city-al.mydripnurse.com",
+                    "citySitemap": "https://meridianville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monrovia",
+                    "cityDomain": "https://monrovia-city-al.mydripnurse.com",
+                    "citySitemap": "https://monrovia-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "New Hope",
+                    "cityDomain": "https://new-hope-city-al.mydripnurse.com",
+                    "citySitemap": "https://new-hope-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Owens Cross Roads",
+                    "cityDomain": "https://owens-cross-roads-city-al.mydripnurse.com",
+                    "citySitemap": "https://owens-cross-roads-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Redstone Arsenal",
+                    "cityDomain": "https://redstone-arsenal-city-al.mydripnurse.com",
+                    "citySitemap": "https://redstone-arsenal-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://madison-county-al.mydripnurse.com",
+            "countySitemap": "https://madison-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Marengo",
             "Cities": [
-                "Demopolis",
-                "Linden",
-                "Sweet Water"
+                {
+                    "cityName": "Demopolis",
+                    "cityDomain": "https://demopolis-city-al.mydripnurse.com",
+                    "citySitemap": "https://demopolis-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Linden",
+                    "cityDomain": "https://linden-city-al.mydripnurse.com",
+                    "citySitemap": "https://linden-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sweet Water",
+                    "cityDomain": "https://sweet-water-city-al.mydripnurse.com",
+                    "citySitemap": "https://sweet-water-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://marengo-county-al.mydripnurse.com",
+            "countySitemap": "https://marengo-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Marion",
             "Cities": [
-                "Bear Creek",
-                "Brilliant",
-                "Guin",
-                "Hamilton",
-                "Hackleburg",
-                "Winfield"
+                {
+                    "cityName": "Bear Creek",
+                    "cityDomain": "https://bear-creek-city-al.mydripnurse.com",
+                    "citySitemap": "https://bear-creek-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brilliant",
+                    "cityDomain": "https://brilliant-city-al.mydripnurse.com",
+                    "citySitemap": "https://brilliant-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Guin",
+                    "cityDomain": "https://guin-city-al.mydripnurse.com",
+                    "citySitemap": "https://guin-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hamilton",
+                    "cityDomain": "https://hamilton-city-al.mydripnurse.com",
+                    "citySitemap": "https://hamilton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hackleburg",
+                    "cityDomain": "https://hackleburg-city-al.mydripnurse.com",
+                    "citySitemap": "https://hackleburg-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Winfield",
+                    "cityDomain": "https://winfield-city-al.mydripnurse.com",
+                    "citySitemap": "https://winfield-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://marion-county-al.mydripnurse.com",
+            "countySitemap": "https://marion-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Marshall",
             "Cities": [
-                "Albertville",
-                "Arab",
-                "Boaz",
-                "Douglas",
-                "Guntersville",
-                "Union Grove"
+                {
+                    "cityName": "Albertville",
+                    "cityDomain": "https://albertville-city-al.mydripnurse.com",
+                    "citySitemap": "https://albertville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arab",
+                    "cityDomain": "https://arab-city-al.mydripnurse.com",
+                    "citySitemap": "https://arab-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Boaz",
+                    "cityDomain": "https://boaz-city-al.mydripnurse.com",
+                    "citySitemap": "https://boaz-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Douglas",
+                    "cityDomain": "https://douglas-city-al.mydripnurse.com",
+                    "citySitemap": "https://douglas-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Guntersville",
+                    "cityDomain": "https://guntersville-city-al.mydripnurse.com",
+                    "citySitemap": "https://guntersville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Union Grove",
+                    "cityDomain": "https://union-grove-city-al.mydripnurse.com",
+                    "citySitemap": "https://union-grove-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://marshall-county-al.mydripnurse.com",
+            "countySitemap": "https://marshall-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Mobile",
             "Cities": [
-                "Mobile",
-                "Bayou La Batre",
-                "Chickasaw",
-                "Citronelle",
-                "Creola",
-                "Dauphin Island",
-                "Mount Vernon",
-                "Prichard",
-                "Saraland",
-                "Satsuma",
-                "Semmes",
-                "Theodore",
-                "Tillmans Corner"
+                {
+                    "cityName": "Mobile",
+                    "cityDomain": "https://mobile-city-al.mydripnurse.com",
+                    "citySitemap": "https://mobile-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Bayou La Batre",
+                    "cityDomain": "https://bayou-la-batre-city-al.mydripnurse.com",
+                    "citySitemap": "https://bayou-la-batre-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chickasaw",
+                    "cityDomain": "https://chickasaw-city-al.mydripnurse.com",
+                    "citySitemap": "https://chickasaw-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Citronelle",
+                    "cityDomain": "https://citronelle-city-al.mydripnurse.com",
+                    "citySitemap": "https://citronelle-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Creola",
+                    "cityDomain": "https://creola-city-al.mydripnurse.com",
+                    "citySitemap": "https://creola-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dauphin Island",
+                    "cityDomain": "https://dauphin-island-city-al.mydripnurse.com",
+                    "citySitemap": "https://dauphin-island-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Mount Vernon",
+                    "cityDomain": "https://mount-vernon-city-al.mydripnurse.com",
+                    "citySitemap": "https://mount-vernon-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Prichard",
+                    "cityDomain": "https://prichard-city-al.mydripnurse.com",
+                    "citySitemap": "https://prichard-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Saraland",
+                    "cityDomain": "https://saraland-city-al.mydripnurse.com",
+                    "citySitemap": "https://saraland-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Satsuma",
+                    "cityDomain": "https://satsuma-city-al.mydripnurse.com",
+                    "citySitemap": "https://satsuma-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Semmes",
+                    "cityDomain": "https://semmes-city-al.mydripnurse.com",
+                    "citySitemap": "https://semmes-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Theodore",
+                    "cityDomain": "https://theodore-city-al.mydripnurse.com",
+                    "citySitemap": "https://theodore-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Tillmans Corner",
+                    "cityDomain": "https://tillmans-corner-city-al.mydripnurse.com",
+                    "citySitemap": "https://tillmans-corner-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://mobile-county-al.mydripnurse.com",
+            "countySitemap": "https://mobile-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Monroe",
             "Cities": [
-                "Beatrice",
-                "Excel",
-                "Frisco City",
-                "Monroeville",
-                "Vredenburgh"
+                {
+                    "cityName": "Beatrice",
+                    "cityDomain": "https://beatrice-city-al.mydripnurse.com",
+                    "citySitemap": "https://beatrice-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Excel",
+                    "cityDomain": "https://excel-city-al.mydripnurse.com",
+                    "citySitemap": "https://excel-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Frisco City",
+                    "cityDomain": "https://frisco-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://frisco-city-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Monroeville",
+                    "cityDomain": "https://monroeville-city-al.mydripnurse.com",
+                    "citySitemap": "https://monroeville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vredenburgh",
+                    "cityDomain": "https://vredenburgh-city-al.mydripnurse.com",
+                    "citySitemap": "https://vredenburgh-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://monroe-county-al.mydripnurse.com",
+            "countySitemap": "https://monroe-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Montgomery",
             "Cities": [
-                "Montgomery",
-                "Pike Road",
-                "Hope Hull"
+                {
+                    "cityName": "Montgomery",
+                    "cityDomain": "https://montgomery-city-al.mydripnurse.com",
+                    "citySitemap": "https://montgomery-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pike Road",
+                    "cityDomain": "https://pike-road-city-al.mydripnurse.com",
+                    "citySitemap": "https://pike-road-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hope Hull",
+                    "cityDomain": "https://hope-hull-city-al.mydripnurse.com",
+                    "citySitemap": "https://hope-hull-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://montgomery-county-al.mydripnurse.com",
+            "countySitemap": "https://montgomery-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Morgan",
             "Cities": [
-                "Decatur",
-                "Hartselle",
-                "Priceville",
-                "Somerville",
-                "Trinity"
+                {
+                    "cityName": "Decatur",
+                    "cityDomain": "https://decatur-city-al.mydripnurse.com",
+                    "citySitemap": "https://decatur-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hartselle",
+                    "cityDomain": "https://hartselle-city-al.mydripnurse.com",
+                    "citySitemap": "https://hartselle-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Priceville",
+                    "cityDomain": "https://priceville-city-al.mydripnurse.com",
+                    "citySitemap": "https://priceville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Somerville",
+                    "cityDomain": "https://somerville-city-al.mydripnurse.com",
+                    "citySitemap": "https://somerville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Trinity",
+                    "cityDomain": "https://trinity-city-al.mydripnurse.com",
+                    "citySitemap": "https://trinity-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://morgan-county-al.mydripnurse.com",
+            "countySitemap": "https://morgan-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Perry",
             "Cities": [
-                "Marion",
-                "Uniontown"
+                {
+                    "cityName": "Marion",
+                    "cityDomain": "https://marion-city-al.mydripnurse.com",
+                    "citySitemap": "https://marion-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Uniontown",
+                    "cityDomain": "https://uniontown-city-al.mydripnurse.com",
+                    "citySitemap": "https://uniontown-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://perry-county-al.mydripnurse.com",
+            "countySitemap": "https://perry-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Pickens",
             "Cities": [
-                "Carrollton",
-                "Ethelsville",
-                "Gordo",
-                "Pickensville",
-                "Reform"
+                {
+                    "cityName": "Carrollton",
+                    "cityDomain": "https://carrollton-city-al.mydripnurse.com",
+                    "citySitemap": "https://carrollton-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ethelsville",
+                    "cityDomain": "https://ethelsville-city-al.mydripnurse.com",
+                    "citySitemap": "https://ethelsville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gordo",
+                    "cityDomain": "https://gordo-city-al.mydripnurse.com",
+                    "citySitemap": "https://gordo-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pickensville",
+                    "cityDomain": "https://pickensville-city-al.mydripnurse.com",
+                    "citySitemap": "https://pickensville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Reform",
+                    "cityDomain": "https://reform-city-al.mydripnurse.com",
+                    "citySitemap": "https://reform-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://pickens-county-al.mydripnurse.com",
+            "countySitemap": "https://pickens-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Pike",
             "Cities": [
-                "Banks",
-                "Brundidge",
-                "Troy"
+                {
+                    "cityName": "Banks",
+                    "cityDomain": "https://banks-city-al.mydripnurse.com",
+                    "citySitemap": "https://banks-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brundidge",
+                    "cityDomain": "https://brundidge-city-al.mydripnurse.com",
+                    "citySitemap": "https://brundidge-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Troy",
+                    "cityDomain": "https://troy-city-al.mydripnurse.com",
+                    "citySitemap": "https://troy-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://pike-county-al.mydripnurse.com",
+            "countySitemap": "https://pike-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Randolph",
             "Cities": [
-                "Wedowee",
-                "Roanoke",
-                "Lineville"
+                {
+                    "cityName": "Wedowee",
+                    "cityDomain": "https://wedowee-city-al.mydripnurse.com",
+                    "citySitemap": "https://wedowee-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Roanoke",
+                    "cityDomain": "https://roanoke-city-al.mydripnurse.com",
+                    "citySitemap": "https://roanoke-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lineville",
+                    "cityDomain": "https://lineville-city-al.mydripnurse.com",
+                    "citySitemap": "https://lineville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://randolph-county-al.mydripnurse.com",
+            "countySitemap": "https://randolph-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Russell",
             "Cities": [
-                "Phenix City",
-                "Hurtsboro"
+                {
+                    "cityName": "Phenix City",
+                    "cityDomain": "https://phenix-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://phenix-city-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hurtsboro",
+                    "cityDomain": "https://hurtsboro-city-al.mydripnurse.com",
+                    "citySitemap": "https://hurtsboro-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Eastern",
                 "Zone": "US/Eastern",
                 "UTC_Offset": "-05:00"
-            }
+            },
+            "countyDomain": "https://russell-county-al.mydripnurse.com",
+            "countySitemap": "https://russell-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "St. Clair",
             "Cities": [
-                "Ashville",
-                "Leeds",
-                "Margaret",
-                "Moody",
-                "Odenville",
-                "Pell City",
-                "Ragland",
-                "Springville",
-                "Steele"
+                {
+                    "cityName": "Ashville",
+                    "cityDomain": "https://ashville-city-al.mydripnurse.com",
+                    "citySitemap": "https://ashville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Leeds",
+                    "cityDomain": "https://leeds-city-al.mydripnurse.com",
+                    "citySitemap": "https://leeds-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Margaret",
+                    "cityDomain": "https://margaret-city-al.mydripnurse.com",
+                    "citySitemap": "https://margaret-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moody",
+                    "cityDomain": "https://moody-city-al.mydripnurse.com",
+                    "citySitemap": "https://moody-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Odenville",
+                    "cityDomain": "https://odenville-city-al.mydripnurse.com",
+                    "citySitemap": "https://odenville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pell City",
+                    "cityDomain": "https://pell-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://pell-city-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Ragland",
+                    "cityDomain": "https://ragland-city-al.mydripnurse.com",
+                    "citySitemap": "https://ragland-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Springville",
+                    "cityDomain": "https://springville-city-al.mydripnurse.com",
+                    "citySitemap": "https://springville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Steele",
+                    "cityDomain": "https://steele-city-al.mydripnurse.com",
+                    "citySitemap": "https://steele-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://st-clair-county-al.mydripnurse.com",
+            "countySitemap": "https://st-clair-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Shelby",
             "Cities": [
-                "Alabaster",
-                "Calera",
-                "Chelsea",
-                "Columbiana",
-                "Helena",
-                "Hoover",
-                "Indian Springs Village",
-                "Montevallo",
-                "Pelham",
-                "Vincent",
-                "Wilsonville"
+                {
+                    "cityName": "Alabaster",
+                    "cityDomain": "https://alabaster-city-al.mydripnurse.com",
+                    "citySitemap": "https://alabaster-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Calera",
+                    "cityDomain": "https://calera-city-al.mydripnurse.com",
+                    "citySitemap": "https://calera-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Chelsea",
+                    "cityDomain": "https://chelsea-city-al.mydripnurse.com",
+                    "citySitemap": "https://chelsea-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Columbiana",
+                    "cityDomain": "https://columbiana-city-al.mydripnurse.com",
+                    "citySitemap": "https://columbiana-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Helena",
+                    "cityDomain": "https://helena-city-al.mydripnurse.com",
+                    "citySitemap": "https://helena-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Hoover",
+                    "cityDomain": "https://hoover-city-al.mydripnurse.com",
+                    "citySitemap": "https://hoover-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Indian Springs Village",
+                    "cityDomain": "https://indian-springs-village-city-al.mydripnurse.com",
+                    "citySitemap": "https://indian-springs-village-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Montevallo",
+                    "cityDomain": "https://montevallo-city-al.mydripnurse.com",
+                    "citySitemap": "https://montevallo-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pelham",
+                    "cityDomain": "https://pelham-city-al.mydripnurse.com",
+                    "citySitemap": "https://pelham-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vincent",
+                    "cityDomain": "https://vincent-city-al.mydripnurse.com",
+                    "citySitemap": "https://vincent-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wilsonville",
+                    "cityDomain": "https://wilsonville-city-al.mydripnurse.com",
+                    "citySitemap": "https://wilsonville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://shelby-county-al.mydripnurse.com",
+            "countySitemap": "https://shelby-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Sumter",
             "Cities": [
-                "Bellamy",
-                "Epes",
-                "Geiger",
-                "Livingston",
-                "York"
+                {
+                    "cityName": "Bellamy",
+                    "cityDomain": "https://bellamy-city-al.mydripnurse.com",
+                    "citySitemap": "https://bellamy-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Epes",
+                    "cityDomain": "https://epes-city-al.mydripnurse.com",
+                    "citySitemap": "https://epes-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Geiger",
+                    "cityDomain": "https://geiger-city-al.mydripnurse.com",
+                    "citySitemap": "https://geiger-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Livingston",
+                    "cityDomain": "https://livingston-city-al.mydripnurse.com",
+                    "citySitemap": "https://livingston-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "York",
+                    "cityDomain": "https://york-city-al.mydripnurse.com",
+                    "citySitemap": "https://york-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://sumter-county-al.mydripnurse.com",
+            "countySitemap": "https://sumter-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Talladega",
             "Cities": [
-                "Childersburg",
-                "Lincoln",
-                "Munford",
-                "Oak Grove",
-                "Oxford",
-                "Sylacauga",
-                "Talladega"
+                {
+                    "cityName": "Childersburg",
+                    "cityDomain": "https://childersburg-city-al.mydripnurse.com",
+                    "citySitemap": "https://childersburg-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lincoln",
+                    "cityDomain": "https://lincoln-city-al.mydripnurse.com",
+                    "citySitemap": "https://lincoln-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Munford",
+                    "cityDomain": "https://munford-city-al.mydripnurse.com",
+                    "citySitemap": "https://munford-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oak Grove",
+                    "cityDomain": "https://oak-grove-city-al.mydripnurse.com",
+                    "citySitemap": "https://oak-grove-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oxford",
+                    "cityDomain": "https://oxford-city-al.mydripnurse.com",
+                    "citySitemap": "https://oxford-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sylacauga",
+                    "cityDomain": "https://sylacauga-city-al.mydripnurse.com",
+                    "citySitemap": "https://sylacauga-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Talladega",
+                    "cityDomain": "https://talladega-city-al.mydripnurse.com",
+                    "citySitemap": "https://talladega-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://talladega-county-al.mydripnurse.com",
+            "countySitemap": "https://talladega-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Tallapoosa",
             "Cities": [
-                "Alexander City",
-                "Dadeville",
-                "Jacksons Gap"
+                {
+                    "cityName": "Alexander City",
+                    "cityDomain": "https://alexander-city-city-al.mydripnurse.com",
+                    "citySitemap": "https://alexander-city-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dadeville",
+                    "cityDomain": "https://dadeville-city-al.mydripnurse.com",
+                    "citySitemap": "https://dadeville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jacksons Gap",
+                    "cityDomain": "https://jacksons-gap-city-al.mydripnurse.com",
+                    "citySitemap": "https://jacksons-gap-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://tallapoosa-county-al.mydripnurse.com",
+            "countySitemap": "https://tallapoosa-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Tuscaloosa",
             "Cities": [
-                "Tuscaloosa",
-                "Northport",
-                "Brookwood",
-                "Coaling",
-                "Cottondale",
-                "Coker",
-                "Lake View",
-                "Moundville",
-                "Vance"
+                {
+                    "cityName": "Tuscaloosa",
+                    "cityDomain": "https://tuscaloosa-city-al.mydripnurse.com",
+                    "citySitemap": "https://tuscaloosa-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Northport",
+                    "cityDomain": "https://northport-city-al.mydripnurse.com",
+                    "citySitemap": "https://northport-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Brookwood",
+                    "cityDomain": "https://brookwood-city-al.mydripnurse.com",
+                    "citySitemap": "https://brookwood-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Coaling",
+                    "cityDomain": "https://coaling-city-al.mydripnurse.com",
+                    "citySitemap": "https://coaling-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cottondale",
+                    "cityDomain": "https://cottondale-city-al.mydripnurse.com",
+                    "citySitemap": "https://cottondale-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Coker",
+                    "cityDomain": "https://coker-city-al.mydripnurse.com",
+                    "citySitemap": "https://coker-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lake View",
+                    "cityDomain": "https://lake-view-city-al.mydripnurse.com",
+                    "citySitemap": "https://lake-view-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Moundville",
+                    "cityDomain": "https://moundville-city-al.mydripnurse.com",
+                    "citySitemap": "https://moundville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Vance",
+                    "cityDomain": "https://vance-city-al.mydripnurse.com",
+                    "citySitemap": "https://vance-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://tuscaloosa-county-al.mydripnurse.com",
+            "countySitemap": "https://tuscaloosa-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Walker",
             "Cities": [
-                "Carbon Hill",
-                "Cordova",
-                "Dora",
-                "Jasper",
-                "Oakman",
-                "Parrish",
-                "Sumiton"
+                {
+                    "cityName": "Carbon Hill",
+                    "cityDomain": "https://carbon-hill-city-al.mydripnurse.com",
+                    "citySitemap": "https://carbon-hill-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Cordova",
+                    "cityDomain": "https://cordova-city-al.mydripnurse.com",
+                    "citySitemap": "https://cordova-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Dora",
+                    "cityDomain": "https://dora-city-al.mydripnurse.com",
+                    "citySitemap": "https://dora-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Jasper",
+                    "cityDomain": "https://jasper-city-al.mydripnurse.com",
+                    "citySitemap": "https://jasper-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Oakman",
+                    "cityDomain": "https://oakman-city-al.mydripnurse.com",
+                    "citySitemap": "https://oakman-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Parrish",
+                    "cityDomain": "https://parrish-city-al.mydripnurse.com",
+                    "citySitemap": "https://parrish-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Sumiton",
+                    "cityDomain": "https://sumiton-city-al.mydripnurse.com",
+                    "citySitemap": "https://sumiton-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://walker-county-al.mydripnurse.com",
+            "countySitemap": "https://walker-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Washington",
             "Cities": [
-                "Chatom",
-                "Fruitdale",
-                "Millry",
-                "McIntosh",
-                "Wagarville"
+                {
+                    "cityName": "Chatom",
+                    "cityDomain": "https://chatom-city-al.mydripnurse.com",
+                    "citySitemap": "https://chatom-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Fruitdale",
+                    "cityDomain": "https://fruitdale-city-al.mydripnurse.com",
+                    "citySitemap": "https://fruitdale-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Millry",
+                    "cityDomain": "https://millry-city-al.mydripnurse.com",
+                    "citySitemap": "https://millry-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "McIntosh",
+                    "cityDomain": "https://mcintosh-city-al.mydripnurse.com",
+                    "citySitemap": "https://mcintosh-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Wagarville",
+                    "cityDomain": "https://wagarville-city-al.mydripnurse.com",
+                    "citySitemap": "https://wagarville-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://washington-county-al.mydripnurse.com",
+            "countySitemap": "https://washington-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Wilcox",
             "Cities": [
-                "Camden",
-                "Pine Apple",
-                "Gastonburg"
+                {
+                    "cityName": "Camden",
+                    "cityDomain": "https://camden-city-al.mydripnurse.com",
+                    "citySitemap": "https://camden-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Pine Apple",
+                    "cityDomain": "https://pine-apple-city-al.mydripnurse.com",
+                    "citySitemap": "https://pine-apple-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Gastonburg",
+                    "cityDomain": "https://gastonburg-city-al.mydripnurse.com",
+                    "citySitemap": "https://gastonburg-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://wilcox-county-al.mydripnurse.com",
+            "countySitemap": "https://wilcox-county-al.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Winston",
             "Cities": [
-                "Addison",
-                "Arley",
-                "Double Springs",
-                "Haleyville",
-                "Lynn",
-                "Natural Bridge"
+                {
+                    "cityName": "Addison",
+                    "cityDomain": "https://addison-city-al.mydripnurse.com",
+                    "citySitemap": "https://addison-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Arley",
+                    "cityDomain": "https://arley-city-al.mydripnurse.com",
+                    "citySitemap": "https://arley-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Double Springs",
+                    "cityDomain": "https://double-springs-city-al.mydripnurse.com",
+                    "citySitemap": "https://double-springs-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Haleyville",
+                    "cityDomain": "https://haleyville-city-al.mydripnurse.com",
+                    "citySitemap": "https://haleyville-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Lynn",
+                    "cityDomain": "https://lynn-city-al.mydripnurse.com",
+                    "citySitemap": "https://lynn-city-al.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Natural Bridge",
+                    "cityDomain": "https://natural-bridge-city-al.mydripnurse.com",
+                    "citySitemap": "https://natural-bridge-city-al.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Central",
                 "Zone": "US/Central",
                 "UTC_Offset": "-06:00"
-            }
+            },
+            "countyDomain": "https://winston-county-al.mydripnurse.com",
+            "countySitemap": "https://winston-county-al.mydripnurse.com/sitemap.xml"
         }
     ],
     "website": "https://www.mydripnurse.com",

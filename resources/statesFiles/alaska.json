@@ -3,195 +3,236 @@
         {
             "County Name": "Anchorage Municipality",
             "Cities": [
-                "Anchorage"
+                {
+                    "cityName": "Anchorage",
+                    "cityDomain": "https://anchorage-city-ak.mydripnurse.com",
+                    "citySitemap": "https://anchorage-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Anchorage",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://anchorage-municipality-county-ak.mydripnurse.com",
+            "countySitemap": "https://anchorage-municipality-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Matanuska-Susitna Borough",
             "Cities": [
-                "Wasilla",
-                "Palmer",
-                "Houston"
+                {
+                    "cityName": "Wasilla",
+                    "cityDomain": "https://wasilla-city-ak.mydripnurse.com",
+                    "citySitemap": "https://wasilla-city-ak.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Palmer",
+                    "cityDomain": "https://palmer-city-ak.mydripnurse.com",
+                    "citySitemap": "https://palmer-city-ak.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Houston",
+                    "cityDomain": "https://houston-city-ak.mydripnurse.com",
+                    "citySitemap": "https://houston-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Anchorage",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://matanuska-susitna-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://matanuska-susitna-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Fairbanks North Star Borough",
             "Cities": [
-                "Fairbanks",
-                "North Pole"
+                {
+                    "cityName": "Fairbanks",
+                    "cityDomain": "https://fairbanks-city-ak.mydripnurse.com",
+                    "citySitemap": "https://fairbanks-city-ak.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "North Pole",
+                    "cityDomain": "https://north-pole-city-ak.mydripnurse.com",
+                    "citySitemap": "https://north-pole-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Anchorage",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://fairbanks-north-star-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://fairbanks-north-star-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Kenai Peninsula Borough",
             "Cities": [
-                "Kenai",
-                "Soldotna",
-                "Homer",
-                "Seward"
+                {
+                    "cityName": "Kenai",
+                    "cityDomain": "https://kenai-city-ak.mydripnurse.com",
+                    "citySitemap": "https://kenai-city-ak.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Soldotna",
+                    "cityDomain": "https://soldotna-city-ak.mydripnurse.com",
+                    "citySitemap": "https://soldotna-city-ak.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Homer",
+                    "cityDomain": "https://homer-city-ak.mydripnurse.com",
+                    "citySitemap": "https://homer-city-ak.mydripnurse.com/sitemap.xml"
+                },
+                {
+                    "cityName": "Seward",
+                    "cityDomain": "https://seward-city-ak.mydripnurse.com",
+                    "citySitemap": "https://seward-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Anchorage",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://kenai-peninsula-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://kenai-peninsula-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Juneau City and Borough",
             "Cities": [
-                "Juneau"
+                {
+                    "cityName": "Juneau",
+                    "cityDomain": "https://juneau-city-ak.mydripnurse.com",
+                    "citySitemap": "https://juneau-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Juneau",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://juneau-city-and-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://juneau-city-and-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Sitka City and Borough",
             "Cities": [
-                "Sitka"
+                {
+                    "cityName": "Sitka",
+                    "cityDomain": "https://sitka-city-ak.mydripnurse.com",
+                    "citySitemap": "https://sitka-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Sitka",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://sitka-city-and-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://sitka-city-and-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Ketchikan Gateway Borough",
             "Cities": [
-                "Ketchikan"
+                {
+                    "cityName": "Ketchikan",
+                    "cityDomain": "https://ketchikan-city-ak.mydripnurse.com",
+                    "citySitemap": "https://ketchikan-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Metlakatla",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://ketchikan-gateway-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://ketchikan-gateway-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Kodiak Island Borough",
             "Cities": [
-                "Kodiak"
+                {
+                    "cityName": "Kodiak",
+                    "cityDomain": "https://kodiak-city-ak.mydripnurse.com",
+                    "citySitemap": "https://kodiak-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Anchorage",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://kodiak-island-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://kodiak-island-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Bethel Census Area",
             "Cities": [
-                "Bethel"
+                {
+                    "cityName": "Bethel",
+                    "cityDomain": "https://bethel-city-ak.mydripnurse.com",
+                    "citySitemap": "https://bethel-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Anchorage",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://bethel-census-area-county-ak.mydripnurse.com",
+            "countySitemap": "https://bethel-census-area-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Nome Census Area",
             "Cities": [
-                "Nome"
+                {
+                    "cityName": "Nome",
+                    "cityDomain": "https://nome-city-ak.mydripnurse.com",
+                    "citySitemap": "https://nome-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Nome",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://nome-census-area-county-ak.mydripnurse.com",
+            "countySitemap": "https://nome-census-area-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "North Slope Borough",
             "Cities": [
-                "Utqiaġvik"
+                {
+                    "cityName": "Utqiaġvik",
+                    "cityDomain": "https://utqiagvik-city-ak.mydripnurse.com",
+                    "citySitemap": "https://utqiagvik-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Alaska Time",
                 "Zone": "America/Anchorage",
                 "UTC_Offset": "-09:00"
-            }
+            },
+            "countyDomain": "https://north-slope-borough-county-ak.mydripnurse.com",
+            "countySitemap": "https://north-slope-borough-county-ak.mydripnurse.com/sitemap.xml"
         },
         {
             "County Name": "Aleutians West Census Area",
             "Cities": [
-                "Unalaska"
+                {
+                    "cityName": "Unalaska",
+                    "cityDomain": "https://unalaska-city-ak.mydripnurse.com",
+                    "citySitemap": "https://unalaska-city-ak.mydripnurse.com/sitemap.xml"
+                }
             ],
             "Timezone": {
                 "Name": "Aleutian Time",
                 "Zone": "America/Adak",
                 "UTC_Offset": "-10:00"
-            }
+            },
+            "countyDomain": "https://aleutians-west-census-area-county-ak.mydripnurse.com",
+            "countySitemap": "https://aleutians-west-census-area-county-ak.mydripnurse.com/sitemap.xml"
         }
-    ],
-    "website": "https://www.mydripnurse.com",
-    "ownerName": "Keishla",
-    "ownerLastName": "Caraballo",
-    "phone": "9392749203",
-    "email": "keyla03@live.com",
-    "twilio": {
-        "sid": "secret",
-        "authToken": "secret"
-    },
-    "mailgun": {
-        "apiKey": "secret",
-        "domain": "secret"
-    },
-    "customValues": {
-        "businessInformation": {
-            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
-            "businessPhone": ""
-        },
-        "ivTherapyPrice": {
-            "myersCocktailPrice": "299",
-            "alleviatePrice": "219",
-            "brainStormPrice": "199",
-            "getLeanPrice": "179",
-            "immunityDefensePrice": "279",
-            "immunityDefenseAndGlutathionePrice": "299",
-            "hangoverPrice": "219",
-            "hydratePrice": "219",
-            "nadPrice": "599",
-            "nadBoostPrice": "797",
-            "recoveryPerformancePrice": "219",
-            "theGlowPrice": "199"
-        },
-        "vitaminPrice": {
-            "vitaminD3": "100",
-            "bComplex": "70",
-            "biotin": "75",
-            "vitaminC": "70",
-            "aminoBlend": "80",
-            "glutathione": "90",
-            "lipoMino": "120",
-            "triImmuneBoost": "120",
-            "vitaminB12": "70",
-            "ondansetron": "70"
-        },
-        "facebook": {
-            "accessToken": "secret",
-            "facebookPixel": "secret",
-            "instagramUrl": "https://www.instagram.com/mydripnurse/",
-            "facebookUrl": "https://www.facebook.com/MyDripNurse"
-        }
-    },
-    "businessInformation": {
-        "snapshotId": "secret",
-        "companyId": "secret"
-    }
+    ]
 }

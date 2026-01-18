@@ -1,0 +1,1957 @@
+{
+    "Counties": [
+        {
+            "County Name": "Aitkin",
+            "Cities": [
+                "Aitkin",
+                "Hill City",
+                "Jacobson",
+                "Kimberly",
+                "Mcgrath",
+                "Mcgregor",
+                "Palisade",
+                "Swatara",
+                "Tamarack"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Anoka",
+            "Cities": [
+                "Andover",
+                "Anoka",
+                "Bertha",
+                "Bethel",
+                "Blaine",
+                "Cedar",
+                "Circle Pines",
+                "Columbia Heights",
+                "Columbus",
+                "Coon Rapids",
+                "East Bethel",
+                "Fridley",
+                "Ham Lake",
+                "Lawler",
+                "Lexington",
+                "Lino Lakes",
+                "Oak Grove",
+                "Ramsey",
+                "Soderville",
+                "Spring Lake Park",
+                "St. Francis"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Becker",
+            "Cities": [
+                "Audubon",
+                "Callaway",
+                "Detroit Lakes",
+                "Frazee",
+                "Lake Park",
+                "Ogema",
+                "Osage",
+                "Ponsford",
+                "Richwood",
+                "Rochert",
+                "White Earth",
+                "Wolf Lake"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Beltrami",
+            "Cities": [
+                "Bemidji",
+                "Blackduck",
+                "Funkley",
+                "Hines",
+                "Kelliher",
+                "Pennington",
+                "Pinewood",
+                "Ponemah",
+                "Puposky",
+                "Redby",
+                "Redlake",
+                "Saum",
+                "Shooks",
+                "Solway",
+                "Tenstrike",
+                "Turtle River",
+                "Waskish",
+                "Wilton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Benton",
+            "Cities": [
+                "Foley",
+                "Gilman",
+                "Oak Park",
+                "Rice",
+                "Ronneby",
+                "Sauk Rapids"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Big Stone",
+            "Cities": [
+                "Barry",
+                "Beardsley",
+                "Clinton",
+                "Correll",
+                "Graceville",
+                "Johnson",
+                "Odessa",
+                "Ortonville"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Blue Earth",
+            "Cities": [
+                "Amboy",
+                "Eagle Lake",
+                "Garden City",
+                "Good Thunder",
+                "Lake Crystal",
+                "Madison Lake",
+                "Mankato",
+                "Mapleton",
+                "Pemberton",
+                "Rapidan",
+                "Skyline",
+                "St. Clair",
+                "Vernon Center"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Brown",
+            "Cities": [
+                "Cobden",
+                "Comfrey",
+                "Essig",
+                "Evan",
+                "Hanska",
+                "New Ulm",
+                "Searles",
+                "Sleepy Eye",
+                "Springfield"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Carlton",
+            "Cities": [
+                "Atkinson",
+                "Barnum",
+                "Carlton",
+                "Cloquet",
+                "Cromwell",
+                "Esko",
+                "Holyoke",
+                "Kettle River",
+                "Mahtowa",
+                "Moose Lake",
+                "Sawyer",
+                "Scanlon",
+                "Thomson",
+                "Wrenshall",
+                "Wright"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Carver",
+            "Cities": [
+                "Bongards",
+                "Carver",
+                "Chanhassen",
+                "Chaska",
+                "Cologne",
+                "Hamburg",
+                "Mayer",
+                "New Germany",
+                "Norwood YoungAmerica",
+                "Victoria",
+                "Waconia",
+                "Watertown"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Cass",
+            "Cities": [
+                "Ah-Gwah-Ching",
+                "Backus",
+                "Bena",
+                "Boy River",
+                "Cass Lake",
+                "Chickamaw Beach",
+                "East Gull Lake",
+                "Federal Dam",
+                "Hackensack",
+                "Lake Shore",
+                "Longville",
+                "Outing",
+                "Pillager",
+                "Pine River",
+                "Remer",
+                "Schley",
+                "Walker",
+                "Whipholt"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Chippewa",
+            "Cities": [
+                "Clara City",
+                "Maynard",
+                "Milan",
+                "Montevideo",
+                "Watson"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Chisago",
+            "Cities": [
+                "Center City",
+                "Chisago City",
+                "Harris",
+                "Lindstrom",
+                "North Branch",
+                "Rush City",
+                "Shafer",
+                "Squaw Lake",
+                "Stacy",
+                "Sunrise",
+                "Taylors Falls",
+                "Wyoming"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Clay",
+            "Cities": [
+                "Averill",
+                "Baker",
+                "Barnesville",
+                "Comstock",
+                "Dale",
+                "Dilworth",
+                "Downer",
+                "Felton",
+                "Georgetown",
+                "Glyndon",
+                "Hawley",
+                "Hitterdal",
+                "Moorhead",
+                "Sabin",
+                "Ulen"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Clearwater",
+            "Cities": [
+                "Bagley",
+                "Clearbrook",
+                "Ebro",
+                "Gonvick",
+                "Lake Itasca",
+                "Leonard",
+                "Shevlin"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Cook",
+            "Cities": [
+                "Grand Marais",
+                "Grand Portage",
+                "Hovland",
+                "Lutsen",
+                "Schroeder",
+                "Tofte"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Cottonwood",
+            "Cities": [
+                "Bingham Lake",
+                "Delft",
+                "Jeffers",
+                "Mountain Lake",
+                "Storden",
+                "Westbrook",
+                "Windom"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Crow Wing",
+            "Cities": [
+                "Baxter",
+                "Brainerd",
+                "Breezy Point",
+                "Crosby",
+                "Crosslake",
+                "Cuyuna",
+                "Deerwood",
+                "Emily",
+                "Fifty Lakes",
+                "Fort Ripley",
+                "Garrison",
+                "Ironton",
+                "Jenkins",
+                "Lake Hubert",
+                "Manhattan Beach",
+                "Merrifield",
+                "Nisswa",
+                "Pequot Lakes",
+                "Riverton",
+                "Trommald"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Dakota",
+            "Cities": [
+                "Apple Valley",
+                "Burnsville",
+                "Castle Rock",
+                "Eagan",
+                "Farmington",
+                "Hampton",
+                "Hastings",
+                "Inver Grove Heights",
+                "Lakeville",
+                "Mendota",
+                "Randolph",
+                "Rosemount",
+                "South St Paul",
+                "Sunfish Lake",
+                "Vermillion",
+                "West St Paul"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Dodge",
+            "Cities": [
+                "Claremont",
+                "Dodge Center",
+                "Hayfield",
+                "Kasson",
+                "Mantorville",
+                "West Concord"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Douglas",
+            "Cities": [
+                "Alexandria",
+                "Brandon",
+                "Carlos",
+                "Evansville",
+                "Forada",
+                "Garfield",
+                "Holmes City",
+                "Kensington",
+                "Miltona",
+                "Nelson",
+                "Osakis"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Faribault",
+            "Cities": [
+                "Blue Earth",
+                "Bricelyn",
+                "Delavan",
+                "Easton",
+                "Elmore",
+                "Frost",
+                "Guckeen",
+                "Huntley",
+                "Kiester",
+                "Minnesota Lake",
+                "Walters",
+                "Wells",
+                "Winnebago"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Fillmore",
+            "Cities": [
+                "Canton",
+                "Chatfield",
+                "Fountain",
+                "Granger",
+                "Harmony",
+                "Lanesboro",
+                "Mabel",
+                "Ostrander",
+                "Peterson",
+                "Preston",
+                "Rushford",
+                "Rushford Village",
+                "Spring Valley",
+                "Whalan",
+                "Wykoff"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Freeborn",
+            "Cities": [
+                "Albert Lea",
+                "Alden",
+                "Clarks Grove",
+                "Conger",
+                "Emmons",
+                "Freeborn",
+                "Geneva",
+                "Glenville",
+                "Hartland",
+                "Hayward",
+                "Hollandale",
+                "London",
+                "Manchester",
+                "Myrtle",
+                "Oakland",
+                "Twin Lakes"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Goodhue",
+            "Cities": [
+                "Bellechester",
+                "Cannon Falls",
+                "Dennison",
+                "Frontenac",
+                "Goodhue",
+                "Kenyon",
+                "Miesville",
+                "Pine Island",
+                "Red Wing",
+                "Stanton",
+                "Vasa",
+                "Wanamingo",
+                "Welch",
+                "Zumbrota"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Grant",
+            "Cities": [
+                "Ashby",
+                "Barrett",
+                "Elbow Lake",
+                "Herman",
+                "Hoffman",
+                "Norcross",
+                "Wendell"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Hennepin",
+            "Cities": [
+                "Bible College",
+                "Bloomington",
+                "Brooklyn Center",
+                "Brooklyn Park",
+                "Champlin",
+                "Corcoran",
+                "Crystal",
+                "Crystal Bay",
+                "Dayton",
+                "Deephaven",
+                "Eden Prairie",
+                "Edina",
+                "Excelsior",
+                "Golden Valley",
+                "Greenwood",
+                "Hilltop",
+                "Hopkins",
+                "Independence",
+                "Long Lake",
+                "Loretto",
+                "Maple Grove",
+                "Maple Plain",
+                "Medicine Lake",
+                "Medina",
+                "Minneapolis",
+                "Minnetonka",
+                "Minnetonka Beach",
+                "Minnetrista",
+                "Mound",
+                "New Hope",
+                "Orono",
+                "Osseo",
+                "Plymouth",
+                "Richfield",
+                "Robbinsdale",
+                "Rogers",
+                "Shorewood",
+                "Spring Park",
+                "St. Anthony",
+                "St. Bonifacius",
+                "St. Louis Park",
+                "Tonka Bay",
+                "Wayzata"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Houston",
+            "Cities": [
+                "Brownsville",
+                "Caledonia",
+                "Eitzen",
+                "Hokah",
+                "Houston",
+                "La Crescent",
+                "Spring Grove"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Hubbard",
+            "Cities": [
+                "Akeley",
+                "Arago",
+                "Becida",
+                "Dorset",
+                "Guthrie",
+                "Lake George",
+                "Laporte",
+                "Nevis",
+                "Park Rapids"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Isanti",
+            "Cities": [
+                "Braham",
+                "Cambridge",
+                "Dalbo",
+                "Grandy",
+                "Isanti",
+                "Stanchfield"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Itasca",
+            "Cities": [
+                "Alvwood",
+                "Bigfork",
+                "Bovey",
+                "Bowstring",
+                "Calumet",
+                "Cohasset",
+                "Coleraine",
+                "Deer River",
+                "Dora Lake",
+                "Effie",
+                "Goodland",
+                "Grand Rapids",
+                "Inger",
+                "Keewatin",
+                "Marble",
+                "Marcell",
+                "Max",
+                "Nashwauk",
+                "Pengilly",
+                "Spring Hill",
+                "Swan River",
+                "Taconite",
+                "Talmoon",
+                "Togo",
+                "Warba",
+                "Wawina",
+                "Wirt"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Jackson",
+            "Cities": [
+                "Alpha",
+                "Heron Lake",
+                "Jackson",
+                "Lakefield",
+                "Okabena",
+                "Wilder"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Kanabec",
+            "Cities": [
+                "Grasston",
+                "Mora",
+                "Ogilvie",
+                "Quamba"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Kandiyohi",
+            "Cities": [
+                "Atwater",
+                "Blomkest",
+                "Hawick",
+                "Kandiyohi",
+                "Lake Lillian",
+                "New London",
+                "Pennock",
+                "Prinsburg",
+                "Raymond",
+                "Regal",
+                "Spicer",
+                "Sunburg",
+                "Svea",
+                "Willmar"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Kittson",
+            "Cities": [
+                "Donaldson",
+                "Hallock",
+                "Halma",
+                "Humboldt",
+                "Karlstad",
+                "Kennedy",
+                "Lake Bronson",
+                "Lancaster",
+                "Northcote",
+                "Noyes",
+                "Orleans",
+                "St. Vincent"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Koochiching",
+            "Cities": [
+                "Big Falls",
+                "Birchdale",
+                "Ericksburg",
+                "Gemmell",
+                "Indus",
+                "International Falls",
+                "Littlefork",
+                "Loman",
+                "Manitou",
+                "Margie",
+                "Mizpah",
+                "Northome",
+                "Ranier",
+                "Ray",
+                "South International Falls"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lac Qui Parle",
+            "Cities": [
+                "Bellingham",
+                "Boyd",
+                "Dawson",
+                "Louisburg",
+                "Madison",
+                "Marietta",
+                "Nassau"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lake",
+            "Cities": [
+                "Beaver Bay",
+                "Finlayson",
+                "Isabella",
+                "Knife River",
+                "Little Marais",
+                "Silver Bay",
+                "Two Harbors"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lake of the Woods",
+            "Cities": [
+                "Baudette",
+                "Clementson",
+                "Graceton",
+                "OakIsland",
+                "Penasse",
+                "Pitt",
+                "Williams"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Le Sueur",
+            "Cities": [
+                "Cleveland",
+                "Elysian",
+                "Heidelberg",
+                "Kasota",
+                "Kilkenny",
+                "Le Center",
+                "Le Sueur",
+                "Montgomery",
+                "New Prague",
+                "Waterville"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lincoln",
+            "Cities": [
+                "Arco",
+                "Hendricks",
+                "Ivanhoe",
+                "Lake Benton",
+                "Tyler",
+                "Verdi"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lyon",
+            "Cities": [
+                "Amiret",
+                "Balaton",
+                "Cottonwood",
+                "Florence",
+                "Garvin",
+                "Ghent",
+                "Green Valley",
+                "Lynd",
+                "Marshall",
+                "Minneota",
+                "Russell",
+                "Taunton",
+                "Tracy"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Mahnomen",
+            "Cities": [
+                "Beaulieu",
+                "Bejou",
+                "Mahnomen",
+                "Naytahwaush",
+                "Waubun"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Marshall",
+            "Cities": [
+                "Alvarado",
+                "Argyle",
+                "Gatzke",
+                "Grygla",
+                "Holt",
+                "Middle River",
+                "Newfolden",
+                "Oslo",
+                "Radium",
+                "Stephen",
+                "Strandquist",
+                "Viking",
+                "Warren"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Martin",
+            "Cities": [
+                "Ceylon",
+                "Dunnell",
+                "Fairmont",
+                "Granada",
+                "Northrop",
+                "Sherburn",
+                "Trimont",
+                "Truman",
+                "Welcome"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "McLeod",
+            "Cities": [
+                "Biscay",
+                "Brownton",
+                "Cedar Mills",
+                "Glencoe",
+                "Hutchinson",
+                "Lester Prairie",
+                "Plato",
+                "Silver Lake",
+                "Stewart",
+                "Winsted"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Meeker",
+            "Cities": [
+                "Cosmos",
+                "Darwin",
+                "Dassel",
+                "Eden Valley",
+                "Grove City",
+                "Kingston",
+                "Litchfield",
+                "Watkins"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Mille Lacs",
+            "Cities": [
+                "Bock",
+                "Foreston",
+                "Isle",
+                "Milaca",
+                "Onamia",
+                "Pease",
+                "Princeton",
+                "Wahkon"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Morrison",
+            "Cities": [
+                "Belle Prairie",
+                "Bowlus",
+                "Buckman",
+                "Cushing",
+                "Flensburg",
+                "Genola",
+                "Harding",
+                "Hillman",
+                "Lastrup",
+                "Little Falls",
+                "Motley",
+                "Pierz",
+                "Randall",
+                "Royalton",
+                "Swanville",
+                "Upsala"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Mower",
+            "Cities": [
+                "Adams",
+                "Austin",
+                "Brownsdale",
+                "Dexter",
+                "Elkton",
+                "Grand Meadow",
+                "Lansing",
+                "Le Roy",
+                "Lyle",
+                "Mapleview",
+                "Racine",
+                "Rose Creek",
+                "Sargeant",
+                "Taopi",
+                "Waltham"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Murray",
+            "Cities": [
+                "Avoca",
+                "Chandler",
+                "Culver",
+                "Currie",
+                "Dovray",
+                "Fulda",
+                "Hadley",
+                "Iona",
+                "Lake Wilson",
+                "Slayton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Nicollet",
+            "Cities": [
+                "Courtland",
+                "Klossner",
+                "Lafayette",
+                "Nicollet",
+                "North Mankato",
+                "St. Peter"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Nobles",
+            "Cities": [
+                "Adrian",
+                "Bigelow",
+                "Brewster",
+                "Dundee",
+                "Ellsworth",
+                "Kinbrae",
+                "Leota",
+                "Lismore",
+                "Reading",
+                "Round Lake",
+                "Rushmore",
+                "Wilmont",
+                "Worthington"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Norman",
+            "Cities": [
+                "Ada",
+                "Borup",
+                "Faith",
+                "Flom",
+                "Gary",
+                "Halstad",
+                "Hendrum",
+                "Lockhart",
+                "Perley",
+                "Shelly",
+                "Twin Valley"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Olmsted",
+            "Cities": [
+                "Byron",
+                "Douglas",
+                "Dover",
+                "Eyota",
+                "Oronoco",
+                "Rochester",
+                "Stewartville",
+                "Viola"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Otter Tail",
+            "Cities": [
+                "Battle Lake",
+                "Bluffton",
+                "Carlisle",
+                "Clitherall",
+                "Cormorant",
+                "Dalton",
+                "Deer Creek",
+                "Dent",
+                "Elizabeth",
+                "Erhard",
+                "Fergus Falls",
+                "Henning",
+                "New York Mills",
+                "Ottertail",
+                "Parkers Prairie",
+                "Pelican Rapids",
+                "Perham",
+                "Richville",
+                "Underwood",
+                "Vergas",
+                "Vining"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Pennington",
+            "Cities": [
+                "Goodridge",
+                "Rosewood",
+                "St. Hilaire",
+                "Thief River Falls"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Pine",
+            "Cities": [
+                "Askov",
+                "Beroun",
+                "Brook Park",
+                "Bruno",
+                "Cloverton",
+                "Denham",
+                "Duquette",
+                "Henriette",
+                "Hinckley",
+                "Kerrick",
+                "Markville",
+                "Pine City",
+                "Rock Creek",
+                "Rutledge",
+                "Sandstone",
+                "Sturgeon Lake",
+                "Willow River"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Pipestone",
+            "Cities": [
+                "Edgerton",
+                "Hatfield",
+                "Holland",
+                "Ihlen",
+                "Jasper",
+                "Pipestone",
+                "Ruthton",
+                "Trosky",
+                "Woodstock"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Polk",
+            "Cities": [
+                "Beltrami",
+                "Climax",
+                "Crookston",
+                "East Grand Forks",
+                "Eldred",
+                "Erskine",
+                "Euclid",
+                "Fertile",
+                "Fisher",
+                "Fosston",
+                "Gentilly",
+                "Gully",
+                "Lengby",
+                "Mcintosh",
+                "Nielsville",
+                "Trail",
+                "Winger"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Pope",
+            "Cities": [
+                "Cyrus",
+                "Farwell",
+                "Glenwood",
+                "Long Beach",
+                "Lowry",
+                "Sedan",
+                "Starbuck",
+                "Terrace",
+                "Villard",
+                "Westport"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Ramsey",
+            "Cities": [
+                "Arden Hills",
+                "Birchwood",
+                "Delwood",
+                "Falcon Heights",
+                "Gem Lake",
+                "Lauderdale",
+                "Lilydale",
+                "Little Canada",
+                "Maplewood",
+                "Mendota Heights",
+                "Mounds View",
+                "New Brighton",
+                "North Oaks",
+                "North St Paul",
+                "Roseville",
+                "Shoreview",
+                "St. Paul",
+                "Vadnais Heights",
+                "White Bear Lake"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Red Lake",
+            "Cities": [
+                "Brooks",
+                "Oklee",
+                "Plummer",
+                "Red Lake Falls"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Redwood",
+            "Cities": [
+                "Belview",
+                "Clements",
+                "Delhi",
+                "Lamberton",
+                "Lucan",
+                "Milroy",
+                "Morgan",
+                "Redwood Falls",
+                "Revere",
+                "Sanborn",
+                "Seaforth",
+                "Vesta",
+                "Wabasso",
+                "Walnut Grove",
+                "Wanda"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Renville",
+            "Cities": [
+                "Bird Island",
+                "Buffalo Lake",
+                "Danube",
+                "Fairfax",
+                "Franklin",
+                "Hector",
+                "Morton",
+                "Olivia",
+                "Renville",
+                "Sacred Heart"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Rice",
+            "Cities": [
+                "Dundas",
+                "Faribault",
+                "Lonsdale",
+                "Morristown",
+                "Nerstrand",
+                "Northfield",
+                "Veseli",
+                "Warsaw",
+                "Waterford",
+                "Webster"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Rock",
+            "Cities": [
+                "Beaver Creek",
+                "Hardwick",
+                "Hills",
+                "Kanaranzi",
+                "Kenneth",
+                "Luverne",
+                "Magnolia",
+                "Steen"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Roseau",
+            "Cities": [
+                "Badger",
+                "Greenbush",
+                "Pencer",
+                "Pinecreek",
+                "Roosevelt",
+                "Roseau",
+                "Ross",
+                "Salol",
+                "Skime",
+                "Strathcona",
+                "Swift",
+                "Wannaska",
+                "Warroad"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Scott",
+            "Cities": [
+                "Belle Plaine",
+                "Elko",
+                "Jordan",
+                "New Market",
+                "Prior Lake",
+                "Savage",
+                "Shakopee"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Sherburne",
+            "Cities": [
+                "Becker",
+                "Big Lake",
+                "Clear Lake",
+                "Elk River",
+                "Otsego",
+                "Santiago",
+                "Zimmerman"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Sibley",
+            "Cities": [
+                "Arlington",
+                "Gaylord",
+                "Gibbon",
+                "Green Isle",
+                "Henderson",
+                "New Auburn",
+                "Winthrop"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "St. Louis",
+            "Cities": [
+                "Alborn",
+                "Aurora",
+                "Babbitt",
+                "Biwabik",
+                "Brimson",
+                "Brookston",
+                "Buhl",
+                "Buyck",
+                "Canyon",
+                "Chisholm",
+                "Cook",
+                "Cotton",
+                "Crane Lake",
+                "Duluth",
+                "Ely",
+                "Eveleth",
+                "Floodwood",
+                "Florenton",
+                "Forbes",
+                "Gheen",
+                "Gilbert",
+                "Gowen",
+                "Hermantown",
+                "Hibbing",
+                "Hoyt Lakes",
+                "Iron",
+                "Kabetogama",
+                "Kelly Lake",
+                "Kinney",
+                "Leonidas",
+                "Makinen",
+                "Mckinley",
+                "Meadowlands",
+                "Melrude",
+                "Morgan Park",
+                "Mountain Iron",
+                "Nett Lake",
+                "Orr",
+                "Parkville",
+                "Proctor",
+                "Saginaw",
+                "Side Lake",
+                "Soudan",
+                "Toivola",
+                "Tower",
+                "Twig",
+                "Virginia",
+                "Winton",
+                "Woodland",
+                "Zim"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Stearns",
+            "Cities": [
+                "Albany",
+                "Avon",
+                "Belgrade",
+                "Brooten",
+                "Collegeville",
+                "Elrosa",
+                "Fairhaven",
+                "Freeport",
+                "Greenwald",
+                "Holdingford",
+                "Kimball",
+                "Meire Grove",
+                "Melrose",
+                "New Munich",
+                "Paynesville",
+                "Richmond",
+                "Rockville",
+                "Roscoe",
+                "Sartell",
+                "Sauk Centre",
+                "St. Augusta",
+                "St. Cloud",
+                "St. Joseph",
+                "St. Martin",
+                "St. Stephen",
+                "Waite Park"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Steele",
+            "Cities": [
+                "Blooming Prairie",
+                "Ellendale",
+                "Hope",
+                "Medford",
+                "Mentor",
+                "Meridan",
+                "Owatonna",
+                "Pratt"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Stevens",
+            "Cities": [
+                "Alberta",
+                "Chokio",
+                "Donnelly",
+                "Hancock",
+                "Morris"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Swift",
+            "Cities": [
+                "Appleton",
+                "Benson",
+                "Clontarf",
+                "Danvers",
+                "De Graff",
+                "Holloway",
+                "Kerkhoven",
+                "Murdock"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Todd",
+            "Cities": [
+                "Browerville",
+                "Burtrum",
+                "Clarissa",
+                "Eagle Bend",
+                "Grey Eagle",
+                "Hewitt",
+                "Little Sauk",
+                "Long Prairie",
+                "Staples",
+                "West Union"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Traverse",
+            "Cities": [
+                "Browns Valley",
+                "Dumont",
+                "Tintah",
+                "Wheaton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Wabasha",
+            "Cities": [
+                "Elgin",
+                "Greenfield",
+                "Hammond",
+                "Kellogg",
+                "Lake City",
+                "Mazeppa",
+                "Millville",
+                "Minneiska",
+                "Plainview",
+                "Reads Landing",
+                "Theilman",
+                "Wabasha",
+                "Weaver",
+                "Zumbro Falls"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Wadena",
+            "Cities": [
+                "Aldrich",
+                "Menahga",
+                "Nimrod",
+                "Sebeka",
+                "Verndale",
+                "Wadena"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Waseca",
+            "Cities": [
+                "Janesville",
+                "New Richland",
+                "Otisco",
+                "Waldorf",
+                "Waseca"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Washington",
+            "Cities": [
+                "Afton",
+                "Bayport",
+                "Centerville",
+                "Cottage Grove",
+                "Forest Lake",
+                "Hugo",
+                "Lake Elmo",
+                "Lakeland",
+                "Landfall",
+                "Mahtomedi",
+                "Marine On St Croix",
+                "Newport",
+                "Oak Park Heights",
+                "Oakdale",
+                "Pine Springs",
+                "Scandia",
+                "St. Mary's Point",
+                "St. Paul Park",
+                "Stillwater",
+                "Willernie",
+                "Woodbury"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Watonwan",
+            "Cities": [
+                "Butterfield",
+                "Darfur",
+                "La Salle",
+                "Lewisville",
+                "Madelia",
+                "Odin",
+                "Ormsby",
+                "St. James"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Wilkin",
+            "Cities": [
+                "Breckenridge",
+                "Campbell",
+                "Doran",
+                "Foxhome",
+                "Kent",
+                "Nashua",
+                "Rothsay",
+                "Tenney",
+                "Wolverton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Winona",
+            "Cities": [
+                "Altura",
+                "Dakota",
+                "Dresbach",
+                "Elba",
+                "Goodview",
+                "Homer",
+                "Lamoille",
+                "Lewiston",
+                "Minnesota City",
+                "Rollingstone",
+                "St. Charles",
+                "Stockton",
+                "Utica",
+                "Winona"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Wright",
+            "Cities": [
+                "Albertville",
+                "Annandale",
+                "Buffalo",
+                "Clearwater",
+                "Cokato",
+                "Cold Spring",
+                "Delano",
+                "Hanover",
+                "Howard Lake",
+                "Maple Lake",
+                "Monticello",
+                "Montrose",
+                "Rockford",
+                "Silver Creek",
+                "South Haven",
+                "St. Michael",
+                "Waverly"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Yellow Medicine",
+            "Cities": [
+                "Canby",
+                "Clarkfield",
+                "Echo",
+                "Granite Falls",
+                "Hanley Falls",
+                "Hazel Run",
+                "Porter",
+                "St. Leo",
+                "Wood Lake"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        }
+    ],
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}
