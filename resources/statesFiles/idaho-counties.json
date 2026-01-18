@@ -1,0 +1,647 @@
+{
+    "Counties": [
+        {
+            "County Name": "Ada",
+            "Cities": [
+                "Boise",
+                "Eagle",
+                "Garden City",
+                "Kuna",
+                "Meridian",
+                "Star"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Adams",
+            "Cities": [
+                "Council",
+                "New Meadows"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Bannock",
+            "Cities": [
+                "Arimo",
+                "Chubbuck",
+                "Downey",
+                "Inkom",
+                "Lava Hot Springs",
+                "McCammon",
+                "Pocatello"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Bear Lake",
+            "Cities": [
+                "Bloomington",
+                "Montpelier",
+                "Paris"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Benewah",
+            "Cities": [
+                "Plummer",
+                "St. Maries"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Bingham",
+            "Cities": [
+                "Blackfoot",
+                "Shelley"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Blaine",
+            "Cities": [
+                "Bellevue",
+                "Carey",
+                "Hailey",
+                "Ketchum",
+                "Sun Valley"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Boise",
+            "Cities": [
+                "Horseshoe Bend",
+                "Idaho City"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Bonner",
+            "Cities": [
+                "Dover",
+                "Hope",
+                "Ponderay",
+                "Priest River",
+                "Sandpoint"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Bonneville",
+            "Cities": [
+                "Ammon",
+                "Idaho Falls",
+                "Iona",
+                "Swan Valley"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Boundary",
+            "Cities": [
+                "Bonners Ferry",
+                "Moyie Springs"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Butte",
+            "Cities": [
+                "Arco",
+                "Moore"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Camas",
+            "Cities": [
+                "Fairfield",
+                "Soldier"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Canyon",
+            "Cities": [
+                "Caldwell",
+                "Greenleaf",
+                "Homedale",
+                "Melba",
+                "Middleton",
+                "Nampa",
+                "Notus",
+                "Parma",
+                "Wilder"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Caribou",
+            "Cities": [
+                "Grace",
+                "Soda Springs"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Cassia",
+            "Cities": [
+                "Albion",
+                "Burley",
+                "Declo",
+                "Oakley"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Clark",
+            "Cities": [
+                "Dubois"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Clearwater",
+            "Cities": [
+                "Orofino",
+                "Pierce"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Custer",
+            "Cities": [
+                "Challis",
+                "Mackay"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Elmore",
+            "Cities": [
+                "Glenns Ferry",
+                "Mountain Home"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Franklin",
+            "Cities": [
+                "Dayton",
+                "Franklin",
+                "Preston",
+                "Weston"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Fremont",
+            "Cities": [
+                "Ashton",
+                "Drummond",
+                "Parker",
+                "St. Anthony",
+                "Teton"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Gem",
+            "Cities": [
+                "Emmett"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Gooding",
+            "Cities": [
+                "Gooding",
+                "Wendell"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Idaho",
+            "Cities": [
+                "Cottonwood",
+                "Grangeville",
+                "Kamiah",
+                "Kooskia",
+                "Riggins"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Jefferson",
+            "Cities": [
+                "Menan",
+                "Rigby",
+                "Ririe",
+                "Roberts"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Jerome",
+            "Cities": [
+                "Jerome"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Kootenai",
+            "Cities": [
+                "Coeur d'Alene",
+                "Dalton Gardens",
+                "Fernan Lake Village",
+                "Hayden",
+                "Hayden Lake",
+                "Huetter",
+                "Post Falls",
+                "Rathdrum",
+                "Spirit Lake"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Latah",
+            "Cities": [
+                "Bovill",
+                "Deary",
+                "Genesee",
+                "Juliaetta",
+                "Kendrick",
+                "Moscow",
+                "Potlatch",
+                "Troy"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Lemhi",
+            "Cities": [
+                "Leadore",
+                "Salmon"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Lewis",
+            "Cities": [
+                "Nezperce",
+                "Winchester"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Lincoln",
+            "Cities": [
+                "Dietrich",
+                "Richfield",
+                "Shoshone"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Madison",
+            "Cities": [
+                "Rexburg",
+                "Sugar City"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Minidoka",
+            "Cities": [
+                "Acequia",
+                "Heyburn",
+                "Paul",
+                "Rupert"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Nez Perce",
+            "Cities": [
+                "Culdesac",
+                "Lapwai",
+                "Lewiston",
+                "Peck"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Oneida",
+            "Cities": [
+                "Malad City"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Owyhee",
+            "Cities": [
+                "Homedale",
+                "Marsing"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Payette",
+            "Cities": [
+                "New Plymouth",
+                "Payette"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Power",
+            "Cities": [
+                "American Falls"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Shoshone",
+            "Cities": [
+                "Kellogg",
+                "Mullan",
+                "Osburn",
+                "Pinehurst",
+                "Smelterville",
+                "Wallace",
+                "Wardner"
+            ],
+            "Timezone": {
+                "Name": "Pacific",
+                "Zone": "US/Pacific",
+                "UTC_Offset": "-08:00"
+            }
+        },
+        {
+            "County Name": "Teton",
+            "Cities": [
+                "Driggs",
+                "Victor"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Twin Falls",
+            "Cities": [
+                "Buhl",
+                "Filer",
+                "Hansen",
+                "Kimberly",
+                "Twin Falls"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Valley",
+            "Cities": [
+                "Cascade",
+                "Donnelly",
+                "McCall"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        },
+        {
+            "County Name": "Washington",
+            "Cities": [
+                "Cambridge",
+                "Midvale",
+                "Weiser"
+            ],
+            "Timezone": {
+                "Name": "Mountain",
+                "Zone": "US/Mountain",
+                "UTC_Offset": "-07:00"
+            }
+        }
+    ],
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}

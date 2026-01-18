@@ -1,0 +1,1834 @@
+{
+    "Counties": [
+        {
+            "County Name": "Adair County",
+            "Cities": [
+                "Adair",
+                "Casey",
+                "Fontanelle",
+                "Greenfield",
+                "Orient"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Adams County",
+            "Cities": [
+                "Corning",
+                "Carbon",
+                "Nodaway",
+                "Prescott"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Allamakee County",
+            "Cities": [
+                "Harpers Ferry",
+                "Lansing",
+                "Postville",
+                "Waterville",
+                "Waukon"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Appanoose County",
+            "Cities": [
+                "Centerville",
+                "Cincinnati",
+                "Exline",
+                "Moulton",
+                "Mystic",
+                "Plano",
+                "Udell"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Audubon County",
+            "Cities": [
+                "Audubon",
+                "Brayton",
+                "Gray",
+                "Kimballton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Benton County",
+            "Cities": [
+                "Atkins",
+                "Belle Plaine",
+                "Blairstown",
+                "Elberon",
+                "Garrison",
+                "Keystone",
+                "Newhall",
+                "Norway",
+                "Shellsburg",
+                "Urbana",
+                "Van Horne",
+                "Vinton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Black Hawk County",
+            "Cities": [
+                "Cedar Falls",
+                "Evansdale",
+                "Hudson",
+                "La Porte City",
+                "Raymond",
+                "Waterloo"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Boone County",
+            "Cities": [
+                "Boone",
+                "Madrid",
+                "Ogden",
+                "Pilot Mound"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Bremer County",
+            "Cities": [
+                "Denver",
+                "Frederika",
+                "Readlyn",
+                "Sumner",
+                "Tripoli",
+                "Waverly"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Buchanan County",
+            "Cities": [
+                "Aurora",
+                "Brandon",
+                "Fairbank",
+                "Hazleton",
+                "Independence",
+                "Jesup",
+                "Lamont",
+                "Quasqueton",
+                "Rowley",
+                "Stanley",
+                "Winthrop"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Buena Vista County",
+            "Cities": [
+                "Albert City",
+                "Alta",
+                "Linn Grove",
+                "Marathon",
+                "Newell",
+                "Sioux Rapids",
+                "Storm Lake"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Butler County",
+            "Cities": [
+                "Allison",
+                "Aplington",
+                "Bristow",
+                "Clarksville",
+                "Dumont",
+                "Greene",
+                "Parkersburg",
+                "Shell Rock"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Calhoun County",
+            "Cities": [
+                "Barnum",
+                "Lake City",
+                "Lohrville",
+                "Manson",
+                "Pomeroy",
+                "Rockwell City",
+                "Somers"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Carroll County",
+            "Cities": [
+                "Arcadia",
+                "Carroll",
+                "Coon Rapids",
+                "Dedham",
+                "Glidden",
+                "Halbur",
+                "Knierim",
+                "Lanesboro",
+                "Manning",
+                "Ralston",
+                "Templeton",
+                "Willey"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Cass County",
+            "Cities": [
+                "Anita",
+                "Atlantic",
+                "Cumberland",
+                "Griswold",
+                "Lewis",
+                "Marne",
+                "Massena"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Cedar County",
+            "Cities": [
+                "Bennett",
+                "Clarence",
+                "Durant",
+                "Lowden",
+                "Mechanicsville",
+                "Stanwood",
+                "Tipton",
+                "West Branch"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Cerro Gordo County",
+            "Cities": [
+                "Clear Lake",
+                "Dougherty",
+                "Fertile",
+                "Mason City",
+                "Meservey",
+                "Rock Falls",
+                "Swaledale",
+                "Thornton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Cherokee County",
+            "Cities": [
+                "Cherokee",
+                "Cleghorn",
+                "Larrabee",
+                "Marcus",
+                "Meriden",
+                "Quimby"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Chickasaw County",
+            "Cities": [
+                "Bassett",
+                "Bradford",
+                "Chickasaw",
+                "Fredericksburg",
+                "Ionia",
+                "New Hampton",
+                "North Washington",
+                "Nashua"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Clarke County",
+            "Cities": [
+                "Murray",
+                "Osceola",
+                "Woodburn"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Clay County",
+            "Cities": [
+                "Dickens",
+                "Everly",
+                "Fostoria",
+                "Greenville",
+                "Langdon",
+                "Peterson",
+                "Spencer"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Clayton County",
+            "Cities": [
+                "Clayton",
+                "Elkader",
+                "Elgin",
+                "Farmersburg",
+                "Garnavillo",
+                "Guttenberg",
+                "Luana",
+                "Marquette",
+                "McGregor",
+                "Monona",
+                "Strawberry Point",
+                "Volga"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Clinton County",
+            "Cities": [
+                "Albany",
+                "Andover",
+                "Bryant",
+                "Camanche",
+                "Charlotte",
+                "Clinton",
+                "Delmar",
+                "DeWitt",
+                "Goose Lake",
+                "Lost Nation",
+                "Low Moor",
+                "Miles",
+                "Welton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Crawford County",
+            "Cities": [
+                "Arion",
+                "Charter Oak",
+                "Denison",
+                "Dow City",
+                "Kiron",
+                "Manilla",
+                "Ricketts",
+                "Schleswig",
+                "Vail",
+                "Westside"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Dallas County",
+            "Cities": [
+                "Adel",
+                "Bouton",
+                "Dallas Center",
+                "Dawson",
+                "Dexter",
+                "Granger",
+                "Minburn",
+                "Perry",
+                "Redfield",
+                "Van Meter",
+                "Waukee",
+                "West Des Moines",
+                "Woodward"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Davis County",
+            "Cities": [
+                "Bloomfield",
+                "Drakesville",
+                "Pulaski"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Decatur County",
+            "Cities": [
+                "Davis City",
+                "Decatur City",
+                "Garden Grove",
+                "Lamoni",
+                "Leon"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Delaware County",
+            "Cities": [
+                "Colesburg",
+                "Dundee",
+                "Earlville",
+                "Edgewood",
+                "Greeley",
+                "Hopkinton",
+                "Manchester",
+                "Masonville",
+                "Ryan"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Des Moines County",
+            "Cities": [
+                "Burlington",
+                "Danville",
+                "Mediapolis",
+                "West Burlington"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Dickinson County",
+            "Cities": [
+                "Arnolds Park",
+                "Lake Park",
+                "Milford",
+                "Okoboji",
+                "Spirit Lake",
+                "Terril"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Dubuque County",
+            "Cities": [
+                "Asbury",
+                "Balltown",
+                "Bankston",
+                "Cascade",
+                "Centralia",
+                "Dubuque",
+                "Dyersville",
+                "Epworth",
+                "Farley",
+                "Graf",
+                "Holy Cross",
+                "Luxemburg",
+                "New Vienna",
+                "Peosta",
+                "Rickardsville",
+                "Sherrill",
+                "Worthington"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Emmet County",
+            "Cities": [
+                "Armstrong",
+                "Cylinder",
+                "Dolliver",
+                "Ellsworth",
+                "Estherville",
+                "Gruver",
+                "Ringsted",
+                "Wallingford"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Fayette County",
+            "Cities": [
+                "Alpha",
+                "Arlington",
+                "Auburn",
+                "Clermont",
+                "Elgin",
+                "Fayette",
+                "Hawkeye",
+                "Maynard",
+                "Oelwein",
+                "Randalia",
+                "St. Lucas",
+                "Strawberry Point",
+                "Wadena",
+                "West Union"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Floyd County",
+            "Cities": [
+                "Charles City",
+                "Colwell",
+                "Floyd",
+                "Marble Rock",
+                "Nora Springs",
+                "Rockford",
+                "Rudd"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Franklin County",
+            "Cities": [
+                "Alexander",
+                "Geneva",
+                "Hampton",
+                "Hansell",
+                "Latimer",
+                "Sheffield",
+                "Coulter"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Fremont County",
+            "Cities": [
+                "Farragut",
+                "Hamburg",
+                "Imogene",
+                "Percival",
+                "Riverton",
+                "Sidney",
+                "Tabor"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Greene County",
+            "Cities": [
+                "Churdan",
+                "Cooper",
+                "Dana",
+                "Jefferson",
+                "Paton",
+                "Rippey",
+                "Scranton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Grundy County",
+            "Cities": [
+                "Beaman",
+                "Conrad",
+                "Dike",
+                "Grundy Center",
+                "Holland",
+                "Reinbeck",
+                "Wellsburg"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Guthrie County",
+            "Cities": [
+                "Bagley",
+                "Bayard",
+                "Casey",
+                "Guthrie Center",
+                "Jamaica",
+                "Menlo",
+                "Panora",
+                "Stuart",
+                "Yale"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Hamilton County",
+            "Cities": [
+                "Blairsburg",
+                "Ellsworth",
+                "Jewell Junction",
+                "Kamrar",
+                "Randall",
+                "Stanhope",
+                "Stratford",
+                "Webster City",
+                "Williams"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Hancock County",
+            "Cities": [
+                "Britt",
+                "Corwith",
+                "Garner",
+                "Goodell",
+                "Kanawha",
+                "Klemme"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Hardin County",
+            "Cities": [
+                "Alden",
+                "Buckeye",
+                "Eldora",
+                "Hubbard",
+                "Iowa Falls",
+                "New Providence",
+                "Radcliffe",
+                "Steamboat Rock",
+                "Union"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Harrison County",
+            "Cities": [
+                "California Junction",
+                "Dunlap",
+                "Little Sioux",
+                "Logan",
+                "Magnolia",
+                "Modale",
+                "Mondamin",
+                "Missouri Valley",
+                "Persia",
+                "Pisgah",
+                "Woodbine"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Henry County",
+            "Cities": [
+                "Birmingham",
+                "Hillsboro",
+                "Mount Pleasant",
+                "New London",
+                "Salem",
+                "Rome"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Howard County",
+            "Cities": [
+                "Chester",
+                "Cresco",
+                "Elma",
+                "Lime Springs",
+                "Protivin"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Humboldt County",
+            "Cities": [
+                "Bradgate",
+                "Dakota City",
+                "Gilmore City",
+                "Humboldt",
+                "Livermore",
+                "Ottosen",
+                "Renwick",
+                "Rutland"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Ida County",
+            "Cities": [
+                "Arthur",
+                "Battle Creek",
+                "Galva",
+                "Holstein",
+                "Ida Grove"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Iowa County",
+            "Cities": [
+                "Ladora",
+                "Marengo",
+                "Millersburg",
+                "North English",
+                "Victor",
+                "Williamsburg"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Jackson County",
+            "Cities": [
+                "Andrew",
+                "Bellevue",
+                "La Motte",
+                "Maquoketa",
+                "Miles",
+                "Preston",
+                "Sabula",
+                "Springbrook"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Jasper County",
+            "Cities": [
+                "Baxter",
+                "Colfax",
+                "Kellogg",
+                "Lynnville",
+                "Monroe",
+                "Newton",
+                "Prairie City",
+                "Reasnor"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Jefferson County",
+            "Cities": [
+                "Batavia",
+                "Birmingham",
+                "Fairfield",
+                "Libertyville",
+                "Lockridge",
+                "Packwood"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Johnson County",
+            "Cities": [
+                "Coralville",
+                "Hills",
+                "Iowa City",
+                "North Liberty",
+                "Oxford",
+                "Shueyville",
+                "Solon",
+                "Swisher",
+                "Tiffin",
+                "University Heights"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Jones County",
+            "Cities": [
+                "Anamosa",
+                "Cascade",
+                "Center Junction",
+                "Langworthy",
+                "Martelle",
+                "Monticello",
+                "Morley",
+                "Olin",
+                "Oxford Junction",
+                "Wyoming"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Keokuk County",
+            "Cities": [
+                "Delta",
+                "Gibson",
+                "Harper",
+                "Hedrick",
+                "Keswick",
+                "Kinross",
+                "Richland",
+                "Sigourney",
+                "South English",
+                "Thornburg",
+                "What Cheer"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Kossuth County",
+            "Cities": [
+                "Algona",
+                "Bancroft",
+                "Bode",
+                "Burt",
+                "Fenton",
+                "Lakota",
+                "Ledyard",
+                "Lone Rock",
+                "Lu Verne",
+                "Ringsted",
+                "Swea City",
+                "Titonia",
+                "Wesley",
+                "Whittemore"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lee County",
+            "Cities": [
+                "Donnellson",
+                "Fort Madison",
+                "Houghton",
+                "Keokuk",
+                "Montrose",
+                "West Point"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Linn County",
+            "Cities": [
+                "Alburnett",
+                "Central City",
+                "Coggon",
+                "Ely",
+                "Hiawatha",
+                "Marion",
+                "Mount Vernon",
+                "Palo",
+                "Prairieburg",
+                "Robins",
+                "Springville",
+                "Urbana",
+                "Walker"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Louisa County",
+            "Cities": [
+                "Columbus City",
+                "Columbus Junction",
+                "Fruitland",
+                "Grandview",
+                "Letts",
+                "Oakville",
+                "Wapello"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lucas County",
+            "Cities": [
+                "Chariton",
+                "Derby",
+                "Lucas",
+                "Russell",
+                "Williamson"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Lyon County",
+            "Cities": [
+                "George",
+                "Inwood",
+                "Larchwood",
+                "Little Rock",
+                "Rock Rapids"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Madison County",
+            "Cities": [
+                "Bevington",
+                "Cumming",
+                "Dexter",
+                "Earlham",
+                "East Peru",
+                "Macksburg",
+                "St. Charles",
+                "Truro",
+                "Winterset"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Mahaska County",
+            "Cities": [
+                "Beacon",
+                "Eddyville",
+                "Fremont",
+                "Given",
+                "New Sharon",
+                "Oskaloosa",
+                "Rose Hill"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Marion County",
+            "Cities": [
+                "Attica",
+                "Bussey",
+                "Columbia",
+                "Dallas",
+                "Durham",
+                "Hamilton",
+                "Harvey",
+                "Knoxville",
+                "Melcher-Dallas",
+                "Pella",
+                "Pleasantville",
+                "Swan"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Marshall County",
+            "Cities": [
+                "Albion",
+                "Gilman",
+                "Haverhill",
+                "Le Grand",
+                "Liscomb",
+                "Marshalltown",
+                "Melbourne",
+                "Rhodes",
+                "State Center"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Mills County",
+            "Cities": [
+                "Emerson",
+                "Glenwood",
+                "Hastings",
+                "Malvern",
+                "Pacific Junction",
+                "Silver City"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Mitchell County",
+            "Cities": [
+                "McIntire",
+                "Osage",
+                "Riceville",
+                "Stacyville"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Monona County",
+            "Cities": [
+                "Blencoe",
+                "Castana",
+                "Mapleton",
+                "Moorhead",
+                "Onawa",
+                "Rodney",
+                "Soldier",
+                "Ute",
+                "Whiting"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Monroe County",
+            "Cities": [
+                "Albia",
+                "Bussey",
+                "Lovilia",
+                "Melrose",
+                "Moravia"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Montgomery County",
+            "Cities": [
+                "Elliott",
+                "Red Oak",
+                "Stanton",
+                "Villisca"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Muscatine County",
+            "Cities": [
+                "Atalissa",
+                "Conesville",
+                "Fruitland",
+                "Montpelier",
+                "Moscow",
+                "Muscatine",
+                "Nichols",
+                "West Liberty",
+                "Wilton"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "O'Brien County",
+            "Cities": [
+                "Calumet",
+                "Hartley",
+                "Paullina",
+                "Primghar",
+                "Sanborn",
+                "Sheldon",
+                "Sutherland"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Osceola County",
+            "Cities": [
+                "Ashton",
+                "Harris",
+                "Ocheyedan",
+                "Sibley"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Page County",
+            "Cities": [
+                "Blanchard",
+                "Braddyville",
+                "Clarinda",
+                "Coin",
+                "College Springs",
+                "Essex",
+                "New Market",
+                "Northboro",
+                "Shambaugh",
+                "Shenandoah",
+                "Yorktown"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Palo Alto County",
+            "Cities": [
+                "Cylinder",
+                "Emmetsburg",
+                "Graettinger",
+                "Lost Nation",
+                "Ruthven",
+                "West Bend"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Plymouth County",
+            "Cities": [
+                "Akron",
+                "Brunsville",
+                "Craig",
+                "Hinton",
+                "Kingsley",
+                "Le Mars",
+                "Merrill",
+                "Oyens",
+                "Remsen",
+                "Struble",
+                "Westfield"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Pocahontas County",
+            "Cities": [
+                "Fonda",
+                "Gilmore City",
+                "Laurens",
+                "Pocahontas",
+                "Rolfe"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Polk County",
+            "Cities": [
+                "Altoona",
+                "Ankeny",
+                "Bondurant",
+                "Clive",
+                "Des Moines",
+                "Grimes",
+                "Johnston",
+                "Norwalk",
+                "Pleasant Hill",
+                "Polk City",
+                "Urbandale",
+                "Waukee",
+                "West Des Moines"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Pottawattamie County",
+            "Cities": [
+                "Avoca",
+                "Carson",
+                "Carter Lake",
+                "Council Bluffs",
+                "Crescent",
+                "Hancock",
+                "Macedonia",
+                "McClelland",
+                "Neola",
+                "Oakland",
+                "Treynor",
+                "Underwood",
+                "Walnut"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Poweshiek County",
+            "Cities": [
+                "Brooklyn",
+                "Deep River",
+                "Grinnell",
+                "Malcom",
+                "Montezuma",
+                "Searsboro"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Ringgold County",
+            "Cities": [
+                "Diagonal",
+                "Kellerton",
+                "Mount Ayr",
+                "Redding"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Sac County",
+            "Cities": [
+                "Auburn",
+                "Early",
+                "Lake View",
+                "Lytton",
+                "Odebolt",
+                "Sac City",
+                "Schaller",
+                "Wall Lake"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Scott County",
+            "Cities": [
+                "Bettendorf",
+                "Blue Grass",
+                "Buffalo",
+                "Davenport",
+                "Donahue",
+                "Durant",
+                "Eldridge",
+                "Le Claire",
+                "Long Grove",
+                "Princeton",
+                "Riverdale",
+                "Walcott"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Shelby County",
+            "Cities": [
+                "Defiance",
+                "Earling",
+                "Elk Horn",
+                "Harlan",
+                "Irwin",
+                "Kirkman",
+                "Panama",
+                "Portsmouth",
+                "Shelby",
+                "Tennant"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Sioux County",
+            "Cities": [
+                "Alton",
+                "Boyden",
+                "Hawarden",
+                "Hospers",
+                "Hull",
+                "Ireton",
+                "Maurice",
+                "Orange City",
+                "Rock Valley",
+                "Sioux Center"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Story County",
+            "Cities": [
+                "Ames",
+                "Cambridge",
+                "Collins",
+                "Colo",
+                "Gilbert",
+                "Huxley",
+                "Maxwell",
+                "McCallsburg",
+                "Nevada",
+                "Roland",
+                "Sheldahl",
+                "Slater",
+                "Story City",
+                "Zearing"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Tama County",
+            "Cities": [
+                "Chelsea",
+                "Clutier",
+                "Dysart",
+                "Elberon",
+                "Garwin",
+                "Gladbrook",
+                "Lincoln",
+                "Montour",
+                "Reinbeck",
+                "Tama",
+                "Toledo",
+                "Traer"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Taylor County",
+            "Cities": [
+                "Bedford",
+                "Clearfield",
+                "Conway",
+                "Gravity",
+                "Lenox",
+                "New Market"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Union County",
+            "Cities": [
+                "Afton",
+                "Creston",
+                "Lorimor",
+                "Thayer"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Van Buren County",
+            "Cities": [
+                "Birmingham",
+                "Bonaparte",
+                "Cantril",
+                "Douds",
+                "Farmington",
+                "Keosauqua",
+                "Milton",
+                "Stockport"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Wapello County",
+            "Cities": [
+                "Agency",
+                "Blakesburg",
+                "Chillicothe",
+                "Eddyville",
+                "Kirkville",
+                "Ottumwa"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Warren County",
+            "Cities": [
+                "Ackworth",
+                "Carlisle",
+                "Cumming",
+                "Indianola",
+                "Lacona",
+                "Martensdale",
+                "Milo",
+                "New Virginia",
+                "Norwalk",
+                "St. Marys"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Washington County",
+            "Cities": [
+                "Ainsworth",
+                "Brighton",
+                "Crawfordsville",
+                "Kalona",
+                "Riverside",
+                "Washington",
+                "Wellman"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Wayne County",
+            "Cities": [
+                "Allerton",
+                "Corydon",
+                "Humeston",
+                "Lineville",
+                "Seymour"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Webster County",
+            "Cities": [
+                "Badger",
+                "Barnum",
+                "Dayton",
+                "Duncombe",
+                "Fort Dodge",
+                "Gowrie",
+                "Lehigh",
+                "Otho",
+                "Vincent"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Winnebago County",
+            "Cities": [
+                "Buffalo Center",
+                "Forest City",
+                "Lake Mills",
+                "Leland",
+                "Rake",
+                "Scarville",
+                "Thompson"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Winneshiek County",
+            "Cities": [
+                "Calmar",
+                "Castalia",
+                "Decorah",
+                "Fort Atkinson",
+                "Ossian",
+                "Ridgeway"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Woodbury County",
+            "Cities": [
+                "Anthon",
+                "Bronson",
+                "Correctionville",
+                "Cushing",
+                "Danbury",
+                "Hornick",
+                "Moville",
+                "Oto",
+                "Salix",
+                "Sergeant Bluff",
+                "Sloan",
+                "Sioux City"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Worth County",
+            "Cities": [
+                "Bolan",
+                "Fertile",
+                "Grafton",
+                "Hanlontown",
+                "Joice",
+                "Kensett",
+                "Manly",
+                "Northwood"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        },
+        {
+            "County Name": "Wright County",
+            "Cities": [
+                "Belmond",
+                "Clarion",
+                "Eagle Grove",
+                "Goldfield",
+                "Rowan",
+                "Thor"
+            ],
+            "Timezone": {
+                "Name": "Central",
+                "Zone": "US/Central",
+                "UTC_Offset": "-06:00"
+            }
+        }
+    ],
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}
