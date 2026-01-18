@@ -1,7 +1,7 @@
 {
     "Counties": [
         {
-            "County Name": "Adair County",
+            "County Name": "Adair",
             "Cities": [
                 "Adair",
                 "Casey",
@@ -16,7 +16,7 @@
             }
         },
         {
-            "County Name": "Adams County",
+            "County Name": "Adams",
             "Cities": [
                 "Corning",
                 "Carbon",
@@ -30,7 +30,7 @@
             }
         },
         {
-            "County Name": "Allamakee County",
+            "County Name": "Allamakee",
             "Cities": [
                 "Harpers Ferry",
                 "Lansing",
@@ -45,7 +45,7 @@
             }
         },
         {
-            "County Name": "Appanoose County",
+            "County Name": "Appanoose",
             "Cities": [
                 "Centerville",
                 "Cincinnati",
@@ -62,7 +62,7 @@
             }
         },
         {
-            "County Name": "Audubon County",
+            "County Name": "Audubon",
             "Cities": [
                 "Audubon",
                 "Brayton",
@@ -76,7 +76,7 @@
             }
         },
         {
-            "County Name": "Benton County",
+            "County Name": "Benton",
             "Cities": [
                 "Atkins",
                 "Belle Plaine",
@@ -98,7 +98,7 @@
             }
         },
         {
-            "County Name": "Black Hawk County",
+            "County Name": "Black Hawk",
             "Cities": [
                 "Cedar Falls",
                 "Evansdale",
@@ -114,7 +114,7 @@
             }
         },
         {
-            "County Name": "Boone County",
+            "County Name": "Boone",
             "Cities": [
                 "Boone",
                 "Madrid",
@@ -128,7 +128,7 @@
             }
         },
         {
-            "County Name": "Bremer County",
+            "County Name": "Bremer",
             "Cities": [
                 "Denver",
                 "Frederika",
@@ -144,7 +144,7 @@
             }
         },
         {
-            "County Name": "Buchanan County",
+            "County Name": "Buchanan",
             "Cities": [
                 "Aurora",
                 "Brandon",
@@ -165,7 +165,7 @@
             }
         },
         {
-            "County Name": "Buena Vista County",
+            "County Name": "Buena Vista",
             "Cities": [
                 "Albert City",
                 "Alta",
@@ -182,7 +182,7 @@
             }
         },
         {
-            "County Name": "Butler County",
+            "County Name": "Butler",
             "Cities": [
                 "Allison",
                 "Aplington",
@@ -200,7 +200,7 @@
             }
         },
         {
-            "County Name": "Calhoun County",
+            "County Name": "Calhoun",
             "Cities": [
                 "Barnum",
                 "Lake City",
@@ -217,7 +217,7 @@
             }
         },
         {
-            "County Name": "Carroll County",
+            "County Name": "Carroll",
             "Cities": [
                 "Arcadia",
                 "Carroll",
@@ -239,7 +239,7 @@
             }
         },
         {
-            "County Name": "Cass County",
+            "County Name": "Cass",
             "Cities": [
                 "Anita",
                 "Atlantic",
@@ -256,7 +256,7 @@
             }
         },
         {
-            "County Name": "Cedar County",
+            "County Name": "Cedar",
             "Cities": [
                 "Bennett",
                 "Clarence",
@@ -274,7 +274,7 @@
             }
         },
         {
-            "County Name": "Cerro Gordo County",
+            "County Name": "Cerro Gordo",
             "Cities": [
                 "Clear Lake",
                 "Dougherty",
@@ -292,7 +292,7 @@
             }
         },
         {
-            "County Name": "Cherokee County",
+            "County Name": "Cherokee",
             "Cities": [
                 "Cherokee",
                 "Cleghorn",
@@ -308,7 +308,7 @@
             }
         },
         {
-            "County Name": "Chickasaw County",
+            "County Name": "Chickasaw",
             "Cities": [
                 "Bassett",
                 "Bradford",
@@ -326,7 +326,7 @@
             }
         },
         {
-            "County Name": "Clarke County",
+            "County Name": "Clarke",
             "Cities": [
                 "Murray",
                 "Osceola",
@@ -339,7 +339,7 @@
             }
         },
         {
-            "County Name": "Clay County",
+            "County Name": "Clay",
             "Cities": [
                 "Dickens",
                 "Everly",
@@ -356,7 +356,7 @@
             }
         },
         {
-            "County Name": "Clayton County",
+            "County Name": "Clayton",
             "Cities": [
                 "Clayton",
                 "Elkader",
@@ -378,7 +378,7 @@
             }
         },
         {
-            "County Name": "Clinton County",
+            "County Name": "Clinton",
             "Cities": [
                 "Albany",
                 "Andover",
@@ -401,7 +401,7 @@
             }
         },
         {
-            "County Name": "Crawford County",
+            "County Name": "Crawford",
             "Cities": [
                 "Arion",
                 "Charter Oak",
@@ -421,7 +421,7 @@
             }
         },
         {
-            "County Name": "Dallas County",
+            "County Name": "Dallas",
             "Cities": [
                 "Adel",
                 "Bouton",
@@ -444,7 +444,7 @@
             }
         },
         {
-            "County Name": "Davis County",
+            "County Name": "Davis",
             "Cities": [
                 "Bloomfield",
                 "Drakesville",
@@ -457,7 +457,7 @@
             }
         },
         {
-            "County Name": "Decatur County",
+            "County Name": "Decatur",
             "Cities": [
                 "Davis City",
                 "Decatur City",
@@ -472,7 +472,7 @@
             }
         },
         {
-            "County Name": "Delaware County",
+            "County Name": "Delaware",
             "Cities": [
                 "Colesburg",
                 "Dundee",
@@ -491,7 +491,7 @@
             }
         },
         {
-            "County Name": "Des Moines County",
+            "County Name": "Des Moines",
             "Cities": [
                 "Burlington",
                 "Danville",
@@ -505,7 +505,7 @@
             }
         },
         {
-            "County Name": "Dickinson County",
+            "County Name": "Dickinson",
             "Cities": [
                 "Arnolds Park",
                 "Lake Park",
@@ -521,7 +521,7 @@
             }
         },
         {
-            "County Name": "Dubuque County",
+            "County Name": "Dubuque",
             "Cities": [
                 "Asbury",
                 "Balltown",
@@ -548,7 +548,7 @@
             }
         },
         {
-            "County Name": "Emmet County",
+            "County Name": "Emmet",
             "Cities": [
                 "Armstrong",
                 "Cylinder",
@@ -566,7 +566,7 @@
             }
         },
         {
-            "County Name": "Fayette County",
+            "County Name": "Fayette",
             "Cities": [
                 "Alpha",
                 "Arlington",
@@ -590,7 +590,7 @@
             }
         },
         {
-            "County Name": "Floyd County",
+            "County Name": "Floyd",
             "Cities": [
                 "Charles City",
                 "Colwell",
@@ -607,7 +607,7 @@
             }
         },
         {
-            "County Name": "Franklin County",
+            "County Name": "Franklin",
             "Cities": [
                 "Alexander",
                 "Geneva",
@@ -624,7 +624,7 @@
             }
         },
         {
-            "County Name": "Fremont County",
+            "County Name": "Fremont",
             "Cities": [
                 "Farragut",
                 "Hamburg",
@@ -641,7 +641,7 @@
             }
         },
         {
-            "County Name": "Greene County",
+            "County Name": "Greene",
             "Cities": [
                 "Churdan",
                 "Cooper",
@@ -658,7 +658,7 @@
             }
         },
         {
-            "County Name": "Grundy County",
+            "County Name": "Grundy",
             "Cities": [
                 "Beaman",
                 "Conrad",
@@ -675,7 +675,7 @@
             }
         },
         {
-            "County Name": "Guthrie County",
+            "County Name": "Guthrie",
             "Cities": [
                 "Bagley",
                 "Bayard",
@@ -694,7 +694,7 @@
             }
         },
         {
-            "County Name": "Hamilton County",
+            "County Name": "Hamilton",
             "Cities": [
                 "Blairsburg",
                 "Ellsworth",
@@ -713,7 +713,7 @@
             }
         },
         {
-            "County Name": "Hancock County",
+            "County Name": "Hancock",
             "Cities": [
                 "Britt",
                 "Corwith",
@@ -729,7 +729,7 @@
             }
         },
         {
-            "County Name": "Hardin County",
+            "County Name": "Hardin",
             "Cities": [
                 "Alden",
                 "Buckeye",
@@ -748,7 +748,7 @@
             }
         },
         {
-            "County Name": "Harrison County",
+            "County Name": "Harrison",
             "Cities": [
                 "California Junction",
                 "Dunlap",
@@ -769,7 +769,7 @@
             }
         },
         {
-            "County Name": "Henry County",
+            "County Name": "Henry",
             "Cities": [
                 "Birmingham",
                 "Hillsboro",
@@ -785,7 +785,7 @@
             }
         },
         {
-            "County Name": "Howard County",
+            "County Name": "Howard",
             "Cities": [
                 "Chester",
                 "Cresco",
@@ -800,7 +800,7 @@
             }
         },
         {
-            "County Name": "Humboldt County",
+            "County Name": "Humboldt",
             "Cities": [
                 "Bradgate",
                 "Dakota City",
@@ -818,7 +818,7 @@
             }
         },
         {
-            "County Name": "Ida County",
+            "County Name": "Ida",
             "Cities": [
                 "Arthur",
                 "Battle Creek",
@@ -833,7 +833,7 @@
             }
         },
         {
-            "County Name": "Iowa County",
+            "County Name": "Iowa",
             "Cities": [
                 "Ladora",
                 "Marengo",
@@ -849,7 +849,7 @@
             }
         },
         {
-            "County Name": "Jackson County",
+            "County Name": "Jackson",
             "Cities": [
                 "Andrew",
                 "Bellevue",
@@ -867,7 +867,7 @@
             }
         },
         {
-            "County Name": "Jasper County",
+            "County Name": "Jasper",
             "Cities": [
                 "Baxter",
                 "Colfax",
@@ -885,7 +885,7 @@
             }
         },
         {
-            "County Name": "Jefferson County",
+            "County Name": "Jefferson",
             "Cities": [
                 "Batavia",
                 "Birmingham",
@@ -901,7 +901,7 @@
             }
         },
         {
-            "County Name": "Johnson County",
+            "County Name": "Johnson",
             "Cities": [
                 "Coralville",
                 "Hills",
@@ -921,7 +921,7 @@
             }
         },
         {
-            "County Name": "Jones County",
+            "County Name": "Jones",
             "Cities": [
                 "Anamosa",
                 "Cascade",
@@ -941,7 +941,7 @@
             }
         },
         {
-            "County Name": "Keokuk County",
+            "County Name": "Keokuk",
             "Cities": [
                 "Delta",
                 "Gibson",
@@ -962,7 +962,7 @@
             }
         },
         {
-            "County Name": "Kossuth County",
+            "County Name": "Kossuth",
             "Cities": [
                 "Algona",
                 "Bancroft",
@@ -986,7 +986,7 @@
             }
         },
         {
-            "County Name": "Lee County",
+            "County Name": "Lee",
             "Cities": [
                 "Donnellson",
                 "Fort Madison",
@@ -1002,7 +1002,7 @@
             }
         },
         {
-            "County Name": "Linn County",
+            "County Name": "Linn",
             "Cities": [
                 "Alburnett",
                 "Central City",
@@ -1025,7 +1025,7 @@
             }
         },
         {
-            "County Name": "Louisa County",
+            "County Name": "Louisa",
             "Cities": [
                 "Columbus City",
                 "Columbus Junction",
@@ -1042,7 +1042,7 @@
             }
         },
         {
-            "County Name": "Lucas County",
+            "County Name": "Lucas",
             "Cities": [
                 "Chariton",
                 "Derby",
@@ -1057,7 +1057,7 @@
             }
         },
         {
-            "County Name": "Lyon County",
+            "County Name": "Lyon",
             "Cities": [
                 "George",
                 "Inwood",
@@ -1072,7 +1072,7 @@
             }
         },
         {
-            "County Name": "Madison County",
+            "County Name": "Madison",
             "Cities": [
                 "Bevington",
                 "Cumming",
@@ -1091,7 +1091,7 @@
             }
         },
         {
-            "County Name": "Mahaska County",
+            "County Name": "Mahaska",
             "Cities": [
                 "Beacon",
                 "Eddyville",
@@ -1108,7 +1108,7 @@
             }
         },
         {
-            "County Name": "Marion County",
+            "County Name": "Marion",
             "Cities": [
                 "Attica",
                 "Bussey",
@@ -1130,7 +1130,7 @@
             }
         },
         {
-            "County Name": "Marshall County",
+            "County Name": "Marshall",
             "Cities": [
                 "Albion",
                 "Gilman",
@@ -1149,7 +1149,7 @@
             }
         },
         {
-            "County Name": "Mills County",
+            "County Name": "Mills",
             "Cities": [
                 "Emerson",
                 "Glenwood",
@@ -1165,7 +1165,7 @@
             }
         },
         {
-            "County Name": "Mitchell County",
+            "County Name": "Mitchell",
             "Cities": [
                 "McIntire",
                 "Osage",
@@ -1179,7 +1179,7 @@
             }
         },
         {
-            "County Name": "Monona County",
+            "County Name": "Monona",
             "Cities": [
                 "Blencoe",
                 "Castana",
@@ -1198,7 +1198,7 @@
             }
         },
         {
-            "County Name": "Monroe County",
+            "County Name": "Monroe",
             "Cities": [
                 "Albia",
                 "Bussey",
@@ -1213,7 +1213,7 @@
             }
         },
         {
-            "County Name": "Montgomery County",
+            "County Name": "Montgomery",
             "Cities": [
                 "Elliott",
                 "Red Oak",
@@ -1227,7 +1227,7 @@
             }
         },
         {
-            "County Name": "Muscatine County",
+            "County Name": "Muscatine",
             "Cities": [
                 "Atalissa",
                 "Conesville",
@@ -1246,7 +1246,7 @@
             }
         },
         {
-            "County Name": "O'Brien County",
+            "County Name": "O'Brien",
             "Cities": [
                 "Calumet",
                 "Hartley",
@@ -1263,7 +1263,7 @@
             }
         },
         {
-            "County Name": "Osceola County",
+            "County Name": "Osceola",
             "Cities": [
                 "Ashton",
                 "Harris",
@@ -1277,7 +1277,7 @@
             }
         },
         {
-            "County Name": "Page County",
+            "County Name": "Page",
             "Cities": [
                 "Blanchard",
                 "Braddyville",
@@ -1298,7 +1298,7 @@
             }
         },
         {
-            "County Name": "Palo Alto County",
+            "County Name": "Palo Alto",
             "Cities": [
                 "Cylinder",
                 "Emmetsburg",
@@ -1314,7 +1314,7 @@
             }
         },
         {
-            "County Name": "Plymouth County",
+            "County Name": "Plymouth",
             "Cities": [
                 "Akron",
                 "Brunsville",
@@ -1335,7 +1335,7 @@
             }
         },
         {
-            "County Name": "Pocahontas County",
+            "County Name": "Pocahontas",
             "Cities": [
                 "Fonda",
                 "Gilmore City",
@@ -1350,7 +1350,7 @@
             }
         },
         {
-            "County Name": "Polk County",
+            "County Name": "Polk",
             "Cities": [
                 "Altoona",
                 "Ankeny",
@@ -1373,7 +1373,7 @@
             }
         },
         {
-            "County Name": "Pottawattamie County",
+            "County Name": "Pottawattamie",
             "Cities": [
                 "Avoca",
                 "Carson",
@@ -1396,7 +1396,7 @@
             }
         },
         {
-            "County Name": "Poweshiek County",
+            "County Name": "Poweshiek",
             "Cities": [
                 "Brooklyn",
                 "Deep River",
@@ -1412,7 +1412,7 @@
             }
         },
         {
-            "County Name": "Ringgold County",
+            "County Name": "Ringgold",
             "Cities": [
                 "Diagonal",
                 "Kellerton",
@@ -1426,7 +1426,7 @@
             }
         },
         {
-            "County Name": "Sac County",
+            "County Name": "Sac",
             "Cities": [
                 "Auburn",
                 "Early",
@@ -1444,7 +1444,7 @@
             }
         },
         {
-            "County Name": "Scott County",
+            "County Name": "Scott",
             "Cities": [
                 "Bettendorf",
                 "Blue Grass",
@@ -1466,7 +1466,7 @@
             }
         },
         {
-            "County Name": "Shelby County",
+            "County Name": "Shelby",
             "Cities": [
                 "Defiance",
                 "Earling",
@@ -1486,7 +1486,7 @@
             }
         },
         {
-            "County Name": "Sioux County",
+            "County Name": "Sioux",
             "Cities": [
                 "Alton",
                 "Boyden",
@@ -1506,7 +1506,7 @@
             }
         },
         {
-            "County Name": "Story County",
+            "County Name": "Story",
             "Cities": [
                 "Ames",
                 "Cambridge",
@@ -1530,7 +1530,7 @@
             }
         },
         {
-            "County Name": "Tama County",
+            "County Name": "Tama",
             "Cities": [
                 "Chelsea",
                 "Clutier",
@@ -1552,7 +1552,7 @@
             }
         },
         {
-            "County Name": "Taylor County",
+            "County Name": "Taylor",
             "Cities": [
                 "Bedford",
                 "Clearfield",
@@ -1568,7 +1568,7 @@
             }
         },
         {
-            "County Name": "Union County",
+            "County Name": "Union",
             "Cities": [
                 "Afton",
                 "Creston",
@@ -1582,7 +1582,7 @@
             }
         },
         {
-            "County Name": "Van Buren County",
+            "County Name": "Van Buren",
             "Cities": [
                 "Birmingham",
                 "Bonaparte",
@@ -1600,7 +1600,7 @@
             }
         },
         {
-            "County Name": "Wapello County",
+            "County Name": "Wapello",
             "Cities": [
                 "Agency",
                 "Blakesburg",
@@ -1616,7 +1616,7 @@
             }
         },
         {
-            "County Name": "Warren County",
+            "County Name": "Warren",
             "Cities": [
                 "Ackworth",
                 "Carlisle",
@@ -1636,7 +1636,7 @@
             }
         },
         {
-            "County Name": "Washington County",
+            "County Name": "Washington",
             "Cities": [
                 "Ainsworth",
                 "Brighton",
@@ -1653,7 +1653,7 @@
             }
         },
         {
-            "County Name": "Wayne County",
+            "County Name": "Wayne",
             "Cities": [
                 "Allerton",
                 "Corydon",
@@ -1668,7 +1668,7 @@
             }
         },
         {
-            "County Name": "Webster County",
+            "County Name": "Webster",
             "Cities": [
                 "Badger",
                 "Barnum",
@@ -1687,7 +1687,7 @@
             }
         },
         {
-            "County Name": "Winnebago County",
+            "County Name": "Winnebago",
             "Cities": [
                 "Buffalo Center",
                 "Forest City",
@@ -1704,7 +1704,7 @@
             }
         },
         {
-            "County Name": "Winneshiek County",
+            "County Name": "Winneshiek",
             "Cities": [
                 "Calmar",
                 "Castalia",
@@ -1720,7 +1720,7 @@
             }
         },
         {
-            "County Name": "Woodbury County",
+            "County Name": "Woodbury",
             "Cities": [
                 "Anthon",
                 "Bronson",
@@ -1742,7 +1742,7 @@
             }
         },
         {
-            "County Name": "Worth County",
+            "County Name": "Worth",
             "Cities": [
                 "Bolan",
                 "Fertile",
@@ -1760,7 +1760,7 @@
             }
         },
         {
-            "County Name": "Wright County",
+            "County Name": "Wright",
             "Cities": [
                 "Belmond",
                 "Clarion",

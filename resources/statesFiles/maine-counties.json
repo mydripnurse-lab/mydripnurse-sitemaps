@@ -1,0 +1,548 @@
+{
+    "Counties": [
+        {
+            "County Name": "Androscoggin",
+            "Cities": [
+                "Auburn",
+                "Lewiston",
+                "Lisbon",
+                "Mechanic Falls",
+                "Poland",
+                "Sabattus",
+                "Turner"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Aroostook",
+            "Cities": [
+                "Ashland",
+                "Blaine",
+                "Bridgewater",
+                "Caribou",
+                "Fort Fairfield",
+                "Fort Kent",
+                "Houlton",
+                "Island Falls",
+                "Limestone",
+                "Madawaska",
+                "Mars Hill",
+                "Oakfield",
+                "Presque Isle",
+                "Sherman",
+                "Van Buren",
+                "Washburn"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Cumberland",
+            "Cities": [
+                "Brunswick",
+                "Cape Elizabeth",
+                "Casco",
+                "Chebeague Island",
+                "Cumberland",
+                "Falmouth",
+                "Freeport",
+                "Gorham",
+                "Gray",
+                "Harpswell",
+                "Long Island",
+                "New Gloucester",
+                "North Yarmouth",
+                "Portland",
+                "Pownal",
+                "Raymond",
+                "Scarborough",
+                "South Portland",
+                "Standish",
+                "Westbrook",
+                "Windham",
+                "Yarmouth"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Franklin",
+            "Cities": [
+                "Farmington",
+                "Jay",
+                "Kingfield",
+                "Phillips",
+                "Rangeley",
+                "Wilton"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Hancock",
+            "Cities": [
+                "Bar Harbor",
+                "Blue Hill",
+                "Brooklin",
+                "Brooksville",
+                "Castine",
+                "Deer Isle",
+                "Ellsworth",
+                "Gouldsboro",
+                "Mount Desert",
+                "Southwest Harbor",
+                "Surry",
+                "Tremont"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Kennebec",
+            "Cities": [
+                "Augusta",
+                "Belgrade",
+                "Chelsea",
+                "Clinton",
+                "Farmingdale",
+                "Gardiner",
+                "Hallowell",
+                "Litchfield",
+                "Manchester",
+                "Monmouth",
+                "Mount Vernon",
+                "Oakland",
+                "Pittston",
+                "Randolph",
+                "Readfield",
+                "Rome",
+                "Sidney",
+                "Vassalboro",
+                "Vienna",
+                "Waterville",
+                "Wayne",
+                "West Gardiner",
+                "Windsor",
+                "Winthrop"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Knox",
+            "Cities": [
+                "Appleton",
+                "Camden",
+                "Cushing",
+                "Friendship",
+                "Hope",
+                "Isle au Haut",
+                "North Haven",
+                "Owls Head",
+                "Rockland",
+                "Rockport",
+                "St. George",
+                "South Thomaston",
+                "Thomaston",
+                "Union",
+                "Vinalhaven",
+                "Warren",
+                "Washington"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Lincoln",
+            "Cities": [
+                "Alna",
+                "Boothbay",
+                "Boothbay Harbor",
+                "Bremen",
+                "Bristol",
+                "Damariscotta",
+                "Dresden",
+                "Edgecomb",
+                "Jefferson",
+                "Newcastle",
+                "Nobleboro",
+                "South Bristol",
+                "Southport",
+                "Waldoboro",
+                "Westport Island",
+                "Whitefield",
+                "Wiscasset"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Oxford",
+            "Cities": [
+                "Andover",
+                "Bethel",
+                "Brownfield",
+                "Buckfield",
+                "Canton",
+                "Denmark",
+                "Dixfield",
+                "Fryeburg",
+                "Greenwood",
+                "Hanover",
+                "Hartford",
+                "Hebron",
+                "Hiram",
+                "Lovell",
+                "Mexico",
+                "Newry",
+                "Norway",
+                "Otisfield",
+                "Paris",
+                "Peru",
+                "Porter",
+                "Roxbury",
+                "Rumford",
+                "Stoneham",
+                "Stow",
+                "Sumner",
+                "Sweden",
+                "Upton",
+                "Waterford",
+                "West Paris",
+                "Woodstock"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Penobscot",
+            "Cities": [
+                "Bangor",
+                "Bradley",
+                "Brewer",
+                "Carmel",
+                "Charleston",
+                "Chester",
+                "Clifton",
+                "Corinth",
+                "Dexter",
+                "Dixmont",
+                "Eddington",
+                "Enfield",
+                "Etna",
+                "Exeter",
+                "Garland",
+                "Glenburn",
+                "Greenbush",
+                "Hermon",
+                "Holden",
+                "Howland",
+                "Hudson",
+                "Kenduskeag",
+                "LaGrange",
+                "Lee",
+                "Levant",
+                "Lincoln",
+                "Lowell",
+                "Mattawamkeag",
+                "Maxfield",
+                "Milford",
+                "Millinocket",
+                "Newburgh",
+                "Newport",
+                "Old Town",
+                "Orono",
+                "Orrington",
+                "Passadumkeag",
+                "Patten",
+                "Plymouth",
+                "Sebec",
+                "Springfield",
+                "Stacyville",
+                "Veazie",
+                "Winn",
+                "Woodville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Piscataquis",
+            "Cities": [
+                "Abbot",
+                "Atkinson",
+                "Bowerbank",
+                "Brownville",
+                "Dover-Foxcroft",
+                "Greenville",
+                "Guilford",
+                "Medford",
+                "Milo",
+                "Monson",
+                "Parkman",
+                "Sangerville",
+                "Sebec",
+                "Shirley",
+                "Willimantic"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Sagadahoc",
+            "Cities": [
+                "Arrowsic",
+                "Bath",
+                "Bowdoin",
+                "Bowdoinham",
+                "Georgetown",
+                "Phippsburg",
+                "Topsham",
+                "West Bath",
+                "Woolwich"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Somerset",
+            "Cities": [
+                "Anson",
+                "Athens",
+                "Bingham",
+                "Brighton Plantation",
+                "Cambridge",
+                "Canaan",
+                "Caratunk",
+                "Cornville",
+                "Detroit",
+                "Embden",
+                "Fairfield",
+                "Harmony",
+                "Hartland",
+                "Jackman",
+                "Madison",
+                "Mercer",
+                "Moscow",
+                "New Portland",
+                "Norridgewock",
+                "Palmyra",
+                "Pittsfield",
+                "Skowhegan",
+                "Smithfield",
+                "Solon",
+                "Starks",
+                "The Forks",
+                "West Forks"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Waldo",
+            "Cities": [
+                "Belfast",
+                "Belmont",
+                "Brooks",
+                "Burnham",
+                "Frankfort",
+                "Freedom",
+                "Islesboro",
+                "Jackson",
+                "Knox",
+                "Liberty",
+                "Lincolnville",
+                "Monroe",
+                "Montville",
+                "Morrill",
+                "Northport",
+                "Palermo",
+                "Prospect",
+                "Searsmont",
+                "Searsport",
+                "Stockton Springs",
+                "Swanville",
+                "Thorndike",
+                "Troy",
+                "Unity",
+                "Winterport"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Washington",
+            "Cities": [
+                "Addison",
+                "Baileyville",
+                "Beals",
+                "Beddington",
+                "Calais",
+                "Centerville",
+                "Cherryfield",
+                "Columbia",
+                "Columbia Falls",
+                "Dennysville",
+                "East Machias",
+                "Eastport",
+                "Jonesboro",
+                "Jonesport",
+                "Lubec",
+                "Machias",
+                "Machiasport",
+                "Meddybemps",
+                "Milbridge",
+                "Pembroke",
+                "Perry",
+                "Princeton",
+                "Robbinston",
+                "Steuben",
+                "Vanceboro",
+                "Wesley",
+                "Whiting",
+                "Whitneyville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "York",
+            "Cities": [
+                "Acton",
+                "Alfred",
+                "Arundel",
+                "Berwick",
+                "Biddeford",
+                "Buxton",
+                "Cornish",
+                "Dayton",
+                "Eliot",
+                "Hollis",
+                "Kennebunk",
+                "Kennebunkport",
+                "Kittery",
+                "Lebanon",
+                "Limerick",
+                "Limington",
+                "Lyman",
+                "Newfield",
+                "North Berwick",
+                "Old Orchard Beach",
+                "Ogunquit",
+                "Parsonsfield",
+                "Sanford",
+                "Shapleigh",
+                "South Berwick",
+                "Waterboro",
+                "Wells",
+                "York"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        }
+    ],
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}

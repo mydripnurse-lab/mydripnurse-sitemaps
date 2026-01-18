@@ -1,0 +1,479 @@
+{
+    "Counties": [
+        {
+            "County Name": "Allegany",
+            "Cities": [
+                "Cumberland",
+                "Frostburg",
+                "Lonaconing",
+                "Luke",
+                "Midland",
+                "Mount Savage",
+                "Westernport"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Anne Arundel",
+            "Cities": [
+                "Annapolis",
+                "Brooklyn Park",
+                "Cape St. Claire",
+                "Crofton",
+                "Edgewater",
+                "Glen Burnie",
+                "Highland Beach",
+                "Linthicum",
+                "Odenton",
+                "Pasadena",
+                "Severn",
+                "Severna Park"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Baltimore City",
+            "Cities": [
+                "Baltimore"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Baltimore",
+            "Cities": [
+                "Arbutus",
+                "Catonsville",
+                "Cockeysville",
+                "Dundalk",
+                "Essex",
+                "Garrison",
+                "Halethorpe",
+                "Hunt Valley",
+                "Lutherville",
+                "Middle River",
+                "Owings Mills",
+                "Parkville",
+                "Pikesville",
+                "Randallstown",
+                "Reisterstown",
+                "Rosedale",
+                "Sparks",
+                "Towson",
+                "Woodlawn"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Calvert",
+            "Cities": [
+                "Chesapeake Beach",
+                "North Beach",
+                "Prince Frederick"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Caroline",
+            "Cities": [
+                "Denton",
+                "Federalsburg",
+                "Greensboro",
+                "Henderson",
+                "Hillsboro",
+                "Preston",
+                "Ridgely"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Carroll",
+            "Cities": [
+                "Hampstead",
+                "Manchester",
+                "Mount Airy",
+                "New Windsor",
+                "Sykesville",
+                "Taneytown",
+                "Union Bridge",
+                "Westminster"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Cecil",
+            "Cities": [
+                "Cecilton",
+                "Charlestown",
+                "Chesapeake City",
+                "Elkton",
+                "North East",
+                "Perryville",
+                "Port Deposit",
+                "Rising Sun"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Charles",
+            "Cities": [
+                "Indian Head",
+                "La Plata",
+                "Port Tobacco Village"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Dorchester",
+            "Cities": [
+                "Brookview",
+                "Cambridge",
+                "Church Creek",
+                "East New Market",
+                "Galestown",
+                "Hurlock",
+                "Secretary",
+                "Vienna"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Frederick",
+            "Cities": [
+                "Brunswick",
+                "Burkittsville",
+                "Emmitsburg",
+                "Frederick",
+                "Middletown",
+                "Mount Airy",
+                "Myersville",
+                "New Market",
+                "Rosemont",
+                "Thurmont",
+                "Walkersville",
+                "Woodsboro"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Garrett",
+            "Cities": [
+                "Accident",
+                "Deer Park",
+                "Friendsville",
+                "Grantsville",
+                "Kitzmiller",
+                "Mountain Lake Park",
+                "Oakland"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Harford",
+            "Cities": [
+                "Aberdeen",
+                "Bel Air",
+                "Edgewood",
+                "Havre de Grace",
+                "Joppa"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Howard",
+            "Cities": [
+                "Columbia",
+                "Elkridge",
+                "Ellicott City",
+                "Laurel"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Kent",
+            "Cities": [
+                "Betterton",
+                "Chestertown",
+                "Galena",
+                "Millington",
+                "Rock Hall"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Montgomery",
+            "Cities": [
+                "Barnesville",
+                "Brookeville",
+                "Chevy Chase",
+                "Gaithersburg",
+                "Germantown",
+                "Kensington",
+                "Laytonsville",
+                "Poolesville",
+                "Rockville",
+                "Takoma Park"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Prince George's",
+            "Cities": [
+                "Berwyn Heights",
+                "Bladensburg",
+                "Bowie",
+                "Brentwood",
+                "Capitol Heights",
+                "Cheverly",
+                "College Park",
+                "Colmar Manor",
+                "Cottage City",
+                "District Heights",
+                "Edmonston",
+                "Fairmount Heights",
+                "Forest Heights",
+                "Glenarden",
+                "Greenbelt",
+                "Hyattsville",
+                "Landover Hills",
+                "Laurel",
+                "Morningside",
+                "Mount Rainier",
+                "New Carrollton",
+                "North Brentwood",
+                "Riverdale Park",
+                "Seat Pleasant",
+                "University Park"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Queen Anne's",
+            "Cities": [
+                "Barclay",
+                "Centreville",
+                "Church Hill",
+                "Queen Anne",
+                "Queenstown",
+                "Sudlersville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "St. Mary's",
+            "Cities": [
+                "California",
+                "Leonardtown",
+                "Lexington Park"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Somerset",
+            "Cities": [
+                "Crisfield",
+                "Princess Anne"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Talbot",
+            "Cities": [
+                "Easton",
+                "Oxford",
+                "Queenstown",
+                "St. Michaels",
+                "Trappe"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Washington",
+            "Cities": [
+                "Boonsboro",
+                "Clear Spring",
+                "Funkstown",
+                "Hagerstown",
+                "Hancock",
+                "Keedysville",
+                "Sharpsburg",
+                "Smithsburg",
+                "Williamsport"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Wicomico",
+            "Cities": [
+                "Delmar",
+                "Fruitland",
+                "Mardela Springs",
+                "Pittsville",
+                "Salisbury",
+                "Sharptown"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Worcester",
+            "Cities": [
+                "Berlin",
+                "Fruitland",
+                "Ocean City",
+                "Pocomoke City",
+                "Snow Hill"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "US/Eastern",
+                "UTC_Offset": "-05:00"
+            }
+        }
+    ],
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}
