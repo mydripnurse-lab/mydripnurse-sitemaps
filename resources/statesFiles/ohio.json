@@ -1,0 +1,2509 @@
+{
+    "State": "Ohio",
+    "State Abbr": "OH",
+    "Counties": [
+        {
+            "County Name": "Adams County",
+            "Cities": [
+                "Bentonville",
+                "Cherry Fork",
+                "Manchester",
+                "Peebles",
+                "Rome",
+                "Seaman",
+                "West Union",
+                "Winchester"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Allen County",
+            "Cities": [
+                "Beaverdam",
+                "Bluffton",
+                "Cairo",
+                "Cridersville",
+                "Delphos",
+                "Elida",
+                "Fort Shawnee",
+                "Gomer",
+                "Harrod",
+                "Lafayette",
+                "Lima",
+                "Spencerville",
+                "Westminster"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Ashland County",
+            "Cities": [
+                "Ashland",
+                "Bailey Lakes",
+                "Cinnamon Lake",
+                "Hayesville",
+                "Jeromesville",
+                "Loudonville",
+                "Mifflin",
+                "Nankin",
+                "New London",
+                "Perrysville",
+                "Polk",
+                "Savannah",
+                "Sullivan"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Ashtabula County",
+            "Cities": [
+                "Andover",
+                "Ashtabula",
+                "Austinburg",
+                "Conneaut",
+                "Edgewood",
+                "Geneva",
+                "Geneva-on-the-Lake",
+                "Jefferson",
+                "Kingsville",
+                "North Kingsville",
+                "Orwell",
+                "Roaming Shores",
+                "Rock Creek",
+                "Saybrook-on-the-Lake"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Athens County",
+            "Cities": [
+                "Albany",
+                "Amesville",
+                "Athens",
+                "Buchtel",
+                "Chauncey",
+                "Coolville",
+                "Glouster",
+                "Hockingport",
+                "Jacksonville",
+                "Millfield",
+                "Murray City",
+                "Nelsonville",
+                "New Marshfield",
+                "Stewart",
+                "The Plains",
+                "Trimble",
+                "Tuppers Plains"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Auglaize County",
+            "Cities": [
+                "Buckland",
+                "Cridersville",
+                "Fort Shawnee",
+                "Maria Stein",
+                "Minster",
+                "New Bremen",
+                "New Hampshire",
+                "New Knoxville",
+                "St. Johns",
+                "St. Marys",
+                "Uniopolis",
+                "Wapakoneta",
+                "Waynesfield"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Belmont County",
+            "Cities": [
+                "Bannock",
+                "Barnesville",
+                "Bellaire",
+                "Belmont",
+                "Bethesda",
+                "Blaine",
+                "Bridgeport",
+                "Brookside",
+                "Fairview",
+                "Flushing",
+                "Glencoe",
+                "Holloway",
+                "Lafferty",
+                "Lansing",
+                "Lloydsville",
+                "Martins Ferry",
+                "Morristown",
+                "Neffs",
+                "Powhatan Point",
+                "Shadyside",
+                "St. Clairsville",
+                "Wilson",
+                "Wolfhurst",
+                "Yorkville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Brown County",
+            "Cities": [
+                "Aberdeen",
+                "Fayetteville",
+                "Georgetown",
+                "Hamersville",
+                "Higginsport",
+                "Lake Lorelei",
+                "Lake Waynoka",
+                "Marathon",
+                "Mount Orab",
+                "Ripley",
+                "Russellville",
+                "Sardinia",
+                "St. Martin"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Butler County",
+            "Cities": [
+                "Beckett Ridge",
+                "College Corner",
+                "Darrtown",
+                "Dunlap",
+                "Fairfield",
+                "Forest Park",
+                "Four Bridges",
+                "Franklin",
+                "Hamilton",
+                "Highpoint",
+                "Jacksonburg",
+                "Mason",
+                "Middletown",
+                "Millville",
+                "Monroe",
+                "New Miami",
+                "Olde West Chester",
+                "Oxford",
+                "Pleasant Run",
+                "Pleasant Run Farm",
+                "Ross",
+                "Seven Mile",
+                "Sharonville",
+                "Somerville",
+                "Springdale",
+                "Trenton",
+                "Wetherington",
+                "Williamsdale",
+                "Woodsdale"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Carroll County",
+            "Cities": [
+                "Amsterdam",
+                "Bowerston",
+                "Carrollton",
+                "Dellroy",
+                "Lake Mohawk",
+                "Leesville",
+                "Magnolia",
+                "Malvern",
+                "Minerva",
+                "Pekin",
+                "Salineville",
+                "Sherrodsville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Champaign County",
+            "Cities": [
+                "Christiansburg",
+                "Mechanicsburg",
+                "Mutual",
+                "North Lewisburg",
+                "Rosewood",
+                "St. Paris",
+                "Urbana",
+                "Woodstock"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Clark County",
+            "Cities": [
+                "Catawba",
+                "Clifton",
+                "Crystal Lakes",
+                "Donnelsville",
+                "Enon",
+                "Green Meadows",
+                "Holiday Valley",
+                "Huber Heights",
+                "Lawrenceville",
+                "Medway",
+                "New Carlisle",
+                "North Hampton",
+                "Northridge",
+                "Park Layne",
+                "South Charleston",
+                "South Vienna",
+                "Springfield",
+                "Tremont City",
+                "Wright-Patterson AFB"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Clermont County",
+            "Cities": [
+                "Amelia",
+                "Batavia",
+                "Bethel",
+                "Camp Dennison",
+                "Cherry Grove",
+                "Chilo",
+                "Day Heights",
+                "Dry Run",
+                "Felicity",
+                "Forestville",
+                "Goshen",
+                "Loveland",
+                "Marathon",
+                "Miamiville",
+                "Milford",
+                "Moscow",
+                "Mount Carmel",
+                "Mount Repose",
+                "Mulberry",
+                "Neville",
+                "New Richmond",
+                "Owensville",
+                "Summerside",
+                "Terrace Park",
+                "The Village of Indian Hill",
+                "Williamsburg",
+                "Withamsville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Clinton County",
+            "Cities": [
+                "Blanchester",
+                "Clarksville",
+                "Harveysburg",
+                "Lynchburg",
+                "Martinsville",
+                "Midland",
+                "New Vienna",
+                "Port William",
+                "Sabina",
+                "Wilmington"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Columbiana County",
+            "Cities": [
+                "Alliance",
+                "Calcutta",
+                "Columbiana",
+                "Damascus",
+                "East Alliance",
+                "East Liverpool",
+                "East Palestine",
+                "East Rochester",
+                "Glenmoor",
+                "Guilford Lake",
+                "Hanoverton",
+                "Homeworth",
+                "Irondale",
+                "La Croft",
+                "Lake Tomahawk",
+                "Leetonia",
+                "Lisbon",
+                "Maple Ridge",
+                "Minerva",
+                "Negley",
+                "New Waterford",
+                "Petersburg",
+                "Rogers",
+                "Salem",
+                "Salem Heights",
+                "Salineville",
+                "Sebring",
+                "Summitville",
+                "Washingtonville",
+                "Wellsville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Coshocton County",
+            "Cities": [
+                "Baltic",
+                "Canal Lewisville",
+                "Conesville",
+                "Coshocton",
+                "Fresno",
+                "Nellie",
+                "Newcomerstown",
+                "Plainfield",
+                "Warsaw",
+                "West Lafayette"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Crawford County",
+            "Cities": [
+                "Bucyrus",
+                "Chatfield",
+                "Crestline",
+                "Galion",
+                "New Washington",
+                "North Robinson",
+                "Oceola",
+                "Sulphur Springs",
+                "Tiro"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Cuyahoga County",
+            "Cities": [
+                "Aurora",
+                "Avon",
+                "Avon Lake",
+                "Bainbridge",
+                "Bay Village",
+                "Beachwood",
+                "Bedford",
+                "Bedford Heights",
+                "Bentleyville",
+                "Berea",
+                "Bratenahl",
+                "Brecksville",
+                "Broadview Heights",
+                "Brook Park",
+                "Brooklyn",
+                "Brooklyn Heights",
+                "Brunswick",
+                "Chagrin Falls",
+                "Chesterland",
+                "Cleveland",
+                "Cleveland Heights",
+                "Cuyahoga Heights",
+                "East Cleveland",
+                "Euclid",
+                "Fairview Park",
+                "Garfield Heights",
+                "Gates Mills",
+                "Glenwillow",
+                "Highland Heights",
+                "Highland Hills",
+                "Hunting Valley",
+                "Independence",
+                "Kirtland",
+                "Lakewood",
+                "Linndale",
+                "Lyndhurst",
+                "Macedonia",
+                "Maple Heights",
+                "Mayfield",
+                "Mayfield Heights",
+                "Middleburg Heights",
+                "Moreland Hills",
+                "Newburgh Heights",
+                "North Olmsted",
+                "North Randall",
+                "North Ridgeville",
+                "North Royalton",
+                "Northfield",
+                "Oakwood",
+                "Olmsted Falls",
+                "Orange",
+                "Parma",
+                "Parma Heights",
+                "Pepper Pike",
+                "Reminderville",
+                "Richfield",
+                "Richmond Heights",
+                "Rocky River",
+                "Seven Hills",
+                "Shaker Heights",
+                "Solon",
+                "South Euclid",
+                "South Russell",
+                "Strongsville",
+                "Twinsburg",
+                "University Heights",
+                "Valley View",
+                "Walton Hills",
+                "Warrensville Heights",
+                "Westlake",
+                "Wickliffe",
+                "Willoughby Hills",
+                "Willowick",
+                "Woodmere"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Darke County",
+            "Cities": [
+                "Ansonia",
+                "Arcanum",
+                "Bradford",
+                "Burkettsville",
+                "Castine",
+                "Gettysburg",
+                "Gordon",
+                "Greenville",
+                "Hollansburg",
+                "Ithaca",
+                "New Madison",
+                "New Weston",
+                "North Star",
+                "Osgood",
+                "Palestine",
+                "Pitsburg",
+                "Rossburg",
+                "Union City",
+                "Versailles",
+                "Wayne Lakes",
+                "Yorkshire"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Defiance County",
+            "Cities": [
+                "Brunersburg",
+                "Defiance",
+                "Hicksville",
+                "Ney",
+                "Sherwood"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Delaware County",
+            "Cities": [
+                "Ashley",
+                "Columbus",
+                "Delaware",
+                "Dublin",
+                "Galena",
+                "Kilbourne",
+                "Ostrander",
+                "Powell",
+                "Radnor",
+                "Shawnee Hills",
+                "Sunbury",
+                "Westerville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Erie County",
+            "Cities": [
+                "Bay View",
+                "Bellevue",
+                "Berlin Heights",
+                "Beulah Beach",
+                "Birmingham",
+                "Bloomingville",
+                "Castalia",
+                "Crystal Rock",
+                "Huron",
+                "Kelleys Island",
+                "Milan",
+                "Mitiwanga",
+                "Sandusky",
+                "Vermilion",
+                "Whites Landing"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Fairfield County",
+            "Cities": [
+                "Amanda",
+                "Baltimore",
+                "Bremen",
+                "Buckeye Lake",
+                "Canal Winchester",
+                "Carroll",
+                "Columbus",
+                "Fairfield Beach",
+                "Hamburg",
+                "Harbor Hills",
+                "Hide-A-Way Hills",
+                "Lancaster",
+                "Lithopolis",
+                "Millersport",
+                "Pickerington",
+                "Pleasantville",
+                "Reynoldsburg",
+                "Rushville",
+                "Stoutsville",
+                "Sugar Grove",
+                "Tarlton",
+                "Thurston",
+                "West Rushville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Fayette County",
+            "Cities": [
+                "Bloomingburg",
+                "Good Hope",
+                "Jeffersonville",
+                "Milledgeville",
+                "Mount Sterling",
+                "New Holland",
+                "Octa",
+                "Pancoastburg",
+                "Washington Court House"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Franklin County",
+            "Cities": [
+                "Bexley",
+                "Blacklick Estates",
+                "Brice",
+                "Canal Winchester",
+                "Columbus",
+                "Commercial Point",
+                "Darbydale",
+                "Dublin",
+                "Gahanna",
+                "Grandview Heights",
+                "Grove City",
+                "Groveport",
+                "Harrisburg",
+                "Hilliard",
+                "Huber Ridge",
+                "Lake Darby",
+                "Lincoln Village",
+                "Lithopolis",
+                "Lockbourne",
+                "Marble Cliff",
+                "Minerva Park",
+                "New Albany",
+                "Obetz",
+                "Orient",
+                "Pataskala",
+                "Pickerington",
+                "Reynoldsburg",
+                "Riverlea",
+                "Upper Arlington",
+                "Urbancrest",
+                "Valleyview",
+                "West Jefferson",
+                "Westerville",
+                "Whitehall",
+                "Worthington"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Fulton County",
+            "Cities": [
+                "Ai",
+                "Archbold",
+                "Delta",
+                "Fayette",
+                "Lyons",
+                "Metamora",
+                "Neapolis",
+                "Pettisville",
+                "Swanton",
+                "Tedrow",
+                "Wauseon"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Gallia County",
+            "Cities": [
+                "Bidwell",
+                "Centerville (Thurman)",
+                "Cheshire",
+                "Crown City",
+                "Gallipolis",
+                "Kanauga",
+                "Rio Grande",
+                "Vinton"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Geauga County",
+            "Cities": [
+                "Aquilla",
+                "Aurora",
+                "Bainbridge",
+                "Bass Lake",
+                "Bentleyville",
+                "Burton",
+                "Chagrin Falls",
+                "Chardon",
+                "Chesterland",
+                "Gates Mills",
+                "Hunting Valley",
+                "Kirtland",
+                "Kirtland Hills",
+                "Middlefield",
+                "Moreland Hills",
+                "Parkman",
+                "Reminderville",
+                "Solon",
+                "South Russell",
+                "Willoughby Hills"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Greene County",
+            "Cities": [
+                "Beavercreek",
+                "Bellbrook",
+                "Bowersville",
+                "Cedarville",
+                "Centerville",
+                "Clifton",
+                "Dayton",
+                "Fairborn",
+                "Holiday Valley",
+                "Huber Heights",
+                "Jamestown",
+                "Kettering",
+                "Riverside",
+                "Shawnee Hills",
+                "Spring Valley",
+                "Wilberforce",
+                "Wright-Patterson AFB",
+                "Xenia",
+                "Yellow Springs"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Guernsey County",
+            "Cities": [
+                "Buffalo",
+                "Byesville",
+                "Cambridge",
+                "Cumberland",
+                "Fairview",
+                "Kimbolton",
+                "Lore City",
+                "New Concord",
+                "Old Washington",
+                "Pleasant City",
+                "Quaker City",
+                "Salesville",
+                "Senecaville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Hamilton County",
+            "Cities": [
+                "Addyston",
+                "Amberley",
+                "Arlington Heights",
+                "Blue Ash",
+                "Blue Jay",
+                "Brecon",
+                "Bridgetown",
+                "Camp Dennison",
+                "Cherry Grove",
+                "Cheviot",
+                "Cincinnati",
+                "Cleves",
+                "Coldstream",
+                "Concorde Hills",
+                "Covedale",
+                "Deer Park",
+                "Delhi Hills",
+                "Delshire",
+                "Dent",
+                "Dillonvale",
+                "Dry Ridge",
+                "Dry Run",
+                "Dunlap",
+                "Elizabethtown",
+                "Elmwood Place",
+                "Evendale",
+                "Fairfax",
+                "Fairfield",
+                "Finneytown",
+                "Forest Park",
+                "Forestville",
+                "Fruit Hill",
+                "Glendale",
+                "Golf Manor",
+                "Grandview",
+                "Greenhills",
+                "Groesbeck",
+                "Harrison",
+                "Highpoint",
+                "Hooven",
+                "Kenwood",
+                "Lincoln Heights",
+                "Lockland",
+                "Loveland",
+                "Loveland Park",
+                "Mack",
+                "Madeira",
+                "Madison Place",
+                "Mariemont",
+                "Miami Heights",
+                "Miamitown",
+                "Miamiville",
+                "Milford",
+                "Monfort Heights",
+                "Montgomery",
+                "Mount Carmel",
+                "Mount Healthy",
+                "Mount Healthy Heights",
+                "New Baltimore",
+                "New Burlington",
+                "New Haven",
+                "Newtown",
+                "North Bend",
+                "North College Hill",
+                "Northbrook",
+                "Northgate",
+                "Norwood",
+                "Plainville",
+                "Pleasant Hills",
+                "Pleasant Run",
+                "Pleasant Run Farm",
+                "Reading",
+                "Remington",
+                "Ridgewood",
+                "Ross",
+                "Rossmoyne",
+                "Salem Heights",
+                "Sharonville",
+                "Shawnee",
+                "Sherwood",
+                "Silverton",
+                "Sixteen Mile Stand",
+                "Skyline Acres",
+                "Springdale",
+                "St. Bernard",
+                "Taylor Creek",
+                "Terrace Park",
+                "The Village of Indian Hill",
+                "Turpin Hills",
+                "White Oak",
+                "Withamsville",
+                "Woodlawn",
+                "Wyoming"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Hancock County",
+            "Cities": [
+                "Arcadia",
+                "Arlington",
+                "Bairdstown",
+                "Benton Ridge",
+                "Bloomdale",
+                "Bluffton",
+                "Findlay",
+                "Fostoria",
+                "Jenera",
+                "McComb",
+                "Mount Blanchard",
+                "Mount Cory",
+                "North Baltimore",
+                "Rawson",
+                "Van Buren",
+                "Vanlue"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Hardin County",
+            "Cities": [
+                "Ada",
+                "Alger",
+                "Dola",
+                "Dunkirk",
+                "Forest",
+                "Kenton",
+                "McGuffey",
+                "Mount Victory",
+                "Patterson",
+                "Ridgeway"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Harrison County",
+            "Cities": [
+                "Adena",
+                "Bowerston",
+                "Cadiz",
+                "Deersville",
+                "Freeport",
+                "Harrisville",
+                "Holloway",
+                "Hopedale",
+                "Jewett",
+                "New Athens",
+                "Scio",
+                "Tippecanoe"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Henry County",
+            "Cities": [
+                "Archbold",
+                "Deshler",
+                "Florida",
+                "Grand Rapids",
+                "Hamler",
+                "Holgate",
+                "Liberty Center",
+                "Malinta",
+                "McClure",
+                "Napoleon",
+                "Neapolis",
+                "New Bavaria",
+                "Ridgeville Corners"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Highland County",
+            "Cities": [
+                "Buford",
+                "Greenfield",
+                "Highland",
+                "Highland Holiday",
+                "Hillsboro",
+                "Leesburg",
+                "Lynchburg",
+                "Mowrystown",
+                "New Vienna",
+                "Rocky Fork Point",
+                "Sardinia",
+                "Sinking Spring"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Hocking County",
+            "Cities": [
+                "Adelphi",
+                "Buchtel",
+                "Carbon Hill",
+                "Haydenville",
+                "Hide-A-Way Hills",
+                "Laurelville",
+                "Logan",
+                "Murray City",
+                "Nelsonville",
+                "Rockbridge",
+                "West Logan"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Holmes County",
+            "Cities": [
+                "Baltic",
+                "Berlin",
+                "Gann (Brinkhaven)",
+                "Glenmont",
+                "Holmesville",
+                "Killbuck",
+                "Lake Buckhorn",
+                "Loudonville",
+                "Millersburg",
+                "Mount Hope",
+                "Nashville",
+                "Sugarcreek",
+                "Walnut Creek",
+                "Winesburg"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Huron County",
+            "Cities": [
+                "Bellevue",
+                "Celeryville",
+                "Collins",
+                "Greenwich",
+                "Holiday Lakes",
+                "Milan",
+                "Monroeville",
+                "New Haven",
+                "New London",
+                "North Fairfield",
+                "Norwalk",
+                "Plymouth",
+                "Wakeman",
+                "Willard"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Jackson County",
+            "Cities": [
+                "Centerville (Thurman)",
+                "Coalton",
+                "Jackson",
+                "Oak Hill",
+                "Wellston"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Jefferson County",
+            "Cities": [
+                "Adena",
+                "Amsterdam",
+                "Bergholz",
+                "Bloomingdale",
+                "Brilliant",
+                "Connorville",
+                "Dillonvale",
+                "East Springfield",
+                "Empire",
+                "Harrisville",
+                "Irondale",
+                "Mingo Junction",
+                "Mount Pleasant",
+                "New Alexandria",
+                "Pottery Addition",
+                "Rayland",
+                "Richmond",
+                "Salineville",
+                "Steubenville",
+                "Stratton",
+                "Tiltonsville",
+                "Toronto",
+                "Wellsville",
+                "Wintersville",
+                "Yorkville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Knox County",
+            "Cities": [
+                "Apple Valley",
+                "Bladensburg",
+                "Centerburg",
+                "Danville",
+                "Fredericktown",
+                "Gambier",
+                "Gann (Brinkhaven)",
+                "Howard",
+                "Martinsburg",
+                "Mount Vernon",
+                "South Mount Vernon",
+                "Utica"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Lake County",
+            "Cities": [
+                "Eastlake",
+                "Euclid",
+                "Fairport Harbor",
+                "Gates Mills",
+                "Grand River",
+                "Highland Heights",
+                "Kirtland",
+                "Kirtland Hills",
+                "Lakeline",
+                "Madison",
+                "Mayfield",
+                "Mentor",
+                "Mentor-on-the-Lake",
+                "North Madison",
+                "North Perry",
+                "Painesville",
+                "Perry",
+                "Richmond Heights",
+                "Timberlake",
+                "Waite Hill",
+                "Wickliffe",
+                "Willoughby",
+                "Willoughby Hills",
+                "Willowick"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Lawrence County",
+            "Cities": [
+                "Athalia",
+                "Burlington",
+                "Chesapeake",
+                "Coal Grove",
+                "Crown City",
+                "Franklin Furnace",
+                "Hanging Rock",
+                "Ironton",
+                "Miller",
+                "Proctorville",
+                "South Point"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Licking County",
+            "Cities": [
+                "Alexandria",
+                "Beechwood Trails",
+                "Brownsville",
+                "Buckeye Lake",
+                "Columbus",
+                "Etna",
+                "Fairfield Beach",
+                "Granville",
+                "Granville South",
+                "Gratiot",
+                "Hanover",
+                "Harbor Hills",
+                "Hartford (Croton)",
+                "Heath",
+                "Hebron",
+                "Jacksontown",
+                "Jersey",
+                "Johnstown",
+                "Kirkersville",
+                "Marne",
+                "Nashport",
+                "New Albany",
+                "Newark",
+                "Pataskala",
+                "Reynoldsburg",
+                "St. Louisville",
+                "Thornport",
+                "Utica"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Logan County",
+            "Cities": [
+                "Belle Center",
+                "Bellefontaine",
+                "Chippewa Park",
+                "De Graff",
+                "East Liberty",
+                "Huntsville",
+                "Lakeview",
+                "Lewistown",
+                "North Lewisburg",
+                "Quincy",
+                "Ridgeway",
+                "Rushsylvania",
+                "Russells Point",
+                "Valley Hi",
+                "West Liberty",
+                "West Mansfield",
+                "Zanesfield"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Lorain County",
+            "Cities": [
+                "Amherst",
+                "Avon",
+                "Avon Lake",
+                "Bay Village",
+                "Berea",
+                "Eaton Estates",
+                "Elyria",
+                "Grafton",
+                "Kipton",
+                "LaGrange",
+                "Lorain",
+                "North Olmsted",
+                "North Ridgeville",
+                "Oberlin",
+                "Olmsted Falls",
+                "Pheasant Run",
+                "Rochester",
+                "Sheffield",
+                "Sheffield Lake",
+                "South Amherst",
+                "Strongsville",
+                "Vermilion",
+                "Wellington",
+                "Westlake"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Lucas County",
+            "Cities": [
+                "Berkey",
+                "Curtice",
+                "Grand Rapids",
+                "Harbor View",
+                "Holland",
+                "Maumee",
+                "Neapolis",
+                "Northwood",
+                "Oregon",
+                "Ottawa Hills",
+                "Reno Beach",
+                "Rossford",
+                "Swanton",
+                "Sylvania",
+                "Toledo",
+                "Waterville",
+                "Whitehouse"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Madison County",
+            "Cities": [
+                "Choctaw Lake",
+                "Columbus",
+                "Lafayette",
+                "Lake Darby",
+                "London",
+                "Midway",
+                "Mount Sterling",
+                "Plain City",
+                "Plumwood",
+                "South Solon",
+                "West Jefferson"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Mahoning County",
+            "Cities": [
+                "Alliance",
+                "Austintown",
+                "Beloit",
+                "Campbell",
+                "Canfield",
+                "Columbiana",
+                "Craig Beach",
+                "Damascus",
+                "East Alliance",
+                "Girard",
+                "Lake Milton",
+                "Lordstown",
+                "Lowellville",
+                "Maple Ridge",
+                "Maplewood Park",
+                "Mineral Ridge",
+                "New Middletown",
+                "New Springfield",
+                "North Lima",
+                "Petersburg",
+                "Poland",
+                "Salem",
+                "Salem Heights",
+                "Sebring",
+                "Struthers",
+                "Washingtonville",
+                "Woodworth",
+                "Youngstown"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Marion County",
+            "Cities": [
+                "Caledonia",
+                "Green Camp",
+                "Iberia",
+                "La Rue",
+                "Marion",
+                "Morral",
+                "New Bloomington",
+                "Prospect",
+                "Waldo"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Medina County",
+            "Cities": [
+                "Broadview Heights",
+                "Brunswick",
+                "Burbank",
+                "Chippewa Lake",
+                "Creston",
+                "Gloria Glens Park",
+                "Lodi",
+                "Medina",
+                "Montrose-Ghent",
+                "North Royalton",
+                "Norton",
+                "Pigeon Creek",
+                "Rittman",
+                "Seville",
+                "Sharon Center",
+                "Spencer",
+                "Strongsville",
+                "Valley City",
+                "Wadsworth",
+                "Westfield Center"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Meigs County",
+            "Cities": [
+                "Middleport",
+                "Pomeroy",
+                "Racine",
+                "Rutland",
+                "Syracuse",
+                "Tuppers Plains"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Mercer County",
+            "Cities": [
+                "Burkettsville",
+                "Celina",
+                "Chickasaw",
+                "Coldwater",
+                "Fort Recovery",
+                "Maria Stein",
+                "Mendon",
+                "Montezuma",
+                "Rockford",
+                "St. Henry"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Miami County",
+            "Cities": [
+                "Bradford",
+                "Brandt",
+                "Casstown",
+                "Clayton",
+                "Covington",
+                "Fletcher",
+                "Huber Heights",
+                "Laura",
+                "Ludlow Falls",
+                "New Carlisle",
+                "Park Layne",
+                "Piqua",
+                "Pleasant Hill",
+                "Potsdam",
+                "Tipp City",
+                "Troy",
+                "Union",
+                "Vandalia",
+                "West Milton"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Monroe County",
+            "Cities": [
+                "Antioch",
+                "Beallsville",
+                "Clarington",
+                "Graysville",
+                "Hannibal",
+                "Jerusalem",
+                "Lewisville",
+                "Miltonsburg",
+                "Powhatan Point",
+                "Sardis",
+                "Stafford",
+                "Wilson",
+                "Woodsfield"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Montgomery County",
+            "Cities": [
+                "Beavercreek",
+                "Bellbrook",
+                "Brookville",
+                "Carlisle",
+                "Centerville",
+                "Clayton",
+                "Dayton",
+                "Drexel",
+                "Englewood",
+                "Farmersville",
+                "Fort McKinley",
+                "Franklin",
+                "Germantown",
+                "Huber Heights",
+                "Kettering",
+                "Miamisburg",
+                "Moraine",
+                "New Lebanon",
+                "Oakwood",
+                "Park Layne",
+                "Phillipsburg",
+                "Riverside",
+                "Shiloh",
+                "Springboro",
+                "Trotwood",
+                "Union",
+                "Vandalia",
+                "Verona",
+                "West Carrollton",
+                "Wright-Patterson AFB"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Morgan County",
+            "Cities": [
+                "Chesterhill",
+                "Malta",
+                "McConnelsville",
+                "Rose Farm",
+                "Stockport"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Morrow County",
+            "Cities": [
+                "Ashley",
+                "Candlewood Lake",
+                "Cardington",
+                "Chesterville",
+                "Edison",
+                "Fulton",
+                "Galion",
+                "Hidden Lakes",
+                "Iberia",
+                "Marengo",
+                "Mount Gilead",
+                "Sparta"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Muskingum County",
+            "Cities": [
+                "Adamsville",
+                "Dresden",
+                "Duncan Falls",
+                "East Fultonham",
+                "Frazeysburg",
+                "Fultonham",
+                "Gratiot",
+                "Nashport",
+                "New Concord",
+                "North Zanesville",
+                "Norwich",
+                "Philo",
+                "Pleasant Grove",
+                "Roseville",
+                "South Zanesville",
+                "Trinway",
+                "Zanesville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Noble County",
+            "Cities": [
+                "Batesville",
+                "Belle Valley",
+                "Caldwell",
+                "Dexter City",
+                "Macksburg",
+                "Sarahsville",
+                "Stafford",
+                "Summerfield"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Ottawa County",
+            "Cities": [
+                "Clay Center",
+                "Curtice",
+                "Elmore",
+                "Genoa",
+                "Lakeside",
+                "Marblehead",
+                "Millbury",
+                "Northwood",
+                "Oak Harbor",
+                "Oregon",
+                "Port Clinton",
+                "Put-in-Bay",
+                "Rocky Ridge",
+                "Sandusky",
+                "Williston"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Paulding County",
+            "Cities": [
+                "Antwerp",
+                "Broughton",
+                "Cecil",
+                "Grover Hill",
+                "Haviland",
+                "Latty",
+                "Melrose",
+                "Oakwood",
+                "Paulding",
+                "Payne",
+                "Scott"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Perry County",
+            "Cities": [
+                "Corning",
+                "Crooksville",
+                "Glenford",
+                "Harbor Hills",
+                "Hemlock",
+                "Junction City",
+                "New Lexington",
+                "New Straitsville",
+                "Rendville",
+                "Rose Farm",
+                "Roseville",
+                "Shawnee",
+                "Somerset",
+                "Thornport",
+                "Thornville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Pickaway County",
+            "Cities": [
+                "Adelphi",
+                "Ashville",
+                "Circleville",
+                "Commercial Point",
+                "Darbyville",
+                "Derby",
+                "Harrisburg",
+                "Kingston",
+                "Laurelville",
+                "Lithopolis",
+                "Lockbourne",
+                "Logan Elm Village",
+                "New Holland",
+                "Orient",
+                "Pancoastburg",
+                "South Bloomfield",
+                "Stoutsville",
+                "Tarlton",
+                "Williamsport"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Pike County",
+            "Cities": [
+                "Beaver",
+                "Cynthiana",
+                "Piketon",
+                "Sinking Spring",
+                "Stockdale",
+                "Waverly"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Portage County",
+            "Cities": [
+                "Atwater",
+                "Aurora",
+                "Bainbridge",
+                "Brady Lake",
+                "Brimfield",
+                "Garrettsville",
+                "Hiram",
+                "Hudson",
+                "Kent",
+                "Lake Milton",
+                "Limaville",
+                "Mantua",
+                "Mogadore",
+                "Ravenna",
+                "Reminderville",
+                "Solon",
+                "South Canal",
+                "Stow",
+                "Streetsboro",
+                "Suffield",
+                "Sugar Bush Knolls",
+                "Tallmadge",
+                "Windham"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Preble County",
+            "Cities": [
+                "Camden",
+                "College Corner",
+                "Eaton",
+                "Eldorado",
+                "Gratis",
+                "Lake Lakengren",
+                "Lewisburg",
+                "New Paris",
+                "Somerville",
+                "Verona",
+                "West Alexandria",
+                "West Elkton",
+                "West Manchester"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Putnam County",
+            "Cities": [
+                "Belmore",
+                "Cloverdale",
+                "Columbus Grove",
+                "Continental",
+                "Delphos",
+                "Dupont",
+                "Fort Jennings",
+                "Gilboa",
+                "Glandorf",
+                "Kalida",
+                "Leipsic",
+                "Miller City",
+                "Ottawa",
+                "Ottoville",
+                "Pandora",
+                "Vaughnsville",
+                "West Leipsic"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Richland County",
+            "Cities": [
+                "Bellville",
+                "Butler",
+                "Crestline",
+                "Galion",
+                "Lexington",
+                "Lincoln Heights",
+                "Lucas",
+                "Mansfield",
+                "Ontario",
+                "Plymouth",
+                "Roseland",
+                "Shelby",
+                "Shiloh"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Ross County",
+            "Cities": [
+                "Adelphi",
+                "Andersonville",
+                "Bainbridge",
+                "Bourneville",
+                "Chillicothe",
+                "Clarksburg",
+                "Frankfort",
+                "Greenfield",
+                "Kingston",
+                "Laurelville",
+                "Massieville",
+                "Richmond Dale",
+                "South Salem"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Sandusky County",
+            "Cities": [
+                "Ballville",
+                "Bellevue",
+                "Burgoon",
+                "Clyde",
+                "Elmore",
+                "Fremont",
+                "Genoa",
+                "Gibsonburg",
+                "Green Springs",
+                "Helena",
+                "Hessville",
+                "Lindsey",
+                "Risingsun",
+                "Stony Prairie",
+                "Vickery",
+                "Whites Landing",
+                "Wightmans Grove",
+                "Woodville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Scioto County",
+            "Cities": [
+                "Clarktown",
+                "Franklin Furnace",
+                "Friendship",
+                "Lucasville",
+                "McDermott",
+                "Minford",
+                "New Boston",
+                "Otway",
+                "Portsmouth",
+                "Rarden",
+                "Rosemount",
+                "Sciotodale",
+                "South Webster",
+                "Stockdale",
+                "West Portsmouth",
+                "Wheelersburg"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Seneca County",
+            "Cities": [
+                "Attica",
+                "Bascom",
+                "Bellevue",
+                "Bettsville",
+                "Bloomville",
+                "Flat Rock",
+                "Fort Seneca",
+                "Fostoria",
+                "Green Springs",
+                "Kansas",
+                "McCutchenville",
+                "Melmore",
+                "New Riegel",
+                "Old Fort",
+                "Republic",
+                "Tiffin"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Shelby County",
+            "Cities": [
+                "Anna",
+                "Botkins",
+                "Fort Loramie",
+                "Jackson Center",
+                "Kettlersville",
+                "Lockington",
+                "Minster",
+                "Newport",
+                "Port Jefferson",
+                "Russia",
+                "Sidney"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Stark County",
+            "Cities": [
+                "Alliance",
+                "Beach City",
+                "Bolivar",
+                "Bolton",
+                "Brewster",
+                "Canal Fulton",
+                "Canton",
+                "Clinton",
+                "East Alliance",
+                "East Canton",
+                "East Sparta",
+                "Green",
+                "Greentown",
+                "Harrisburg",
+                "Hartville",
+                "Hills and Dales",
+                "Limaville",
+                "Louisville",
+                "Magnolia",
+                "Marlboro",
+                "Massillon",
+                "Meyers Lake",
+                "Middlebranch",
+                "Minerva",
+                "Navarre",
+                "New Franklin",
+                "North Canton",
+                "North Industry",
+                "North Lawrence",
+                "Pekin",
+                "Perry Heights",
+                "Reedurban",
+                "Richville",
+                "Robertsville",
+                "Sandyville",
+                "Uniontown",
+                "Waynesburg",
+                "Wilkshire Hills",
+                "Wilmot"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Summit County",
+            "Cities": [
+                "Akron",
+                "Aurora",
+                "Barberton",
+                "Boston Heights",
+                "Brecksville",
+                "Broadview Heights",
+                "Canal Fulton",
+                "Canton",
+                "Clinton",
+                "Cuyahoga Falls",
+                "Fairlawn",
+                "Glenwillow",
+                "Green",
+                "Greentown",
+                "Hudson",
+                "Independence",
+                "Kent",
+                "Lakemore",
+                "Macedonia",
+                "Mogadore",
+                "Montrose-Ghent",
+                "Munroe Falls",
+                "New Franklin",
+                "Northfield",
+                "Norton",
+                "Oakwood",
+                "Peninsula",
+                "Pigeon Creek",
+                "Portage Lakes",
+                "Reminderville",
+                "Richfield",
+                "Sawyerwood",
+                "Silver Lake",
+                "Solon",
+                "Stow",
+                "Streetsboro",
+                "Tallmadge",
+                "Twinsburg",
+                "Twinsburg Heights",
+                "Uniontown",
+                "Valley View",
+                "Wadsworth",
+                "Walton Hills"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Trumbull County",
+            "Cities": [
+                "Austintown",
+                "Bolindale",
+                "Brookfield Center",
+                "Champion Heights",
+                "Churchill",
+                "Cortland",
+                "Girard",
+                "Hilltop",
+                "Howland Center",
+                "Hubbard",
+                "Kinsman Center",
+                "Leavittsburg",
+                "Lordstown",
+                "Maplewood Park",
+                "Masury",
+                "McDonald",
+                "McKinley Heights",
+                "Mineral Ridge",
+                "Morgandale",
+                "Newton Falls",
+                "Niles",
+                "Orangeville",
+                "South Canal",
+                "Vienna Center",
+                "Warren",
+                "West Farmington",
+                "West Hill",
+                "Windham",
+                "Yankee Lake",
+                "Youngstown"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Tuscarawas County",
+            "Cities": [
+                "Baltic",
+                "Barnhill",
+                "Bolivar",
+                "Dennison",
+                "Dover",
+                "Dundee",
+                "East Sparta",
+                "Gnadenhutten",
+                "Midvale",
+                "Mineral City",
+                "New Philadelphia",
+                "Newcomerstown",
+                "Parral",
+                "Port Washington",
+                "Roswell",
+                "Sandyville",
+                "Stone Creek",
+                "Strasburg",
+                "Sugarcreek",
+                "Tuscarawas",
+                "Uhrichsville",
+                "Wilkshire Hills",
+                "Zoar"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Union County",
+            "Cities": [
+                "Dublin",
+                "Magnetic Springs",
+                "Marysville",
+                "Milford Center",
+                "New California",
+                "Plain City",
+                "Raymond",
+                "Richwood",
+                "Unionville Center"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Van Wert County",
+            "Cities": [
+                "Convoy",
+                "Delphos",
+                "Elgin",
+                "Middle Point",
+                "Ohio City",
+                "Scott",
+                "Van Wert",
+                "Venedocia",
+                "Willshire",
+                "Wren"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Vinton County",
+            "Cities": [
+                "Hamden",
+                "McArthur",
+                "Wellston",
+                "Wilkesville",
+                "Zaleski"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Warren County",
+            "Cities": [
+                "Blanchester",
+                "Butlerville",
+                "Carlisle",
+                "Clarksville",
+                "Corwin",
+                "Five Points",
+                "Four Bridges",
+                "Franklin",
+                "Harveysburg",
+                "Highpoint",
+                "Hunter",
+                "Kings Mills",
+                "Landen",
+                "Lebanon",
+                "Loveland",
+                "Loveland Park",
+                "Maineville",
+                "Mason",
+                "Middletown",
+                "Monroe",
+                "Morrow",
+                "Pleasant Plain",
+                "Roachester",
+                "Sharonville",
+                "South Lebanon",
+                "Springboro",
+                "Waynesville"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Washington County",
+            "Cities": [
+                "Belpre",
+                "Beverly",
+                "Devola",
+                "Little Hocking",
+                "Lowell",
+                "Lower Salem",
+                "Macksburg",
+                "Marietta",
+                "Matamoras (New Matamoras)",
+                "Newport",
+                "Reno",
+                "Vincent",
+                "Waterford"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Wayne County",
+            "Cities": [
+                "Apple Creek",
+                "Burbank",
+                "Clinton",
+                "Congress",
+                "Creston",
+                "Dalton",
+                "Doylestown",
+                "Fredericksburg",
+                "Kidron",
+                "Marshallville",
+                "Massillon",
+                "Mount Eaton",
+                "New Franklin",
+                "New Pittsburg",
+                "North Lawrence",
+                "Norton",
+                "Orrville",
+                "Rittman",
+                "Shreve",
+                "Smithville",
+                "Sterling",
+                "West Salem",
+                "Wooster"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Williams County",
+            "Cities": [
+                "Alvordton",
+                "Blakeslee",
+                "Bryan",
+                "Edgerton",
+                "Edon",
+                "Holiday City",
+                "Kunkle",
+                "Lake Seneca",
+                "Montpelier",
+                "Nettle Lake",
+                "Pioneer",
+                "Pulaski",
+                "Stryker",
+                "West Unity"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Wood County",
+            "Cities": [
+                "Bairdstown",
+                "Bloomdale",
+                "Bowling Green",
+                "Bradner",
+                "Curtice",
+                "Custar",
+                "Cygnet",
+                "Fostoria",
+                "Grand Rapids",
+                "Haskins",
+                "Hoytville",
+                "Jerry City",
+                "Luckey",
+                "Maumee",
+                "Millbury",
+                "Milton Center",
+                "North Baltimore",
+                "Northwood",
+                "Oregon",
+                "Pemberville",
+                "Perrysburg",
+                "Portage",
+                "Risingsun",
+                "Rossford",
+                "Rudolph",
+                "Stony Ridge",
+                "Toledo",
+                "Tontogany",
+                "Walbridge",
+                "Waterville",
+                "Wayne",
+                "West Millgrove",
+                "Weston"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        },
+        {
+            "County Name": "Wyandot County",
+            "Cities": [
+                "Carey",
+                "Forest",
+                "Harpster",
+                "Kirby",
+                "Marseilles",
+                "McCutchenville",
+                "Morral",
+                "Nevada",
+                "Sycamore",
+                "Upper Sandusky",
+                "Wharton"
+            ],
+            "Timezone": {
+                "Name": "Eastern",
+                "Zone": "America/New_York",
+                "Offset": "-05:00"
+            }
+        }
+    ],
+    "stateName": "Ohio",
+    "companyName": "My Drip Nurse",
+    "website": "https://www.mydripnurse.com",
+    "ownerName": "Keishla",
+    "ownerLastName": "Caraballo",
+    "phone": "9392749203",
+    "email": "keyla03@live.com",
+    "twilio": {
+        "sid": "secret",
+        "authToken": "secret"
+    },
+    "mailgun": {
+        "apiKey": "secret",
+        "domain": "secret"
+    },
+    "customValues": {
+        "businessInformation": {
+            "favicon": "https://storage.googleapis.com/msgsndr/vMfl1L5xb2wJfNFNW5fb/media/656c2a9fe33f7c575831e093.png",
+            "businessPhone": ""
+        },
+        "ivTherapyPrice": {
+            "myersCocktailPrice": "299",
+            "alleviatePrice": "219",
+            "brainStormPrice": "199",
+            "getLeanPrice": "179",
+            "immunityDefensePrice": "279",
+            "immunityDefenseAndGlutathionePrice": "299",
+            "hangoverPrice": "219",
+            "hydratePrice": "219",
+            "nadPrice": "599",
+            "nadBoostPrice": "797",
+            "recoveryPerformancePrice": "219",
+            "theGlowPrice": "199"
+        },
+        "vitaminPrice": {
+            "vitaminD3": "100",
+            "bComplex": "70",
+            "biotin": "75",
+            "vitaminC": "70",
+            "aminoBlend": "80",
+            "glutathione": "90",
+            "lipoMino": "120",
+            "triImmuneBoost": "120",
+            "vitaminB12": "70",
+            "ondansetron": "70"
+        },
+        "facebook": {
+            "accessToken": "secret",
+            "facebookPixel": "secret",
+            "instagramUrl": "https://www.instagram.com/mydripnurse/",
+            "facebookUrl": "https://www.facebook.com/MyDripNurse"
+        }
+    },
+    "businessInformation": {
+        "snapshotId": "secret",
+        "companyId": "secret"
+    }
+}
