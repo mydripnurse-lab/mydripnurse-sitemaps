@@ -137,11 +137,11 @@ El servidor local se usa **solo para OAuth**.
 1. Instalar dependencias
 2. Correr:
 ```bash
-node server.js
+npm run dev
 ```
 3. Abrir:
 ```
-http://localhost:3000/auth
+http://localhost:3000/connect/ghl
 ```
 
 ---
