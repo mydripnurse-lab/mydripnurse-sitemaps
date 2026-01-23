@@ -85,6 +85,158 @@ Este proyecto incluye/genera:
 - Sitemaps por **county**
 - Sitemaps por **ciudad dentro de cada county**
 
+## ☁️ Google Cloud Setup – Google Sheets Integration
+
+---
+
+### 📌 Google Cloud Setup (English)
+
+To allow this project to **read and write data to Google Sheets**, you must configure a Google Cloud project and enable the required APIs.
+
+This setup is done **once per Google account**.
+
+---
+
+### 1️⃣ Create a Google Cloud Project
+
+1. Go to **Google Cloud Console**  
+   https://console.cloud.google.com/
+
+2. Click **Select a project → New Project**
+
+3. Set:
+   - **Project Name:** e.g. `mydripnurse-sheets`
+   - **Organization:** (optional)
+   - **Location:** default
+
+4. Click **Create**
+
+---
+
+### 2️⃣ Enable Required APIs
+
+Inside the project:
+
+1. Go to **APIs & Services → Library**
+2. Enable:
+   - ✅ **Google Sheets API**
+   - ✅ **Google Drive API**
+
+---
+
+### 3️⃣ Create a Service Account (Recommended)
+
+1. Go to **APIs & Services → Credentials**
+2. Click **Create Credentials → Service Account**
+3. Fill:
+   - **Name:** `sheets-writer`
+   - **Role:** Editor (can be restricted later)
+4. Click **Done**
+
+---
+
+### 4️⃣ Generate Service Account Key (JSON)
+
+1. Open the Service Account
+2. Go to **Keys → Add Key → Create new key**
+3. Select **JSON**
+4. Download the file
+
+⚠️ This file is **secret** and must never be committed to GitHub.
+
+---
+
+### 5️⃣ Share the Google Sheet with the Service Account
+
+1. Open your Google Sheet
+2. Click **Share**
+3. Add the service account email:
+   ```
+   sheets-writer@your-project-id.iam.gserviceaccount.com
+   ```
+4. Permission: **Editor**
+
+---
+
+### 6️⃣ Environment Variables
+
+Add to `.env`:
+
+```env
+GOOGLE_APPLICATION_CREDENTIALS=./secrets/google-service-account.json
+GOOGLE_SHEET_ID=your_google_sheet_id
+```
+
+---
+
+### 7️⃣ Security Best Practices
+
+```gitignore
+secrets/
+*.json
+```
+
+- Rotate keys periodically
+- Use least-privilege permissions
+
+---
+
+## ☁️ Configuración de Google Cloud – Google Sheets (Español)
+
+---
+
+### 1️⃣ Crear un Proyecto en Google Cloud
+
+1. Ir a **Google Cloud Console**  
+   https://console.cloud.google.com/
+
+2. Crear un **Nuevo Proyecto**
+
+3. Asignar nombre y crear
+
+---
+
+### 2️⃣ Habilitar APIs Necesarias
+
+Habilitar:
+- **Google Sheets API**
+- **Google Drive API**
+
+---
+
+### 3️⃣ Crear una Cuenta de Servicio
+
+1. **APIs y Servicios → Credenciales**
+2. **Crear cuenta de servicio**
+3. Rol: **Editor**
+
+---
+
+### 4️⃣ Generar Key JSON
+
+Descargar la key en formato **JSON**  
+⚠️ No subir a GitHub
+
+---
+
+### 5️⃣ Compartir el Google Sheet
+
+Compartir el sheet con:
+```
+sheets-writer@tu-proyecto.iam.gserviceaccount.com
+```
+
+Permiso: **Editor**
+
+---
+
+### 7️⃣ Buenas Prácticas
+
+- Ignorar `secrets/` en Git
+- Rotar llaves
+- Usar permisos mínimos
+
+
 ---
 
 ## 🔐 Environment Variables (.env)
@@ -102,6 +254,11 @@ TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxx
 # Business / Domain
 BASE_DOMAIN=mydripnurse.com
 COMPANY_NAME=My Drip Nurse
+
+#Google Cloud
+GOOGLE_APPLICATION_CREDENTIALS=./secrets/google-service-account.json
+GOOGLE_SHEET_ID=tu_sheet_id
+
 ```
 
 ---
