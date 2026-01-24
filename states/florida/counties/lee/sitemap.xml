@@ -1,41 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida, Lee County Main Page -->
+  <!-- Lee Main Sitemap -->
   <sitemap>
-    <loc>https://lee-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
-  </sitemap>
-  
-  <!-- Florida, Lee cities -->
-  <sitemap>
-    <loc>https://bonita-springs-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://lee-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Bonita Springs Hosted Sitemap -->
   <sitemap>
-    <loc>https://cape-coral-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/lee/bonita-springs/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Cape Coral Hosted Sitemap -->
   <sitemap>
-    <loc>https://estero-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/lee/cape-coral/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Estero Hosted Sitemap -->
   <sitemap>
-    <loc>https://fort-myers-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/lee/estero/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Fort Myers Hosted Sitemap -->
   <sitemap>
-    <loc>https://fort-myers-beach-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/lee/fort-myers/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Fort Myers Beach Hosted Sitemap -->
   <sitemap>
-    <loc>https://sanibel-city-fl.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/lee/fort-myers-beach/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+  <!-- Sanibel Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/lee/sanibel/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

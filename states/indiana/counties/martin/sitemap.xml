@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Martin Main Sitemap -->
+  <sitemap>
+    <loc>https://martin-county-in.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+  <!-- Loogootee Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/indiana/counties/martin/loogootee/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+  <!-- Shoals Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/indiana/counties/martin/shoals/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+</sitemapindex>

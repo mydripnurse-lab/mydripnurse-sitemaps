@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida, Highlands County Main Page -->
+  <!-- Highlands Main Sitemap -->
   <sitemap>
-    <loc>https://highlands-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
-  </sitemap>
-  
-  <!-- Florida, Highlands cities -->
-  <sitemap>
-    <loc>https://avon-park-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://highlands-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Avon Park Hosted Sitemap -->
   <sitemap>
-    <loc>https://lake-placid-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/highlands/avon-park/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Lake Placid Hosted Sitemap -->
   <sitemap>
-    <loc>https://sebring-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/highlands/lake-placid/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+  <!-- Sebring Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/highlands/sebring/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

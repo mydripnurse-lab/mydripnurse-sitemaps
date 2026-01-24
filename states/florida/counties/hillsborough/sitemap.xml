@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida, Hillsborough County Main Page -->
+  <!-- Hillsborough Main Sitemap -->
   <sitemap>
-    <loc>https://hillsborough-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
-  </sitemap>
-  
-  <!-- Florida, Hillsborough cities -->
-  <sitemap>
-    <loc>https://plantcity-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://hillsborough-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Plant City Hosted Sitemap -->
   <sitemap>
-    <loc>https://tampa-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/hillsborough/plant-city/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Tampa Hosted Sitemap -->
   <sitemap>
-    <loc>https://temple-terrace-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/hillsborough/tampa/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+  <!-- Temple Terrace Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/hillsborough/temple-terrace/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

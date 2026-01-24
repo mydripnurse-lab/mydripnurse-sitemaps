@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida, Baker County Main Page -->
+  <!-- Baker Main Sitemap -->
   <sitemap>
-    <loc>https://baker.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
-  </sitemap>
-  
-  <!-- Florida, Baker cities -->
-  <sitemap>
-    <loc>https://glenstmary-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://baker-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Glen St. Mary Hosted Sitemap -->
   <sitemap>
-    <loc>https://macclenny-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/baker/glen-st-mary/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+  <!-- Macclenny Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/baker/macclenny/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

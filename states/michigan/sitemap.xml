@@ -4,13 +4,13 @@
   <!-- Michigan Main Page -->
   <sitemap>
     <loc>https://michigan.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-  <!-- Michigan counties -->
+  <!-- Michigan Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/michigan/counties/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

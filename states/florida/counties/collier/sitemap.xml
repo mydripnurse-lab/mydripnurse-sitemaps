@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida, Collier County Main Page -->
+  <!-- Collier Main Sitemap -->
   <sitemap>
-    <loc>https://collier-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
-  </sitemap>
-  
-  <!-- Florida, Collier cities -->
-  <sitemap>
-    <loc>https://everglades-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://collier-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Everglades City Hosted Sitemap -->
   <sitemap>
-    <loc>https://marco-island-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/collier/everglades-city/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
+  <!-- Marco Island Hosted Sitemap -->
   <sitemap>
-    <loc>https://naples-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/collier/marco-island/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
+  </sitemap>
+
+  <!-- Naples Hosted Sitemap -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/collier/naples/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

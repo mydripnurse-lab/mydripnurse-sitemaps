@@ -4,13 +4,13 @@
   <!-- Minnesota Main Page -->
   <sitemap>
     <loc>https://minnesota.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-  <!-- Minnesota counties -->
+  <!-- Minnesota Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/minnesota/counties/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

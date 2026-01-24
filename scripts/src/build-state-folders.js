@@ -8,242 +8,362 @@ import { stdin as input, stdout as output } from "process";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-/**
- * ROOT assumptions:
- * - resources/statesFiles/<state>.json   (input)
- * - states/<state-slug>/...             (output)
- */
-const ROOT = process.cwd();
-const STATES_JSON_DIR = path.join(ROOT, "resources", "statesFiles");
-const OUT_STATES_DIR = path.join(ROOT, "states");
+const RESOURCES_DIR = path.join(process.cwd(), "resources", "statesFiles");
+const STATES_OUT_DIR = path.join(process.cwd(), "states");
 
-function todayISODate() {
-    // YYYY-MM-DD
-    return new Date().toISOString().slice(0, 10);
+// Host central donde se sirven estos sitemaps
+const SITEMAPS_HOST = "https://sitemaps.mydripnurse.com";
+
+/** yyyy-mm-dd (local) */
+function todayYMD() {
+    const d = new Date();
+    const yyyy = d.getFullYear();
+    const mm = String(d.getMonth() + 1).padStart(2, "0");
+    const dd = String(d.getDate()).padStart(2, "0");
+    return `${yyyy}-${mm}-${dd}`;
 }
 
-function slugify(str) {
+/**
+ * Normaliza acentos/diéresis/ñ:
+ * "Añasco" => "anasco"
+ * "Mayagüez" => "mayaguez"
+ * "Peñuelas" => "penuelas"
+ */
+function latinToAscii(str) {
     return String(str || "")
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+}
+
+function slugify(name) {
+    return latinToAscii(name)
         .trim()
         .toLowerCase()
-        .normalize("NFD") // remove accents
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/&/g, " and ")
+        .replace(/&/g, "and")
+        .replace(/['"]/g, "")
         .replace(/[^a-z0-9]+/g, "-")
-        .replace(/^-+|-+$/g, "");
+        .replace(/-+/g, "-")
+        .replace(/^-|-$/g, "");
 }
 
-/**
- * Updates ALL <lastmod>YYYY-MM-DD</lastmod> to provided date.
- * Keeps the rest of the XML intact.
- */
-function updateLastmod(xmlString, nextDate) {
-    if (!xmlString) return xmlString;
-
-    // Replace any <lastmod>...</lastmod> with the same nextDate
-    // (Works even if there are multiple lastmod entries)
-    return xmlString.replace(
-        /<lastmod>\s*\d{4}-\d{2}-\d{2}\s*<\/lastmod>/g,
-        `<lastmod>${nextDate}</lastmod>`
-    );
-}
-
-function detectStateSpecialFolder(stateName, stateSlug) {
-    // Special rules:
-    // - Louisiana => "parishes"
-    // - Puerto Rico => "cities"
-    // - Default => "counties"
-    const s = (stateName || "").toLowerCase();
-    if (stateSlug === "louisiana" || s === "louisiana") return "parishes";
-    if (
-        stateSlug === "puerto-rico" ||
-        s === "puerto rico" ||
-        s === "puerto-rico" ||
-        stateSlug === "pr"
-    )
-        return "cities";
-    return "counties";
-}
-
-async function listStateJsonFiles() {
-    try {
-        const files = await fs.readdir(STATES_JSON_DIR);
-        return files
-            .filter((f) => f.toLowerCase().endsWith(".json"))
-            .sort((a, b) => a.localeCompare(b));
-    } catch (e) {
-        throw new Error(
-            `No pude leer la carpeta statesFiles: ${STATES_JSON_DIR}\n` +
-            `Crea la carpeta y pon tus JSONs ahí.\n` +
-            `Error: ${e?.message || e}`
-        );
-    }
-}
-
-async function chooseStateFileInteractively(files) {
-    const rl = readline.createInterface({ input, output });
-
-    console.log("\n📦 States JSON disponibles en resources/statesFiles:\n");
-    files.forEach((f, i) => console.log(`  ${i + 1}) ${f}`));
-    console.log("");
-
-    const ans = await rl.question(
-        "Escribe el número del estado a generar (o el nombre exacto del archivo .json): "
-    );
-
-    rl.close();
-
-    const trimmed = ans.trim();
-    const asNum = Number(trimmed);
-
-    if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= files.length) {
-        return files[asNum - 1];
-    }
-
-    // allow user to type full filename
-    const typed = trimmed.endsWith(".json") ? trimmed : `${trimmed}.json`;
-    const match = files.find((f) => f.toLowerCase() === typed.toLowerCase());
-    if (!match) {
-        throw new Error(
-            `Selección inválida. No encontré: "${trimmed}".\n` +
-            `Asegúrate de que el archivo exista dentro de ${STATES_JSON_DIR}`
-        );
-    }
-    return match;
-}
-
-async function readStateJson(absPath) {
-    const raw = await fs.readFile(absPath, "utf8");
-    return JSON.parse(raw);
-}
-
-function buildStateSitemapIndex({ entries, lastmod }) {
-    // entries: array of { loc: string }
-    // Keep it simple + standard sitemapindex
-    const lines = [];
-    lines.push(`<?xml version="1.0" encoding="UTF-8"?>`);
-    lines.push(`<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`);
+function renderSitemapIndex({ entries, lastmod }) {
+    const parts = [];
+    parts.push(`<?xml version="1.0" encoding="UTF-8"?>`);
+    parts.push(`<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`);
+    parts.push("");
 
     for (const e of entries) {
         if (!e?.loc) continue;
-        lines.push(`  <sitemap>`);
-        lines.push(`    <loc>${e.loc}</loc>`);
-        lines.push(`    <lastmod>${lastmod}</lastmod>`);
-        lines.push(`  </sitemap>`);
+        if (e.comment) parts.push(`  <!-- ${e.comment} -->`);
+        parts.push(`  <sitemap>`);
+        parts.push(`    <loc>${e.loc}</loc>`);
+        parts.push(`    <lastmod>${lastmod}</lastmod>`);
+        parts.push(`  </sitemap>`);
+        parts.push("");
     }
 
-    lines.push(`</sitemapindex>`);
-    lines.push(""); // newline at end
-    return lines.join("\n");
+    parts.push(`</sitemapindex>`);
+    parts.push("");
+    return parts.join("\n");
 }
 
-async function ensureDir(dir) {
-    await fs.mkdir(dir, { recursive: true });
+function extractCounties(stateJson) {
+    if (!stateJson) return [];
+    if (Array.isArray(stateJson)) return stateJson;
+
+    if (Array.isArray(stateJson.counties)) return stateJson.counties;
+    if (Array.isArray(stateJson.items)) return stateJson.items;
+
+    for (const k of Object.keys(stateJson)) {
+        if (Array.isArray(stateJson[k])) return stateJson[k];
+    }
+    return [];
 }
 
-async function writeFileEnsuringDir(filePath, content) {
+function detectStateNameFromJson(stateJson, filenameSlug) {
+    return (
+        stateJson?.stateName ||
+        stateJson?.name ||
+        stateJson?.State ||
+        (filenameSlug ? filenameSlug.replace(/-/g, " ") : "Unknown")
+    );
+}
+
+function pickDivisionFolder(stateSlug) {
+    if (stateSlug === "louisiana") return "parishes";
+    if (stateSlug === "puerto-rico") return "cities";
+    return "counties";
+}
+
+async function listStateFiles() {
+    const files = await fs.readdir(RESOURCES_DIR);
+    return files
+        .filter((f) => f.toLowerCase().endsWith(".json"))
+        .map((f) => ({
+            file: f,
+            slug: f.replace(/\.json$/i, ""),
+            fullPath: path.join(RESOURCES_DIR, f),
+        }))
+        .sort((a, b) => a.slug.localeCompare(b.slug));
+}
+
+async function ensureDir(p) {
+    await fs.mkdir(p, { recursive: true });
+}
+
+async function writeFileEnsureDir(filePath, content) {
     await ensureDir(path.dirname(filePath));
     await fs.writeFile(filePath, content, "utf8");
 }
 
+/** Loc builders (host central) */
+function locStateDivisionRoot(stateSlug, divisionFolder) {
+    return `${SITEMAPS_HOST}/states/${stateSlug}/${divisionFolder}/sitemap.xml`;
+}
+
+/**
+ * Root level division sitemap entry:
+ * - For counties/parishes: /states/<state>/<counties>/<county-slug>/sitemap.xml
+ * - For PR cities:        /states/<state>/cities/<city-slug>/sitemap.xml
+ */
+function locDivisionIndexChild(stateSlug, divisionFolder, divisionSlug) {
+    return `${SITEMAPS_HOST}/states/${stateSlug}/${divisionFolder}/${divisionSlug}/sitemap.xml`;
+}
+
+/**
+ * City inside a county/parish:
+ * /states/<state>/<counties>/<county-slug>/<city-slug>/sitemap.xml
+ */
+function locNestedCity(stateSlug, divisionFolder, countySlug, citySlug) {
+    return `${SITEMAPS_HOST}/states/${stateSlug}/${divisionFolder}/${countySlug}/${citySlug}/sitemap.xml`;
+}
+
 async function main() {
-    const lastmod = todayISODate();
+    const lastmod = todayYMD();
 
-    const files = await listStateJsonFiles();
-    if (!files.length) {
-        console.log(
-            `No hay JSONs en: ${STATES_JSON_DIR}\n` +
-            `Coloca ahí tus archivos (ej: alabama.json, alaska.json, etc.)`
-        );
+    const stateFiles = await listStateFiles();
+    if (!stateFiles.length) {
+        console.error("❌ No JSON files found in:", RESOURCES_DIR);
         process.exit(1);
     }
 
-    const selected = await chooseStateFileInteractively(files);
-    const absJson = path.join(STATES_JSON_DIR, selected);
+    // Prompt
+    const rl = readline.createInterface({ input, output });
+    console.log("\nAvailable states (resources/statesFiles):");
+    stateFiles.forEach((s, i) => console.log(`  ${i + 1}) ${s.slug}`));
 
-    const stateJson = await readStateJson(absJson);
+    const answer = (await rl.question("\nType state number OR state slug (e.g. 1 or florida): ")).trim();
+    rl.close();
 
-    // Your JSON shape (based on alabama.json you uploaded):
-    // { stateName, counties: [ { countyName, countyDomain, countySitemap, embeddedSitemap, ... } ] }
-    const stateName = stateJson.stateName || selected.replace(/\.json$/i, "");
-    const stateSlug = slugify(stateName);
+    let chosen = null;
+    const asNum = Number(answer);
+    if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= stateFiles.length) {
+        chosen = stateFiles[asNum - 1];
+    } else {
+        chosen =
+            stateFiles.find((s) => s.slug === answer) ||
+            stateFiles.find((s) => s.slug === slugify(answer));
+    }
 
-    const divisions = stateJson.counties || [];
-    if (!Array.isArray(divisions) || divisions.length === 0) {
-        console.log(`❌ El JSON no trae "counties" o está vacío: ${absJson}`);
+    if (!chosen) {
+        console.error("❌ State not found. You typed:", answer);
         process.exit(1);
     }
 
-    const divisionFolder = detectStateSpecialFolder(stateName, stateSlug);
+    const raw = await fs.readFile(chosen.fullPath, "utf8");
+    const stateJson = JSON.parse(raw);
 
-    const stateOutDir = path.join(OUT_STATES_DIR, stateSlug);
-    const divisionRootDir = path.join(stateOutDir, divisionFolder);
+    const stateSlug = chosen.slug;
+    const stateName = detectStateNameFromJson(stateJson, stateSlug);
+    const divisionFolder = pickDivisionFolder(stateSlug);
 
-    console.log("\n==================================================");
-    console.log("✅ BUILD STATE FOLDERS");
-    console.log(`State: ${stateName}`);
-    console.log(`State slug: ${stateSlug}`);
-    console.log(`Input JSON: ${absJson}`);
-    console.log(`Output dir: ${stateOutDir}`);
-    console.log(`Folder type: ${divisionFolder}`);
-    console.log(`Lastmod: ${lastmod}`);
-    console.log(`Total divisions: ${divisions.length}`);
-    console.log("==================================================\n");
+    const counties = extractCounties(stateJson);
 
-    // 1) Create/update each division sitemap.xml
+    const outStateDir = path.join(STATES_OUT_DIR, stateSlug);
+    const outDivisionRootDir = path.join(outStateDir, divisionFolder);
+
+    console.log("\n===============================================");
+    console.log("State:", stateName);
+    console.log("State slug:", stateSlug);
+    console.log("Input JSON:", chosen.fullPath);
+    console.log("Output dir:", outStateDir);
+    console.log("Folder type:", divisionFolder);
+    console.log("Lastmod:", lastmod);
+    console.log("Total county objects:", counties.length);
+    console.log("===============================================\n");
+
+    await ensureDir(outStateDir);
+    await ensureDir(outDivisionRootDir);
+
+    // 1) STATE sitemap.xml (tu formato)
+    const stateSitemapXml = renderSitemapIndex({
+        lastmod,
+        entries: [
+            {
+                comment: `${stateName} Main Page`,
+                loc: `https://${stateSlug}.mydripnurse.com/sitemap.xml`,
+            },
+            {
+                comment:
+                    divisionFolder === "parishes"
+                        ? `${stateName} Parishes`
+                        : divisionFolder === "cities"
+                            ? `${stateName} Cities`
+                            : `${stateName} Counties`,
+                loc: locStateDivisionRoot(stateSlug, divisionFolder),
+            },
+        ],
+    });
+
+    await writeFileEnsureDir(path.join(outStateDir, "sitemap.xml"), stateSitemapXml);
+
+    /**
+     * 2) division root sitemap.xml
+     * - PR: lista cities directas
+     * - Normal: lista counties/parishes (cada una tiene su propio folder)
+     */
+    let divisionRootEntries = [];
+
+    if (stateSlug === "puerto-rico" && divisionFolder === "cities") {
+        const pr = counties[0];
+        const cities = Array.isArray(pr?.cities) ? pr.cities : [];
+
+        divisionRootEntries = cities
+            .filter((c) => c?.cityName)
+            .map((c) => ({
+                loc: locDivisionIndexChild(stateSlug, divisionFolder, slugify(c.cityName)),
+            }));
+    } else {
+        divisionRootEntries = counties
+            .filter((c) => c?.countyName)
+            .map((c) => ({
+                loc: locDivisionIndexChild(stateSlug, divisionFolder, slugify(c.countyName)),
+            }));
+    }
+
+    const divisionRootXml = renderSitemapIndex({
+        lastmod,
+        entries: divisionRootEntries,
+    });
+
+    await writeFileEnsureDir(path.join(outDivisionRootDir, "sitemap.xml"), divisionRootXml);
+
+    /**
+     * 3) Build folders + sitemaps
+     *
+     * ✅ Normal/Louisiana:
+     * states/<state>/<counties|parishes>/<county-slug>/sitemap.xml (index)
+     * states/<state>/<counties|parishes>/<county-slug>/<city-slug>/sitemap.xml (index)
+     *
+     * ✅ Puerto Rico:
+     * states/puerto-rico/cities/<city-slug>/sitemap.xml (index)
+     */
     let ok = 0;
     let failed = 0;
 
-    for (let i = 0; i < divisions.length; i++) {
-        const d = divisions[i];
+    // 3A) Puerto Rico direct cities
+    if (stateSlug === "puerto-rico" && divisionFolder === "cities") {
+        const pr = counties[0];
+        const cities = Array.isArray(pr?.cities) ? pr.cities : [];
 
-        // For normal states: division is county
-        // For Louisiana: division is parish (still stored in counties[] in your JSON most likely)
-        // For Puerto Rico: you want division folders to be "cities" (we treat countyName as cityName)
-        const divisionName = d.countyName || `division-${i + 1}`;
-        const divisionSlug = slugify(divisionName);
+        for (const city of cities) {
+            const cityName = city?.cityName;
+            const citySitemapUrl = city?.citySitemap;
 
-        const folderPath = path.join(divisionRootDir, divisionSlug);
-        const sitemapPath = path.join(folderPath, "sitemap.xml");
+            if (!cityName || !citySitemapUrl) continue;
+
+            try {
+                const citySlug = slugify(cityName);
+                const cityDir = path.join(outDivisionRootDir, citySlug);
+                const cityFile = path.join(cityDir, "sitemap.xml");
+
+                const xml = renderSitemapIndex({
+                    lastmod,
+                    entries: [
+                        { comment: `${cityName} Main Sitemap`, loc: String(citySitemapUrl).trim() },
+                    ],
+                });
+
+                await writeFileEnsureDir(cityFile, xml);
+                ok++;
+            } catch (e) {
+                failed++;
+                console.error(`❌ Failed PR city "${cityName}":`, e?.message || e);
+            }
+        }
+
+        console.log(`\n✅ DONE ${stateSlug} | cities ok:${ok} fail:${failed}\n`);
+        return;
+    }
+
+    // 3B) Normal/Louisiana: county/parish folders with nested city folders
+    for (const c of counties) {
+        const countyName = c?.countyName;
+        if (!countyName) continue;
+
+        const countySlug = slugify(countyName);
+        const countyDir = path.join(outDivisionRootDir, countySlug);
+        const countyFile = path.join(countyDir, "sitemap.xml");
 
         try {
-            if (!d.embeddedSitemap) {
-                throw new Error(
-                    `No existe embeddedSitemap para "${divisionName}". (countyName: ${d.countyName})`
-                );
+            const countySitemapUrl = String(c?.countySitemap || "").trim();
+            const cities = Array.isArray(c?.cities) ? c.cities : [];
+
+            // 1) Crear sitemap.xml de cada city dentro del county folder
+            for (const city of cities) {
+                const cityName = city?.cityName;
+                const citySitemapUrl = city?.citySitemap;
+
+                if (!cityName || !citySitemapUrl) continue;
+
+                const citySlug = slugify(cityName);
+                const cityDir = path.join(countyDir, citySlug);
+                const cityFile = path.join(cityDir, "sitemap.xml");
+
+                // Hosted city sitemap -> referencia al sitemap real en el subdominio
+                const cityHostedXml = renderSitemapIndex({
+                    lastmod,
+                    entries: [
+                        { comment: `${cityName} Main Sitemap`, loc: String(citySitemapUrl).trim() },
+                    ],
+                });
+
+                await writeFileEnsureDir(cityFile, cityHostedXml);
             }
 
-            const updated = updateLastmod(d.embeddedSitemap, lastmod);
+            // 2) Crear el county sitemap.xml (index) que referencia:
+            // - su sitemap real (subdominio)
+            // - cada city hosted sitemap bajo el mismo county folder
+            const entries = [];
 
-            await writeFileEnsuringDir(sitemapPath, updated);
+            if (countySitemapUrl) {
+                entries.push({
+                    comment: `${countyName} Main Sitemap`,
+                    loc: countySitemapUrl,
+                });
+            }
+
+            for (const city of cities) {
+                if (!city?.cityName) continue;
+                const citySlug = slugify(city.cityName);
+
+                entries.push({
+                    comment: `${city.cityName} Hosted Sitemap`,
+                    loc: locNestedCity(stateSlug, divisionFolder, countySlug, citySlug),
+                });
+            }
+
+            const countyHostedXml = renderSitemapIndex({ lastmod, entries });
+            await writeFileEnsureDir(countyFile, countyHostedXml);
 
             ok++;
-            if ((i + 1) % 10 === 0 || i === divisions.length - 1) {
-                console.log(`🧩 Progress: ${i + 1}/${divisions.length}`);
-            }
         } catch (e) {
             failed++;
-            console.error(`❌ FAILED "${divisionName}":`, e?.message || e);
+            console.error(`❌ Failed county/parish "${countyName}":`, e?.message || e);
         }
     }
 
-    // 2) Create/update state-level sitemap.xml
-    // Build entries from countySitemap property
-    const entries = divisions
-        .map((d) => ({ loc: d.countySitemap }))
-        .filter((x) => x.loc);
-
-    const stateSitemapXml = buildStateSitemapIndex({ entries, lastmod });
-    const stateSitemapPath = path.join(stateOutDir, "sitemap.xml");
-    await writeFileEnsuringDir(stateSitemapPath, stateSitemapXml);
-
-    console.log("\n--------------------------------------------------");
-    console.log(`✅ DONE: ${stateName}`);
-    console.log(`Divisions OK: ${ok}`);
-    console.log(`Divisions Failed: ${failed}`);
-    console.log(`State sitemap: ${stateSitemapPath}`);
-    console.log(`Divisions root: ${divisionRootDir}`);
-    console.log("--------------------------------------------------\n");
+    console.log(`\n✅ DONE ${stateSlug} | divisions ok:${ok} fail:${failed}\n`);
 }
 
 main().catch((e) => {

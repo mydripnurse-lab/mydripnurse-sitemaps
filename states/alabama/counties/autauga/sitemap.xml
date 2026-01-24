@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- Alabama, Autauga County Main Page -->
+  <!-- Autauga Main Sitemap -->
   <sitemap>
     <loc>https://autauga-county-al.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-18</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-    <!-- Alabama, Autauga cities -->    
+  <!-- Autaugaville Hosted Sitemap -->
   <sitemap>
-    <loc>https://autaugaville-city-al.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/alabama/counties/autauga/autaugaville/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
+
+  <!-- Billingsley Hosted Sitemap -->
   <sitemap>
-    <loc>https://billingsley-city-al.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/alabama/counties/autauga/billingsley/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
+
+  <!-- Marbury Hosted Sitemap -->
   <sitemap>
-    <loc>https://marbury-city-al.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/alabama/counties/autauga/marbury/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
+
+  <!-- Prattville Hosted Sitemap -->
   <sitemap>
-    <loc>https://prattville-city-al.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/alabama/counties/autauga/prattville/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
+
+  <!-- Pine Level Hosted Sitemap -->
   <sitemap>
-    <loc>https://pine-level-city-al.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-18</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/alabama/counties/autauga/pine-level/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
+
 </sitemapindex>

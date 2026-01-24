@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Oregon Main Page -->
+  <!-- Oklahoma Main Page -->
   <sitemap>
     <loc>https://oregon.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-  <!-- Oregon counties -->
+  <!-- Oklahoma Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/oregon/counties/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

@@ -4,13 +4,13 @@
   <!-- Oklahoma Main Page -->
   <sitemap>
     <loc>https://oklahoma.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-  <!-- Oklahoma counties -->
+  <!-- Oklahoma Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/oklahoma/counties/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

@@ -4,13 +4,13 @@
   <!-- Hawaii Main Page -->
   <sitemap>
     <loc>https://hawaii.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-  <!-- Hawaii counties -->
+  <!-- Hawaii Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/hawaii/counties/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

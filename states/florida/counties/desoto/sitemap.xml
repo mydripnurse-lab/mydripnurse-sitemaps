@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- Florida, DeSoto County Main Page -->
+  <!-- DeSoto Main Sitemap -->
   <sitemap>
-    <loc>https://desoto-county.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://desoto-county-fl.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
-  
-  <!-- Florida, DeSoto cities -->
+
+  <!-- Arcadia Hosted Sitemap -->
   <sitemap>
-    <loc>https://arcadia-city.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://sitemaps.mydripnurse.com/states/florida/counties/desoto/arcadia/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

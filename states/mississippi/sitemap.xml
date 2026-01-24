@@ -4,13 +4,13 @@
   <!-- Mississippi Main Page -->
   <sitemap>
     <loc>https://mississippi.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-  <!-- Mississippi counties -->
+  <!-- Mississippi Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/mississippi/counties/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

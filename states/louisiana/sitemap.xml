@@ -3,14 +3,14 @@
 
   <!-- Louisiana Main Page -->
   <sitemap>
-    <loc>https://loisiana.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <loc>https://louisiana.mydripnurse.com/sitemap.xml</loc>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
   <!-- Louisiana Parishes -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/louisiana/parishes/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>

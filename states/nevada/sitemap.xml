@@ -4,13 +4,13 @@
   <!-- Nevada Main Page -->
   <sitemap>
     <loc>https://nevada.mydripnurse.com/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
-  <!-- Nevada counties -->
+  <!-- Nevada Counties -->
   <sitemap>
     <loc>https://sitemaps.mydripnurse.com/states/nevada/counties/sitemap.xml</loc>
-    <lastmod>2026-01-12</lastmod>
+    <lastmod>2026-01-24</lastmod>
   </sitemap>
 
 </sitemapindex>
