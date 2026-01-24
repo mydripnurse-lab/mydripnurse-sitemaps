@@ -1,40 +1,41 @@
 // services/ghlLocationToken.js
-import { getValidAccessToken } from "./ghlClient.js";
-
-const LOCATION_TOKEN_URL = "https://services.leadconnectorhq.com/oauth/locationToken";
+import { ghlFetch } from "./ghlClient.js";
 
 /**
- * Pide un Location Token (Sub-Account Token) usando el Agency/Company OAuth access_token.
- * @param {string} locationId
- * @returns {Promise<{ token: string, raw: any }>}
+ * Get Location Access Token (GHL)
+ * Endpoint: POST https://services.leadconnectorhq.com/oauth/locationToken
+ *
+ * Required:
+ * - Authorization: Bearer <AGENCY_ACCESS_TOKEN>
+ * - Version: 2021-07-28
+ * - Body: { companyId, locationId }
+ *
+ * Returns:
+ * - { access_token, token_type, expires_in, ... }  (depende del response real)
  */
-export async function getLocationToken(locationId) {
-    if (!locationId) throw new Error("getLocationToken: locationId is required");
+export async function getLocationAccessToken({ companyId, locationId, agencyAccessToken }) {
+    if (!companyId) throw new Error("companyId is required");
+    if (!locationId) throw new Error("locationId is required");
+    if (!agencyAccessToken) throw new Error("agencyAccessToken is required");
 
-    const accessToken = await getValidAccessToken();
+    const url = "https://services.leadconnectorhq.com/oauth/locationToken";
 
-    const r = await fetch(LOCATION_TOKEN_URL, {
+    // NOTE:
+    // ghlFetch debe aceptar URL absoluta. Si ghlFetch solo acepta paths tipo "/locations/",
+    // entonces hay que ajustarlo en ghlClient.js para detectar URLs absolutas.
+    const res = await ghlFetch(url, {
         method: "POST",
         headers: {
-            Authorization: `Bearer ${accessToken}`,
-            Version: "2021-07-28",
             Accept: "application/json",
             "Content-Type": "application/json",
+            Version: "2021-07-28",
+            Authorization: `Bearer ${agencyAccessToken}`,
         },
-        body: JSON.stringify({ locationId }),
+        body: JSON.stringify({
+            companyId,
+            locationId,
+        }),
     });
 
-    const raw = await r.json();
-
-    if (!r.ok) {
-        throw new Error(`GHL locationToken failed (${r.status}): ${JSON.stringify(raw)}`);
-    }
-
-    const token = raw?.access_token || raw?.accessToken || raw?.token;
-
-    if (!token) {
-        throw new Error(`GHL locationToken response missing token: ${JSON.stringify(raw)}`);
-    }
-
-    return { token, raw };
+    return res;
 }

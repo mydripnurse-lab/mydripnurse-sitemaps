@@ -1,7 +1,7 @@
 import express from "express";
 import { loadTokens } from "../services/tokenStore.js";
 import { ghlFetch } from "../services/ghlClient.js";
-import { getLocationToken } from "../services/ghlLocationToken.js";
+import { getLocationToken } from "../services/ghlLocationTokenOAuth.js";
 import { getLocationCustomValues, updateLocationCustomValue } from "../services/ghlCustomValues.js";
 
 export const ghlRouter = express.Router();

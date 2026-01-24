@@ -7,4 +7,10 @@
     <lastmod>2026-01-12</lastmod>
   </sitemap>
 
+  <!-- Mississippi counties -->
+  <sitemap>
+    <loc>https://sitemaps.mydripnurse.com/states/mississippi/counties/sitemap.xml</loc>
+    <lastmod>2026-01-12</lastmod>
+  </sitemap>
+
 </sitemapindex>

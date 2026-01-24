@@ -1,5 +1,5 @@
 // services/locationTokenCache.js
-import { getLocationToken } from "./ghlLocationToken.js";
+import { getLocationToken } from "./ghlLocationTokenOAuth.js";
 
 // cache en memoria
 // key: locationId => { token, expiresAtMs }
