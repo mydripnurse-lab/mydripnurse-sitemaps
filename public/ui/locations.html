@@ -253,48 +253,76 @@
       }
 
       function flattenState(stateJson) {
-        // Esperamos: { stateName, stateKey/stateSlug, items: [ { countyName, countyDomain, cities:[...] } ] }
+        // Esperamos: { stateName, stateKey/stateSlug, items: [ { countyName/parishName, countyDomain/parishDomain, cities:[...] } ] }
         const items = stateJson.items || stateJson.counties || [];
         const stateName = stateJson.stateName || stateJson.name || "";
         const stateSlug = stateJson.stateSlug || stateJson.stateKey || "";
 
+        // Helper: determina el “tipo” de subdivision
+        const subdivisionLabel = (() => {
+          const slug = String(stateSlug || "").toLowerCase();
+          const name = String(stateName || "").toLowerCase();
+
+          // Puerto Rico: no usar County/Parish
+          if (
+            slug.includes("puerto") ||
+            name.includes("puerto rico") ||
+            slug === "pr"
+          )
+            return "";
+
+          // Louisiana: Parish
+          if (
+            slug.includes("louisiana") ||
+            slug === "la" ||
+            name.includes("louisiana")
+          )
+            return "Parish";
+
+          // Default: County
+          return "County";
+        })();
+
         const out = [];
+
         for (const c of items) {
           const countyName = c.countyName || c.parishName || "";
           const countyDomain = c.countyDomain || c.parishDomain || "";
           const cities = c.cities || [];
 
-          // county option
-          if (countyName && countyDomain) {
-            out.push({
-              type: "county",
-              stateSlug,
-              label: `${countyName}, ${stateName}`,
-              search: normalizeText(`${countyName} ${stateName}`),
-              targetUrl: joinUrl(countyDomain, bookPath),
-              rawDomain: countyDomain,
-            });
-          }
+          // ✅ REMOVIDO: county option (para que NO salga en resultados)
 
-          // cities
+          // Cities
           for (const city of cities) {
             const cityName = city.cityName || "";
             const cityDomain = city.cityDomain || "";
             if (!cityName || !cityDomain) continue;
 
+            // Target según redirectMode
+            const baseDomain =
+              redirectMode === "city" ? cityDomain : countyDomain || cityDomain;
+
+            // Label: City, State (+ optional subdivision)
+            // - PR: "City, Puerto Rico (San Juan)"  (sin “County/Parish”)
+            // - LA: "City, Louisiana (Orleans Parish)"
+            // - Otros: "City, Alabama (Coffee County)"
+            const subdivisionPart = countyName
+              ? subdivisionLabel
+                ? ` (${countyName} ${subdivisionLabel})`
+                : ` (${countyName})`
+              : "";
+
             out.push({
               type: "city",
               stateSlug,
-              label: `${cityName}, ${stateName} (${countyName} County)`,
+              label: `${cityName}, ${stateName}${subdivisionPart}`,
               search: normalizeText(`${cityName} ${countyName} ${stateName}`),
-              targetUrl: joinUrl(
-                redirectMode === "city" ? cityDomain : countyDomain,
-                bookPath
-              ),
-              rawDomain: redirectMode === "city" ? cityDomain : countyDomain,
+              targetUrl: joinUrl(baseDomain, bookPath),
+              rawDomain: baseDomain,
             });
           }
         }
+
         return out;
       }
 
