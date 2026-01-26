@@ -1,4 +1,4 @@
-# 📦 MyDripNurse – Automated GHL Subaccount & Sitemap Infrastructure
+# 📦 Delta System – Automated GHL Subaccount & Sitemap Infrastructure
 *(Counties & Cities · Multi‑Industry Ready)*
 
 ---
