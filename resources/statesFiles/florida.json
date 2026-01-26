@@ -669,8 +669,8 @@
                 "Zone": "US/Central",
                 "GMT_Offset": "(GMT-06:00)"
             },
-            "countyDomain": "https://escambia-county-fl.mydripnurse.com",
-            "countySitemap": "https://escambia-county-fl.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://escambia-county.mydripnurse.com", 
+            "countySitemap": "https://escambia-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://escambia-county-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://century-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pensacola-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
