@@ -210,13 +210,41 @@ Permiso: **Editor**
 ## 🔐 Environment Variables (.env)
 
 ```env
-# GHL OAuth (Marketplace App)
-CLIENT_ID=your_marketplace_client_id
-CLIENT_SECRET=your_marketplace_client_secret
-REDIRECT_URI=http://localhost:3000/callback
+# Mailgun Credentials
+MAILGUN_API_KEY=xxxxxxxxxxxxxx-xxxxxxxxxx
+MAILGUN_DOMAIN=xxxxxxxxxxxxxxxxxxxxxxxx
 
-# Twilio
-TWILIO_ACCOUNT_SID=ACxxxxxxxxxxxxxxxxxxxxxxxx
+# GHL Business Account Credentials
+SNAPSHOT_ID=xxxxxxxxxxxxxxxxxxxxxxxx
+COMPANY_ID=xxxxxxxxxxxxxxxxxxxxxxxx
+
+# Facebook Pixel & Token Credentials
+FACEBOOK_PIXEL=xxxxxxxxxxxxxxxxxxxxxxxx
+FACEBOOK_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxx
+
+# General Company & Owner Information
+DEFAULT_PHONE=xxx-xxx-xxxx
+COMPANY_NAME=
+COMPANY_URL=
+OWNER_FIRST_NAME=
+OWNER_LAST_NAME=
+OWNER_EMAIL=xxxxxxxxxxxxxxxxx
+OWNER_PHONE=xxx-xxx-xxxx
+STATE=
+CITY=
+ADDRESS=
+POSTAL_CODE=
+
+# GHL OAuth (Marketplace App)
+GHL_CLIENT_ID=your_marketplace_client_id
+GHL_CLIENT_SECRET=your_marketplace_client_secret
+GHL_REDIRECT_URI=http://localhost:3000/callback
+GHL_SCOPES=
+GHL_USER_TYPE=
+GHL_INSTALLATION_URL=
+
+# Twilio Credentials
+TWILIO_SID=ACxxxxxxxxxxxxxxxxxxxxxxxx
 TWILIO_AUTH_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxx
 
 # Business / Domain
@@ -224,8 +252,12 @@ BASE_DOMAIN=mydripnurse.com
 COMPANY_NAME=My Drip Nurse
 
 #Google Cloud 
-GOOGLE_APPLICATION_CREDENTIALS=./secrets/google-service-account.json
-GOOGLE_SHEET_ID=tu_sheet_id
+GOOGLE_SERVICE_ACCOUNT_KEYFILE=./secrets/google-service-account.json
+GOOGLE_SHEET_ID=your_sheet_id
+GOOGLE_SHEET_TAB=your_sheet_name -> example: sheet1
+
+# Sitemap Configuration
+SITEMAPS_BASE_URL=https://sitemaps.yourdomain.com
 
 ```
 
