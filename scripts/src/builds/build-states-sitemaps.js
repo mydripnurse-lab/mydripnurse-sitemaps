@@ -1,4 +1,4 @@
-// scripts/src/build-state-folders.js
+// scripts/src/build-state-sitemaps.js
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -30,9 +30,7 @@ function todayYMD() {
  * "Peñuelas" => "penuelas"
  */
 function latinToAscii(str) {
-    return String(str || "")
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "");
+    return String(str || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }
 
 function slugify(name) {
@@ -138,38 +136,7 @@ function locNestedCity(stateSlug, divisionFolder, countySlug, citySlug) {
     return `${SITEMAPS_HOST}/states/${stateSlug}/${divisionFolder}/${countySlug}/${citySlug}/sitemap.xml`;
 }
 
-async function main() {
-    const lastmod = todayYMD();
-
-    const stateFiles = await listStateFiles();
-    if (!stateFiles.length) {
-        console.error("❌ No JSON files found in:", RESOURCES_DIR);
-        process.exit(1);
-    }
-
-    // Prompt
-    const rl = readline.createInterface({ input, output });
-    console.log("\nAvailable states (resources/statesFiles):");
-    stateFiles.forEach((s, i) => console.log(`  ${i + 1}) ${s.slug}`));
-
-    const answer = (await rl.question("\nType state number OR state slug (e.g. 1 or florida): ")).trim();
-    rl.close();
-
-    let chosen = null;
-    const asNum = Number(answer);
-    if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= stateFiles.length) {
-        chosen = stateFiles[asNum - 1];
-    } else {
-        chosen =
-            stateFiles.find((s) => s.slug === answer) ||
-            stateFiles.find((s) => s.slug === slugify(answer));
-    }
-
-    if (!chosen) {
-        console.error("❌ State not found. You typed:", answer);
-        process.exit(1);
-    }
-
+async function buildOneState(chosen, lastmod) {
     const raw = await fs.readFile(chosen.fullPath, "utf8");
     const stateJson = JSON.parse(raw);
 
@@ -195,7 +162,7 @@ async function main() {
     await ensureDir(outStateDir);
     await ensureDir(outDivisionRootDir);
 
-    // 1) STATE sitemap.xml (tu formato)
+    // 1) STATE sitemap.xml
     const stateSitemapXml = renderSitemapIndex({
         lastmod,
         entries: [
@@ -250,13 +217,6 @@ async function main() {
 
     /**
      * 3) Build folders + sitemaps
-     *
-     * ✅ Normal/Louisiana:
-     * states/<state>/<counties|parishes>/<county-slug>/sitemap.xml (index)
-     * states/<state>/<counties|parishes>/<county-slug>/<city-slug>/sitemap.xml (index)
-     *
-     * ✅ Puerto Rico:
-     * states/puerto-rico/cities/<city-slug>/sitemap.xml (index)
      */
     let ok = 0;
     let failed = 0;
@@ -269,7 +229,6 @@ async function main() {
         for (const city of cities) {
             const cityName = city?.cityName;
             const citySitemapUrl = city?.citySitemap;
-
             if (!cityName || !citySitemapUrl) continue;
 
             try {
@@ -279,9 +238,7 @@ async function main() {
 
                 const xml = renderSitemapIndex({
                     lastmod,
-                    entries: [
-                        { comment: `${cityName} Main Sitemap`, loc: String(citySitemapUrl).trim() },
-                    ],
+                    entries: [{ comment: `${cityName} Main Sitemap`, loc: String(citySitemapUrl).trim() }],
                 });
 
                 await writeFileEnsureDir(cityFile, xml);
@@ -313,40 +270,30 @@ async function main() {
             for (const city of cities) {
                 const cityName = city?.cityName;
                 const citySitemapUrl = city?.citySitemap;
-
                 if (!cityName || !citySitemapUrl) continue;
 
                 const citySlug = slugify(cityName);
                 const cityDir = path.join(countyDir, citySlug);
                 const cityFile = path.join(cityDir, "sitemap.xml");
 
-                // Hosted city sitemap -> referencia al sitemap real en el subdominio
                 const cityHostedXml = renderSitemapIndex({
                     lastmod,
-                    entries: [
-                        { comment: `${cityName} Main Sitemap`, loc: String(citySitemapUrl).trim() },
-                    ],
+                    entries: [{ comment: `${cityName} Main Sitemap`, loc: String(citySitemapUrl).trim() }],
                 });
 
                 await writeFileEnsureDir(cityFile, cityHostedXml);
             }
 
-            // 2) Crear el county sitemap.xml (index) que referencia:
-            // - su sitemap real (subdominio)
-            // - cada city hosted sitemap bajo el mismo county folder
+            // 2) County sitemap.xml index
             const entries = [];
 
             if (countySitemapUrl) {
-                entries.push({
-                    comment: `${countyName} Main Sitemap`,
-                    loc: countySitemapUrl,
-                });
+                entries.push({ comment: `${countyName} Main Sitemap`, loc: countySitemapUrl });
             }
 
             for (const city of cities) {
                 if (!city?.cityName) continue;
                 const citySlug = slugify(city.cityName);
-
                 entries.push({
                     comment: `${city.cityName} Hosted Sitemap`,
                     loc: locNestedCity(stateSlug, divisionFolder, countySlug, citySlug),
@@ -364,6 +311,91 @@ async function main() {
     }
 
     console.log(`\n✅ DONE ${stateSlug} | divisions ok:${ok} fail:${failed}\n`);
+}
+
+function parseSelection(inputStr, stateFiles) {
+    const v = String(inputStr || "").trim().toLowerCase();
+    if (!v) return [];
+
+    if (v === "all" || v === "*") return [...stateFiles];
+
+    // soporta: "1" | "florida" | "1, 5, puerto-rico"
+    const parts = v.split(",").map((x) => x.trim()).filter(Boolean);
+    const chosen = [];
+
+    for (const p of parts) {
+        const asNum = Number(p);
+        if (!Number.isNaN(asNum) && asNum >= 1 && asNum <= stateFiles.length) {
+            chosen.push(stateFiles[asNum - 1]);
+            continue;
+        }
+
+        const bySlug =
+            stateFiles.find((s) => s.slug === p) ||
+            stateFiles.find((s) => s.slug === slugify(p));
+
+        if (bySlug) chosen.push(bySlug);
+    }
+
+    // de-dup
+    const seen = new Set();
+    return chosen.filter((x) => {
+        if (seen.has(x.slug)) return false;
+        seen.add(x.slug);
+        return true;
+    });
+}
+
+async function main() {
+    const lastmod = todayYMD();
+
+    const stateFiles = await listStateFiles();
+    if (!stateFiles.length) {
+        console.error("❌ No JSON files found in:", RESOURCES_DIR);
+        process.exit(1);
+    }
+
+    const rl = readline.createInterface({ input, output });
+
+    while (true) {
+        console.log("\nAvailable states (resources/statesFiles):");
+        stateFiles.forEach((s, i) => console.log(`  ${i + 1}) ${s.slug}`));
+        console.log(`\nType:`);
+        console.log(`  - a number (e.g. 1)`);
+        console.log(`  - a slug (e.g. florida)`);
+        console.log(`  - multiple (e.g. 1,5,puerto-rico)`);
+        console.log(`  - ALL (or *) to build everything`);
+        console.log(`  - Q to quit\n`);
+
+        const answer = (await rl.question("Select state(s): ")).trim();
+        if (!answer) continue;
+
+        const low = answer.toLowerCase();
+        if (low === "q" || low === "quit" || low === "exit") break;
+
+        const batch = parseSelection(answer, stateFiles);
+
+        if (!batch.length) {
+            console.log("❌ No matches. Try again.\n");
+            continue;
+        }
+
+        // build sequentially
+        for (const chosen of batch) {
+            try {
+                await buildOneState(chosen, lastmod);
+            } catch (e) {
+                console.error(`❌ Fatal building "${chosen.slug}":`, e?.message || e);
+            }
+        }
+
+        // if user typed ALL, we can end automatically (optional)
+        if (low === "all" || low === "*") break;
+
+        console.log("✅ Batch finished. You can select another state or type Q.\n");
+    }
+
+    rl.close();
 }
 
 main().catch((e) => {
