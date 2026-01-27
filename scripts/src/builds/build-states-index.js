@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import path from "path";
 
 const STATES_FILES_DIR = path.join(process.cwd(), "resources", "statesFiles");
-const OUT_DIR = path.join(process.cwd(), "public", "ui");
+const OUT_DIR = path.join(process.cwd(), "public", "json");
 const OUT_FILE = path.join(OUT_DIR, "states-index.json");
 
 // ✅ Este es el folder que ya contiene los estados generados (alaska, puerto-rico, etc.)

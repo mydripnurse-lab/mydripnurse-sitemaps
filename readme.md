@@ -36,7 +36,7 @@ Puede reutilizarse para **Solar, IV Therapy, Construcción, Legal, Bienes Raíce
 ## 🗂️ Project Structure / Estructura del Proyecto
 
 ```
-mydripnurse-sitemaps/
+delta-system/
 ├── resources/
 │   ├── statesFiles/                    # Raw state JSON (counties + cities)
 │   ├── customValues/                   # GHL custom values templates
