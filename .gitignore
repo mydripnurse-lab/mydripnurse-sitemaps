@@ -28,6 +28,8 @@ secrets/
 
 !public/json/*.json
 !resources/statesFiles/*.json
+!control-tower/package.json
+!control-tower/package-lock.json
 
 /data/secrets/
 /data/gsc/
