@@ -23,6 +23,27 @@ type AdsMetric =
   | "avgCpc"
   | "ctr";
 
+type CampaignPlaybook = {
+  region: string;
+  campaign: string;
+  objective: "Scale" | "Efficiency" | "Recovery";
+  budgetDaily: number;
+  score: number;
+  setup: {
+    bidStrategy: string;
+    adGroups: string[];
+    negativeSeeds: string[];
+    audienceHint: string;
+  };
+  funnel: {
+    headline1: string;
+    headline2: string;
+    description: string;
+    cta: string;
+    landingAngle: string;
+  };
+};
+
 function norm(v: any) {
   return String(v ?? "").trim();
 }
@@ -77,6 +98,36 @@ function metricUnitHint(m: AdsMetric) {
   return "count";
 }
 
+function csvCell(v: unknown) {
+  const s = String(v ?? "");
+  return `"${s.replace(/"/g, '""')}"`;
+}
+
+function downloadCsv(filename: string, headers: string[], rows: Array<Array<unknown>>) {
+  const lines = [headers.map(csvCell).join(","), ...rows.map((r) => r.map(csvCell).join(","))];
+  const blob = new Blob([lines.join("\n")], { type: "text/csv;charset=utf-8;" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function extractRegionFromCampaignName(name: string) {
+  const raw = norm(name);
+  if (!raw) return "Unknown region";
+  const direct = raw.match(/my\s+drip\s+nurse\s+(.+?)\s*-\s*/i);
+  if (direct?.[1]) return norm(direct[1]);
+  const county = raw.match(/([a-z\s]+county,\s*[a-z\s]+)/i);
+  if (county?.[1]) return norm(county[1]);
+  const cityState = raw.match(/([a-z\s]+,\s*[a-z]{2,})/i);
+  if (cityState?.[1]) return norm(cityState[1]);
+  return raw.split("-")[0]?.trim() || "Unknown region";
+}
+
 export default function AdsDashboardPage() {
   const [loading, setLoading] = useState(false);
   const [hardRefreshing, setHardRefreshing] = useState(false);
@@ -90,6 +141,9 @@ export default function AdsDashboardPage() {
 
   const [trendMode, setTrendMode] = useState<"day" | "week" | "month">("day");
   const [metric, setMetric] = useState<AdsMetric>("cost");
+  const [aiLoading, setAiLoading] = useState(false);
+  const [aiErr, setAiErr] = useState("");
+  const [aiPlaybook, setAiPlaybook] = useState<any>(null);
 
   const [data, setData] = useState<any>(null);
 
@@ -256,6 +310,152 @@ export default function AdsDashboardPage() {
       roas: pct.roas ?? null,
     };
   }, [compareOn, compare]);
+
+  const campaignPlaybooks = useMemo<CampaignPlaybook[]>(() => {
+    const baseRows = (topCampaigns || [])
+      .slice(0, 40)
+      .map((r: any) => {
+        const campaign = norm(r.campaign || "Unnamed campaign");
+        const region = extractRegionFromCampaignName(campaign);
+        const cost = num(r.cost);
+        const clicks = num(r.clicks);
+        const conv = num(r.conversions);
+        const ctr = num(r.ctr);
+        const cpa = conv > 0 ? cost / conv : cost;
+        const perfScore = conv * 30 + clicks * 0.3 + Math.max(0, 6 - cpa) * 8 + ctr;
+        return { campaign, region, cost, clicks, conv, cpa, perfScore };
+      })
+      .filter((r) => r.campaign);
+
+    const byRegion = new Map<string, typeof baseRows>();
+    for (const row of baseRows) {
+      const arr = byRegion.get(row.region) || [];
+      arr.push(row);
+      byRegion.set(row.region, arr);
+    }
+
+    const leakTerms = (opportunities?.negativeIdeas || [])
+      .slice(0, 12)
+      .map((x: any) => norm(x.term))
+      .filter(Boolean);
+    const defaultNegatives = ["free", "jobs", "cheap", "DIY", "training"];
+
+    const ranked = Array.from(byRegion.entries())
+      .map(([region, rows]) => {
+        const cost = rows.reduce((a, b) => a + b.cost, 0);
+        const conv = rows.reduce((a, b) => a + b.conv, 0);
+        const clicks = rows.reduce((a, b) => a + b.clicks, 0);
+        const score = rows.reduce((a, b) => a + b.perfScore, 0) / Math.max(1, rows.length);
+        const cpa = conv > 0 ? cost / conv : cost;
+        const objective: CampaignPlaybook["objective"] =
+          conv >= 3 ? "Scale" : clicks >= 25 ? "Efficiency" : "Recovery";
+        const budgetDaily = Math.max(25, Number(((cost / Math.max(7, (trend || []).length || 28)) * 1.2).toFixed(0)));
+        const topCampaign = rows.sort((a, b) => b.perfScore - a.perfScore)[0]?.campaign || `My Drip Nurse ${region} - Search`;
+        return { region, score, cpa, conv, clicks, budgetDaily, topCampaign, objective };
+      })
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 6);
+
+    return ranked.map((r) => ({
+      region: r.region,
+      campaign: r.topCampaign,
+      objective: r.objective,
+      budgetDaily: r.budgetDaily,
+      score: Number(r.score.toFixed(1)),
+      setup: {
+        bidStrategy:
+          r.objective === "Scale"
+            ? "Maximize conversions (with tCPA guardrail)"
+            : r.objective === "Efficiency"
+              ? "Maximize conversion value (with ROAS floor)"
+              : "Manual CPC + exact intent isolation",
+        adGroups: [
+          "High intent IV therapy",
+          "Symptom intent (hydration / immunity / recovery)",
+          "Competitor & alternative intent",
+        ],
+        negativeSeeds: [...defaultNegatives, ...leakTerms].slice(0, 8),
+        audienceHint:
+          "Geo radius around service area + in-market health/wellness + remarketing of high-intent visitors",
+      },
+      funnel: {
+        headline1: `Mobile IV Therapy in ${r.region}`,
+        headline2: "Same-Day Booking Available",
+        description:
+          "Licensed nurses, transparent pricing, and fast response. Book in under 60 seconds.",
+        cta: "Book Your IV Appointment",
+        landingAngle:
+          "Use county/city specific page with proof, FAQs, service menu, and one clear booking CTA above the fold.",
+      },
+    }));
+  }, [topCampaigns, opportunities?.negativeIdeas, trend]);
+
+  async function generateAiPlaybook() {
+    setAiLoading(true);
+    setAiErr("");
+    try {
+      const payload = {
+        range: { startDate, endDate },
+        summary,
+        compare: compareOn ? compare : null,
+        opportunities,
+        topCampaigns: (topCampaigns || []).slice(0, 20),
+        topKeywords: (topKeywords || []).slice(0, 20),
+        searchTerms: (searchTerms || []).slice(0, 20),
+      };
+      const res = await fetch("/api/dashboard/ads/insights", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+      const json = await res.json();
+      if (!res.ok || !json?.ok) {
+        throw new Error(json?.error || "Failed to generate AI playbook");
+      }
+      setAiPlaybook(json.insights || null);
+    } catch (e: unknown) {
+      setAiErr(e instanceof Error ? e.message : "Failed to generate AI playbook");
+    } finally {
+      setAiLoading(false);
+    }
+  }
+
+  function exportPlaybooksCsv() {
+    const headers = [
+      "region",
+      "campaign",
+      "objective",
+      "daily_budget_usd",
+      "score",
+      "bid_strategy",
+      "ad_groups",
+      "negative_seeds",
+      "audience_hint",
+      "headline_1",
+      "headline_2",
+      "description",
+      "cta",
+      "landing_angle",
+    ];
+    const rows = campaignPlaybooks.map((pb) => [
+      pb.region,
+      pb.campaign,
+      pb.objective,
+      pb.budgetDaily,
+      pb.score,
+      pb.setup.bidStrategy,
+      pb.setup.adGroups.join(" | "),
+      pb.setup.negativeSeeds.join(" | "),
+      pb.setup.audienceHint,
+      pb.funnel.headline1,
+      pb.funnel.headline2,
+      pb.funnel.description,
+      pb.funnel.cta,
+      pb.funnel.landingAngle,
+    ]);
+    const dt = new Date().toISOString().slice(0, 10);
+    downloadCsv(`google-ads-playbooks-${dt}.csv`, headers, rows);
+  }
 
   return (
     <div className="shell callsDash gaDash">
@@ -707,6 +907,118 @@ export default function AdsDashboardPage() {
               seriesLabel={metricLabel(metric)}
               unitHint={metricUnitHint(metric)}
             />
+          </div>
+        </div>
+      </section>
+
+      <section className="card" style={{ marginTop: 14 }} id="ai-playbook">
+        <div className="cardHeader">
+          <div>
+            <h2 className="cardTitle">AI Playbook (Google Ads Expert)</h2>
+            <div className="cardSubtitle">
+              Plan generado por AI especialista en Google Ads por región, estructura y funnel.
+            </div>
+          </div>
+          <div className="cardHeaderActions">
+            <button
+              className="smallBtn aiBtn"
+              onClick={generateAiPlaybook}
+              disabled={aiLoading || loading || !topCampaigns.length}
+              type="button"
+            >
+              {aiLoading ? "Generating..." : "Generate AI Playbook"}
+            </button>
+          </div>
+        </div>
+        <div className="cardBody">
+          {aiErr ? <div className="mini" style={{ color: "var(--danger)" }}>X {aiErr}</div> : null}
+          {aiPlaybook ? (
+            <div className="moduleGrid">
+              <div className="moduleCard">
+                <p className="l moduleTitle">Executive summary</p>
+                <p className="mini moduleLine">{String(aiPlaybook.executive_summary || "")}</p>
+                <p className="mini moduleLine"><b>Primary risk:</b> {String(aiPlaybook?.scorecard?.primary_risk || "-")}</p>
+                <p className="mini moduleLine"><b>Primary opportunity:</b> {String(aiPlaybook?.scorecard?.primary_opportunity || "-")}</p>
+              </div>
+              {Array.isArray(aiPlaybook.playbook) &&
+                aiPlaybook.playbook.slice(0, 6).map((p: any, idx: number) => (
+                  <div className="moduleCard" key={`ads-ai-pb-${idx}`}>
+                    <div className="moduleTop">
+                      <p className="l moduleTitle">{String(p.region || "Region")}</p>
+                      <span className={`mini aiImpact ${String(p.expected_impact || "medium")}`}>
+                        {String(p.expected_impact || "medium").toUpperCase()}
+                      </span>
+                    </div>
+                    <p className="mini moduleLine"><b>Objective:</b> {String(p.objective || "-")}</p>
+                    <p className="mini moduleLine"><b>Budget/day:</b> {fmtMoney(p.budget_daily_usd)}</p>
+                    <p className="mini moduleLine"><b>Structure:</b> {String(p.campaign_structure || "-")}</p>
+                    <p className="mini moduleLine"><b>Audience:</b> {String(p.audience || "-")}</p>
+                    <p className="mini moduleLine"><b>Ad copy:</b> {String(p.ad_copy || "-")}</p>
+                    <p className="mini moduleLine"><b>Landing:</b> {String(p.landing_plan || "-")}</p>
+                  </div>
+                ))}
+            </div>
+          ) : (
+            <div className="aiPlaceholder mini">
+              Generate AI Playbook para construir campañas con estructura experta por región.
+            </div>
+          )}
+        </div>
+      </section>
+
+      <section className="card" style={{ marginTop: 14 }}>
+        <div className="cardHeader">
+          <div>
+            <h2 className="cardTitle">Campaign Planner (Google Ads)</h2>
+            <div className="cardSubtitle">
+              Recomendaciones por región con setup de campaña y copy de funnel listas para ejecutar.
+            </div>
+          </div>
+          <div className="cardHeaderActions">
+            <button
+              className="smallBtn"
+              type="button"
+              onClick={exportPlaybooksCsv}
+              disabled={!campaignPlaybooks.length}
+            >
+              Export CSV
+            </button>
+            <div className="badge">{campaignPlaybooks.length} playbooks</div>
+          </div>
+        </div>
+        <div className="cardBody">
+          <div className="moduleGrid">
+            {campaignPlaybooks.map((pb, i) => (
+              <div className="moduleCard" key={`${pb.region}-${i}`}>
+                <div className="moduleTop">
+                  <p className="l moduleTitle">{pb.region}</p>
+                  <span className="mini moduleDelta">Score {pb.score}</span>
+                </div>
+                <p className="mini moduleLine"><b>Objective:</b> {pb.objective}</p>
+                <p className="mini moduleLine"><b>Daily budget:</b> {fmtMoney(pb.budgetDaily)}</p>
+                <p className="mini moduleLine"><b>Campaign:</b> {pb.campaign}</p>
+                <p className="mini moduleLine"><b>Bid strategy:</b> {pb.setup.bidStrategy}</p>
+                <p className="mini moduleLine"><b>Ad groups:</b> {pb.setup.adGroups.join(" · ")}</p>
+                <p className="mini moduleLine"><b>Negative seeds:</b> {pb.setup.negativeSeeds.join(", ")}</p>
+                <p className="mini moduleLine"><b>Audience:</b> {pb.setup.audienceHint}</p>
+                <div className="moduleStat" style={{ marginTop: 8 }}>
+                  <div className="mini moduleStatLabel">Funnel copy pack</div>
+                  <div className="mini moduleLine"><b>H1:</b> {pb.funnel.headline1}</div>
+                  <div className="mini moduleLine"><b>H2:</b> {pb.funnel.headline2}</div>
+                  <div className="mini moduleLine"><b>Description:</b> {pb.funnel.description}</div>
+                  <div className="mini moduleLine"><b>CTA:</b> {pb.funnel.cta}</div>
+                  <div className="mini moduleLine"><b>Landing angle:</b> {pb.funnel.landingAngle}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          {!campaignPlaybooks.length ? (
+            <div className="mini" style={{ marginTop: 8, opacity: 0.8 }}>
+              No hay suficiente data en este rango para armar playbooks. Amplía el rango o haz refresh.
+            </div>
+          ) : null}
+          <div className="mini" style={{ marginTop: 10, opacity: 0.78 }}>
+            Próximo upgrade: conectar Keyword Planner + bids estimados + competencia para auto-priorizar presupuesto por geo.
           </div>
         </div>
       </section>

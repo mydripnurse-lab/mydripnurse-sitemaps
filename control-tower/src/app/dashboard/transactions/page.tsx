@@ -997,10 +997,10 @@ export default function TransactionsDashboardPage() {
                 })}
               </div>
 
-              <div className="aiCard">
+              <div className="aiCard" id="ai-playbook">
                 <div className="aiCardTop">
                   <div>
-                    <div className="aiTitle">AI Strategist (Finance & Growth)</div>
+                    <div className="aiTitle">AI Playbook (Finance & Growth Expert)</div>
                     <div className="mini" style={{ opacity: 0.85, marginTop: 4 }}>
                       Responde sobre cashflow, refunds, mezcla de pagos y foco por estado.
                     </div>
@@ -1011,7 +1011,7 @@ export default function TransactionsDashboardPage() {
                     disabled={aiLoading || loading || !rows.length}
                     type="button"
                   >
-                    {aiLoading ? "Generating..." : "Generate insights"}
+                    {aiLoading ? "Generating..." : "Generate AI Playbook"}
                   </button>
                 </div>
 
@@ -1062,7 +1062,7 @@ export default function TransactionsDashboardPage() {
                   </div>
                 ) : (
                   <div className="aiPlaceholder mini">
-                    Generate insights to get finance + growth strategy for this scope.
+                    Generate AI Playbook to get finance + growth strategy for this scope.
                   </div>
                 )}
               </div>

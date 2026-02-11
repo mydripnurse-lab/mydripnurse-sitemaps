@@ -1602,10 +1602,10 @@ export default function CallsDashboardPage() {
                   </div>
 
                   {/* AI Strategist */}
-                  <div className="aiCard">
+                  <div className="aiCard" id="ai-playbook">
                     <div className="aiCardTop">
                       <div>
-                        <div className="aiTitle">AI Strategist</div>
+                        <div className="aiTitle">AI Playbook (Calls Expert)</div>
                         <div
                           className="mini"
                           style={{ opacity: 0.85, marginTop: 4 }}
@@ -1621,7 +1621,7 @@ export default function CallsDashboardPage() {
                         disabled={aiLoading || loading || !data?.rows?.length}
                         type="button"
                       >
-                        {aiLoading ? "Generating…" : "Generate insights"}
+                        {aiLoading ? "Generating…" : "Generate AI Playbook"}
                       </button>
                     </div>
 

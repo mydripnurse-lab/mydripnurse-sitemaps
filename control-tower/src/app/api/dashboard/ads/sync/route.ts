@@ -5,7 +5,7 @@ import { qKpis, qTrendDaily, qCampaigns } from "@/lib/ads/adsQueries";
 
 export const runtime = "nodejs";
 
-function s(v: any) {
+function s(v: unknown) {
     return String(v ?? "").trim();
 }
 
@@ -16,6 +16,26 @@ function addDays(dateIso: string, days: number) {
     const d = new Date(dateIso + "T00:00:00Z");
     d.setUTCDate(d.getUTCDate() + days);
     return d.toISOString().slice(0, 10);
+}
+
+function toMs(dateIso: string) {
+    return new Date(`${dateIso}T00:00:00Z`).getTime();
+}
+
+function toIsoDate(ms: number) {
+    return new Date(ms).toISOString().slice(0, 10);
+}
+
+function prevPeriodRange(start: string, end: string) {
+    const startMs = toMs(start);
+    const endMs = toMs(end);
+    if (!Number.isFinite(startMs) || !Number.isFinite(endMs) || endMs < startMs) {
+        return { start, end };
+    }
+    const days = Math.floor((endMs - startMs) / 86_400_000) + 1;
+    const prevEndMs = startMs - 86_400_000;
+    const prevStartMs = prevEndMs - (days - 1) * 86_400_000;
+    return { start: toIsoDate(prevStartMs), end: toIsoDate(prevEndMs) };
 }
 
 function resolveRange(range: string) {
@@ -38,6 +58,7 @@ export async function GET(req: Request) {
         const ttl = Number(process.env.ADS_CACHE_TTL_SECONDS || 600);
 
         const { start, end } = resolveRange(range);
+        const prev = prevPeriodRange(start, end);
 
         const cacheKey = `ads_${range}`;
         const cached = await readCache(cacheKey);
@@ -48,9 +69,15 @@ export async function GET(req: Request) {
 
         const generatedAt = new Date().toISOString();
         const meta = { range, startDate: start, endDate: end, generatedAt };
+        const prevMeta = { range: `${range}_prev`, startDate: prev.start, endDate: prev.end, generatedAt };
 
         // KPIs (customer)
         const kpis = await googleAdsSearch({ query: qKpis(start, end), pageSize: 1000, version: "v17" });
+        const prevKpis = await googleAdsSearch({
+            query: qKpis(prev.start, prev.end),
+            pageSize: 1000,
+            version: "v17",
+        });
 
         // Trend daily
         const trend = await googleAdsSearch({
@@ -66,14 +93,14 @@ export async function GET(req: Request) {
             version: "v17",
         });
 
-        const envelope = { meta, kpis, trend, campaigns, generatedAt };
+        const envelope = { meta, prevMeta, kpis, prevKpis, trend, campaigns, generatedAt };
 
         const savedPath = await writeCache(cacheKey, envelope);
 
         return NextResponse.json({ ok: true, cached: false, key: cacheKey, savedPath, meta });
-    } catch (e: any) {
+    } catch (e: unknown) {
         return NextResponse.json(
-            { ok: false, error: e?.message || String(e) },
+            { ok: false, error: e instanceof Error ? e.message : String(e) },
             { status: 500 },
         );
     }

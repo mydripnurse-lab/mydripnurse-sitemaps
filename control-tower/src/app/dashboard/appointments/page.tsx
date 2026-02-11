@@ -1147,10 +1147,10 @@ export default function AppointmentsDashboardPage() {
                 })}
               </div>
 
-              <div className="aiCard">
+              <div className="aiCard" id="ai-playbook">
                 <div className="aiCardTop">
                   <div>
-                    <div className="aiTitle">AI Strategist (Appointments Performance)</div>
+                    <div className="aiTitle">AI Playbook (Appointments Expert)</div>
                     <div className="mini" style={{ opacity: 0.85, marginTop: 4 }}>
                       Responde sobre show-rate, no-show, cancelaciones y plan operativo por estado.
                     </div>
@@ -1161,7 +1161,7 @@ export default function AppointmentsDashboardPage() {
                     disabled={aiLoading || loading || !rows.length}
                     type="button"
                   >
-                    {aiLoading ? "Generating..." : "Generate insights"}
+                    {aiLoading ? "Generating..." : "Generate AI Playbook"}
                   </button>
                 </div>
 
@@ -1189,7 +1189,7 @@ export default function AppointmentsDashboardPage() {
                   </div>
                 ) : (
                   <div className="aiPlaceholder mini">
-                    Generate insights to get appointments strategy for this scope.
+                    Generate AI Playbook to get appointments strategy for this scope.
                   </div>
                 )}
               </div>

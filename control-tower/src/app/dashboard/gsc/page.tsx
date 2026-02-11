@@ -936,10 +936,10 @@ export default function GscDashboardPage() {
               </div>
 
               {/* AI Strategist */}
-              <div className="aiCard">
+              <div className="aiCard" id="ai-playbook">
                 <div className="aiCardTop">
                   <div>
-                    <div className="aiTitle">AI Strategist</div>
+                    <div className="aiTitle">AI Playbook (SEO/GSC Expert)</div>
                     <div
                       className="mini"
                       style={{ opacity: 0.85, marginTop: 4 }}
@@ -955,7 +955,7 @@ export default function GscDashboardPage() {
                     disabled={aiLoading || loading || !stateRows.length}
                     type="button"
                   >
-                    {aiLoading ? "Generating…" : "Generate insights"}
+                    {aiLoading ? "Generating…" : "Generate AI Playbook"}
                   </button>
                 </div>
 

@@ -1132,10 +1132,10 @@ export default function ContactsDashboardPage() {
                     </div>
                   </div>
 
-                  <div className="aiCard">
+                  <div className="aiCard" id="ai-playbook">
                     <div className="aiCardTop">
                       <div>
-                        <div className="aiTitle">AI Strategist</div>
+                        <div className="aiTitle">AI Playbook (Leads Expert)</div>
                         <div className="mini" style={{ opacity: 0.85, marginTop: 4 }}>
                           Lead-gen recommendations based on quality, trend and calls comparison.
                         </div>
@@ -1147,7 +1147,7 @@ export default function ContactsDashboardPage() {
                         disabled={aiLoading || loading || !data?.rows?.length}
                         type="button"
                       >
-                        {aiLoading ? "Generating..." : "Generate insights"}
+                        {aiLoading ? "Generating..." : "Generate AI Playbook"}
                       </button>
                     </div>
 
@@ -1209,7 +1209,7 @@ export default function ContactsDashboardPage() {
                       </div>
                     ) : (
                       <div className="aiPlaceholder mini">
-                        Generate insights to get a strategic read and action plan for this scope.
+                        Generate AI Playbook to get strategic actions for this scope.
                       </div>
                     )}
                   </div>

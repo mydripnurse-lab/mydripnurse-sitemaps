@@ -1016,8 +1016,8 @@ export default function GaDashboardPage() {
                     </div>
 
                     {/* ✅ AI Strategist (GA Agent) */}
-                    <div style={{ marginTop: 14 }}>
-                      <GaInsightsPanel data={gaAgentPayload} title="AI Strategist (GA4)" />
+                    <div style={{ marginTop: 14 }} id="ai-playbook">
+                      <GaInsightsPanel data={gaAgentPayload} title="AI Playbook (GA4 Expert)" />
                     </div>
                   </>
                 ) : (
@@ -1027,8 +1027,8 @@ export default function GaDashboardPage() {
                     <div style={{ marginTop: 8 }}>
                       Sugerencia: cambia el rango o haz <b>Refresh</b>.
                     </div>
-                    <div style={{ marginTop: 14 }}>
-                      <GaInsightsPanel data={gaAgentPayload} title="AI Strategist (GA4)" />
+                    <div style={{ marginTop: 14 }} id="ai-playbook">
+                      <GaInsightsPanel data={gaAgentPayload} title="AI Playbook (GA4 Expert)" />
                     </div>
                   </div>
                 )}

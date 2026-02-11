@@ -4,19 +4,48 @@ import { joinAds } from "@/lib/ads/adsJoin";
 
 export const runtime = "nodejs";
 
-function s(v: any) {
-    return String(v ?? "").trim();
+function pickResults(raw: unknown) {
+    const src = raw as { results?: unknown[] } | null;
+    return Array.isArray(src?.results) ? src.results : [];
 }
-
-function pickResults(raw: any) {
-    return Array.isArray(raw?.results) ? raw.results : [];
-}
-function num(v: any) {
+function num(v: unknown) {
     const n = Number(v);
     return Number.isFinite(n) ? n : 0;
 }
-function microsToMoney(m: any) {
+function microsToMoney(m: unknown) {
     return num(m) / 1_000_000;
+}
+function pct(curr: number, prev: number) {
+    if (!Number.isFinite(curr) || !Number.isFinite(prev)) return null;
+    if (prev <= 0) return curr === 0 ? 0 : null;
+    return ((curr - prev) / prev) * 100;
+}
+
+type AdsMetricPayload = {
+    metrics?: {
+        impressions?: unknown;
+        clicks?: unknown;
+        ctr?: unknown;
+        averageCpc?: unknown;
+        costMicros?: unknown;
+        conversions?: unknown;
+        conversionsValue?: unknown;
+    };
+    segments?: { date?: unknown };
+    campaign?: {
+        id?: unknown;
+        name?: unknown;
+        status?: unknown;
+        advertisingChannelType?: unknown;
+    };
+};
+
+function asPayload(r: unknown): AdsMetricPayload {
+    return (r || {}) as AdsMetricPayload;
+}
+
+function s(v: unknown) {
+    return String(v ?? "").trim();
 }
 
 export async function GET(req: Request) {
@@ -36,10 +65,12 @@ export async function GET(req: Request) {
         const meta = cached.meta || null;
 
         const summary = joinAds(cached.kpis, meta);
+        const summaryPrev = joinAds(cached.prevKpis, cached.prevMeta || null);
 
-        const trendRows = pickResults(cached.trend).map((r: any) => {
-            const d = r?.segments?.date || "";
-            const m = r?.metrics || {};
+        const trendRows = pickResults(cached.trend).map((r: unknown) => {
+            const row = asPayload(r);
+            const d = row.segments?.date || "";
+            const m = row.metrics || {};
             return {
                 date: d,
                 impressions: num(m.impressions),
@@ -52,9 +83,10 @@ export async function GET(req: Request) {
             };
         });
 
-        const campaignRows = pickResults(cached.campaigns).map((r: any) => {
-            const c = r?.campaign || {};
-            const m = r?.metrics || {};
+        const campaignRows = pickResults(cached.campaigns).map((r: unknown) => {
+            const row = asPayload(r);
+            const c = row.campaign || {};
+            const m = row.metrics || {};
             return {
                 id: String(c.id || ""),
                 name: String(c.name || ""),
@@ -73,14 +105,29 @@ export async function GET(req: Request) {
         return NextResponse.json({
             ok: true,
             meta,
+            prevMeta: cached.prevMeta || null,
             summary: summary.summary,
+            summaryOverall: summary.summary,
+            summaryPrev: summaryPrev.summary,
+            compare: {
+                prevImpressions: num(summaryPrev.summary.impressions),
+                prevClicks: num(summaryPrev.summary.clicks),
+                prevCost: num(summaryPrev.summary.cost),
+                prevConversions: num(summaryPrev.summary.conversions),
+                prevConversionValue: num(summaryPrev.summary.conversionValue),
+                impressionsDeltaPct: pct(num(summary.summary.impressions), num(summaryPrev.summary.impressions)),
+                clicksDeltaPct: pct(num(summary.summary.clicks), num(summaryPrev.summary.clicks)),
+                costDeltaPct: pct(num(summary.summary.cost), num(summaryPrev.summary.cost)),
+                conversionsDeltaPct: pct(num(summary.summary.conversions), num(summaryPrev.summary.conversions)),
+                conversionValueDeltaPct: pct(num(summary.summary.conversionValue), num(summaryPrev.summary.conversionValue)),
+            },
             trend: trendRows,
             campaigns: campaignRows,
             generatedAt: cached.generatedAt || meta?.generatedAt || null,
         });
-    } catch (e: any) {
+    } catch (e: unknown) {
         return NextResponse.json(
-            { ok: false, error: e?.message || String(e) },
+            { ok: false, error: e instanceof Error ? e.message : String(e) },
             { status: 500 },
         );
     }
