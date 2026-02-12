@@ -1,0 +1,32 @@
+{
+  "business": {
+    "name": "My Drip Nurse",
+    "category": "Mobile IV Therapy",
+    "shortDescription": "Nurse-led mobile IV therapy at home, hotel or office.",
+    "valueProposition": "Fast response, licensed nurses, transparent pricing and convenient booking.",
+    "defaultCta": "Book Now",
+    "voice": "Professional, trustworthy, clear and action-oriented"
+  },
+  "channels": {
+    "googleAds": {
+      "enabled": true,
+      "defaultObjective": "Bookings"
+    },
+    "facebookAds": {
+      "enabled": true,
+      "defaultObjective": "Leads"
+    },
+    "youtubeAds": {
+      "enabled": true,
+      "defaultObjective": "Leads"
+    },
+    "tiktokAds": {
+      "enabled": true,
+      "defaultObjective": "Leads"
+    },
+    "bingAds": {
+      "enabled": true,
+      "defaultObjective": "Recovery"
+    }
+  }
+}

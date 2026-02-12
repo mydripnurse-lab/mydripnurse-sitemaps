@@ -25,11 +25,15 @@ scripts/out/**
 # Google
 secrets/
 *.json
+resources/config/google-cloud.json
 
 !public/json/*.json
 !resources/statesFiles/*.json
 !control-tower/package.json
 !control-tower/package-lock.json
+!resources/config/business-profile.json
+!resources/config/campaign-factory.config.json
+!resources/config/campaign-landing-map.json
 
 /data/secrets/
 /data/gsc/

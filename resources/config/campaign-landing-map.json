@@ -1,0 +1,109 @@
+{
+  "services": [
+    {
+      "id": "hydration",
+      "name": "Mobile IV Therapy Hydration",
+      "landingPath": "/hydration-mobile-iv-therapy",
+      "formPath": "/hydrate-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/hydrate-mobile-iv-book-appointment"
+    },
+    {
+      "id": "brain_storm",
+      "name": "Mobile IV Therapy Brain Storm",
+      "landingPath": "/mobile-iv-therapy-brain-storm",
+      "formPath": "/brain-storm-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/brain-storm-mobile-iv-book-appointment"
+    },
+    {
+      "id": "alleviate",
+      "name": "Mobile IV Therapy Alleviate",
+      "landingPath": "/mobile-iv-therapy-alleviate",
+      "formPath": "/alleviate-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/alleviate-mobile-iv-book-appointment"
+    },
+    {
+      "id": "recovery_performance",
+      "name": "Mobile IV Therapy Recovery & Performance",
+      "landingPath": "/mobile-iv-therapy-recovery-and-performance",
+      "formPath": "/recovery-performance-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/recovery-performance-mobile-iv-book-appointment"
+    },
+    {
+      "id": "myers_cocktail",
+      "name": "Mobile IV Therapy Myers' Cocktail",
+      "landingPath": "/mobile-iv-therapy-myers-cocktail",
+      "formPath": "/myers-cocktail-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/myers-cocktail-mobile-iv-book-appointment"
+    },
+    {
+      "id": "myers_glutathione",
+      "name": "Mobile IV Therapy Myers' Cocktail + Glutathione Push",
+      "landingPath": "/mobile-iv-therapy-myers-cocktail-and-glutathione-push",
+      "formPath": "/myers-cockatil-and-glutathione-push-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/myers-cocktail-and-glutathione-push-mobile-iv-book-appointment"
+    },
+    {
+      "id": "get_lean",
+      "name": "Mobile IV Therapy Get Lean / Weight Loss",
+      "landingPath": "/get-lean-weight-loss-mobile-iv-therapy",
+      "formPath": "/get-lean-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/get-lean-mobile-iv-book-appointment"
+    },
+    {
+      "id": "hangover_jetlag",
+      "name": "Mobile IV Therapy Hangover / Jet Lag",
+      "landingPath": "/mobile-iv-therapy-hangover-jet-lag",
+      "formPath": "/hangover-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/hangover-mobile-iv-book-appointment"
+    },
+    {
+      "id": "glow_beauty",
+      "name": "Mobile IV Therapy The Glow / Beauty IV Drip",
+      "landingPath": "/mobile-iv-the-glow-beauty-iv-drip",
+      "formPath": "/the-glow-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/the-glow-mobile-iv-book-appointment"
+    },
+    {
+      "id": "immunity_coldflu",
+      "name": "Mobile IV Therapy Immunity Defense / Cold & Flu",
+      "landingPath": "/mobile-iv-therapy-immunity-defense-cold-flu",
+      "formPath": "/immunity-defense-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/immunity-defense-mobile-iv-book-appointment"
+    },
+    {
+      "id": "immunity_glutathione",
+      "name": "Mobile IV Therapy Immunity Defense / Cold & Flu + Glutathione Push",
+      "landingPath": "/mobile-iv-therapy-immunity-defense-cold-flu-and-glutathione",
+      "formPath": "/immunity-defense-and-glutathione-push-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/immunity-defense-and-glutathione-push-mobile-iv-book-appointment"
+    },
+    {
+      "id": "nad_plus",
+      "name": "NAD+ Mobile IV Therapy",
+      "landingPath": "/nad-plus-mobile-iv-therapy",
+      "formPath": "/nad-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/nad-mobile-iv-book-appointment"
+    },
+    {
+      "id": "nad_boost",
+      "name": "NAD+ Boost Mobile IV Therapy",
+      "landingPath": "/nad-plus-boost-mobile-iv-therapy",
+      "formPath": "/nad-boost-mobile-iv-therapy-survey-book-appointment",
+      "bookingPath": "/nad-boost-mobile-iv-book-appointment"
+    },
+    {
+      "id": "services_overview",
+      "name": "Mobile IV Therapy List of Services",
+      "landingPath": "/mobile-iv-therapy",
+      "formPath": "",
+      "bookingPath": ""
+    },
+    {
+      "id": "start_business",
+      "name": "Start Your Mobile IV Therapy Business",
+      "landingPath": "/start-iv-therapy-business",
+      "formPath": "",
+      "bookingPath": "/start-iv-therapy-business/calendar"
+    }
+  ]
+}
