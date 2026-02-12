@@ -279,7 +279,7 @@ export default function Home() {
   const [statesOut, setStatesOut] = useState<string[]>([]);
   const [job, setJob] = useState(JOBS[0].key);
   const [stateOut, setStateOut] = useState<string>("all");
-  const [mode, setMode] = useState<"dry" | "live">("dry");
+  const [mode, setMode] = useState<"dry" | "live">("live");
   const [debug, setDebug] = useState(true);
 
   // ✅ Runner params for single location jobs
