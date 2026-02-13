@@ -18,6 +18,27 @@ function s(v: unknown) {
   return String(v ?? "").trim();
 }
 
+function uniqueStrings(values: string[]) {
+  const seen = new Set<string>();
+  const out: string[] = [];
+  for (const v of values) {
+    const x = s(v);
+    if (!x) continue;
+    if (seen.has(x)) continue;
+    seen.add(x);
+    out.push(x);
+  }
+  return out;
+}
+
+function parseSiteUrls(singleSite: string, multiRaw: string) {
+  const fromMulti = multiRaw
+    .split(/[\n,;]+/)
+    .map((x) => s(x))
+    .filter(Boolean);
+  return uniqueStrings([...fromMulti, s(singleSite)]);
+}
+
 function toNum(v: unknown) {
   const n = Number(v);
   return Number.isFinite(n) ? n : 0;
@@ -296,14 +317,17 @@ export async function GET(req: Request) {
 
     const apiKey = s(process.env.BING_WEBMASTER_API_KEY);
     const siteUrl = s(process.env.BING_WEBMASTER_SITE_URL);
+    const siteUrlsRaw = s(process.env.BING_WEBMASTER_SITE_URLS);
     const endpoint = s(process.env.BING_WEBMASTER_API_ENDPOINT) || "https://ssl.bing.com/webmaster/api.svc/json";
+    const siteUrls = parseSiteUrls(siteUrl, siteUrlsRaw);
+    const siteUrlsKey = siteUrls.join("|");
 
-    if (!apiKey || !siteUrl) {
+    if (!apiKey || !siteUrls.length) {
       return Response.json(
         {
           ok: false,
-          error: "Missing BING_WEBMASTER_API_KEY or BING_WEBMASTER_SITE_URL",
-          requiredEnv: ["BING_WEBMASTER_API_KEY", "BING_WEBMASTER_SITE_URL"],
+          error: "Missing BING_WEBMASTER_API_KEY and/or BING_WEBMASTER_SITE_URL(S)",
+          requiredEnv: ["BING_WEBMASTER_API_KEY", "BING_WEBMASTER_SITE_URL or BING_WEBMASTER_SITE_URLS"],
         },
         { status: 400 },
       );
@@ -323,11 +347,13 @@ export async function GET(req: Request) {
           range?: string;
           startDate?: string;
           endDate?: string;
+          siteUrlsKey?: string;
         };
         const sameWindow =
           s(prevMeta?.range) === preset &&
           s(prevMeta?.startDate) === range.startDate &&
-          s(prevMeta?.endDate) === range.endDate;
+          s(prevMeta?.endDate) === range.endDate &&
+          s(prevMeta?.siteUrlsKey) === siteUrlsKey;
         if (age <= freshnessMs && sameWindow) {
           return Response.json({ ok: true, cached: true, ageMs: age, range, message: "Bing cache is fresh" });
         }
@@ -336,22 +362,32 @@ export async function GET(req: Request) {
       }
     }
 
-    const [queriesRes, pagesRes] = await Promise.all([
-      callBingMethod({ endpoint, apiKey, siteUrl, method: "GetQueryStats", startDate: range.startDate, endDate: range.endDate }),
-      callBingMethod({ endpoint, apiKey, siteUrl, method: "GetPageStats", startDate: range.startDate, endDate: range.endDate }),
-    ]);
+    const perSite = await Promise.all(
+      siteUrls.map(async (site) => {
+        const [queriesRes, pagesRes] = await Promise.all([
+          callBingMethod({ endpoint, apiKey, siteUrl: site, method: "GetQueryStats", startDate: range.startDate, endDate: range.endDate }),
+          callBingMethod({ endpoint, apiKey, siteUrl: site, method: "GetPageStats", startDate: range.startDate, endDate: range.endDate }),
+        ]);
+        return { siteUrl: site, queriesRes, pagesRes };
+      }),
+    );
 
-    if (!queriesRes.ok && !pagesRes.ok) {
+    const atLeastOneSiteOk = perSite.some((x) => x.queriesRes.ok || x.pagesRes.ok);
+    if (!atLeastOneSiteOk) {
+      const sample = perSite[0];
       return Response.json(
         {
           ok: false,
-          error: `Unable to fetch Bing data. Query error: ${queriesRes.error || "unknown"}. Page error: ${pagesRes.error || "unknown"}`,
+          error: `Unable to fetch Bing data for all sites. Query error: ${sample?.queriesRes.error || "unknown"}. Page error: ${sample?.pagesRes.error || "unknown"}`,
         },
         { status: 502 },
       );
     }
 
-    const queryRows = queriesRes.rows
+    const rawQueryRows = perSite.flatMap((x) => x.queriesRes.rows.map((r) => ({ ...r, __siteUrl: x.siteUrl })));
+    const rawPageRows = perSite.flatMap((x) => x.pagesRes.rows.map((r) => ({ ...r, __siteUrl: x.siteUrl })));
+
+    const queryRows = rawQueryRows
       .map((r) => ({
         query: pickQuery(r),
         date: parseDateFromRow(r),
@@ -359,11 +395,12 @@ export async function GET(req: Request) {
         clicks: pickClicks(r),
         ctr: pickCtr(r),
         position: pickPosition(r),
+        siteUrl: s(r.__siteUrl),
         raw: r,
       }))
       .filter((r) => !!s(r.query) && !isLikelyUrl(r.query));
 
-    let pageRows = pagesRes.rows
+    let pageRows = rawPageRows
       .map((r) => ({
         page: pickPage(r),
         date: parseDateFromRow(r),
@@ -371,13 +408,14 @@ export async function GET(req: Request) {
         clicks: pickClicks(r),
         ctr: pickCtr(r),
         position: pickPosition(r),
+        siteUrl: s(r.__siteUrl),
         raw: r,
       }))
       .filter((r) => !!s(r.page) && isLikelyUrl(r.page));
 
     // Some Bing responses return URL-like rows only in query payload.
     if (!pageRows.length) {
-      pageRows = queriesRes.rows
+      pageRows = rawQueryRows
         .map((r) => ({
           page: pickPage(r),
           date: parseDateFromRow(r),
@@ -385,6 +423,7 @@ export async function GET(req: Request) {
           clicks: pickClicks(r),
           ctr: pickCtr(r),
           position: pickPosition(r),
+          siteUrl: s(r.__siteUrl),
           raw: r,
         }))
         .filter((r) => !!s(r.page) && isLikelyUrl(r.page));
@@ -402,7 +441,9 @@ export async function GET(req: Request) {
     const meta = {
       ok: true,
       source: "bing_webmaster",
-      siteUrl,
+      siteUrl: siteUrls[0] || "",
+      siteUrls,
+      siteUrlsKey,
       range: preset,
       startDate: range.startDate,
       endDate: range.endDate,
@@ -424,12 +465,18 @@ export async function GET(req: Request) {
         queries: queryRows.length,
         pages: pageRows.length,
         trend: trendRows.length,
+        sites: siteUrls.length,
       },
       debug: {
-        queryMethodOk: queriesRes.ok,
-        pageMethodOk: pagesRes.ok,
-        queryError: queriesRes.ok ? null : queriesRes.error,
-        pageError: pagesRes.ok ? null : pagesRes.error,
+        siteResults: perSite.map((x) => ({
+          siteUrl: x.siteUrl,
+          queryMethodOk: x.queriesRes.ok,
+          pageMethodOk: x.pagesRes.ok,
+          queryError: x.queriesRes.ok ? null : x.queriesRes.error,
+          pageError: x.pagesRes.ok ? null : x.pagesRes.error,
+          queryRows: x.queriesRes.rows.length,
+          pageRows: x.pagesRes.rows.length,
+        })),
       },
     });
   } catch (e: unknown) {

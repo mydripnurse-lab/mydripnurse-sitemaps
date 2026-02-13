@@ -254,7 +254,7 @@ type TabSitemapResultItem = {
 
 type TabSitemapReport = {
   kind: "counties" | "cities";
-  action: "inspect" | "discovery";
+  action: "inspect" | "discovery" | "bing_indexnow";
   total: number;
   success: number;
   failed: number;
@@ -271,7 +271,7 @@ type TabSitemapRunItem = {
   error?: string;
 };
 
-type TabGoogleAction = "inspect" | "discovery";
+type TabAction = "inspect" | "discovery" | "bing_indexnow";
 
 /** ---- Progress / Runner UX (client-only) ---- */
 type RunnerTotals = {
@@ -372,7 +372,7 @@ export default function Home() {
     "counties" | "cities"
   >("counties");
   const [tabSitemapRunAction, setTabSitemapRunAction] =
-    useState<TabGoogleAction>("inspect");
+    useState<TabAction>("inspect");
   const [tabSitemapRunMode, setTabSitemapRunMode] = useState<"all" | "retry">(
     "all",
   );
@@ -715,7 +715,7 @@ export default function Home() {
 
   const tabRunKey = (
     kind: "counties" | "cities",
-    action: TabGoogleAction,
+    action: TabAction,
   ) => `${kind}:${action}`;
   const currentTabRunKey = tabRunKey(detailTab, tabSitemapRunAction);
 
@@ -1326,7 +1326,7 @@ export default function Home() {
 
   async function runTabSitemaps(
     kind: "counties" | "cities",
-    action: TabGoogleAction,
+    action: TabAction,
     rowsToRun: any[],
     mode: "all" | "retry",
   ) {
@@ -1402,15 +1402,27 @@ export default function Home() {
       }
 
       try {
-        const res = await fetch("/api/tools/index-submit", {
+        const isBingAction = action === "bing_indexnow";
+        const endpoint = isBingAction
+          ? "/api/tools/bing-indexnow-submit"
+          : "/api/tools/index-submit";
+        const payload = isBingAction
+          ? { domainUrl }
+          : { target: "google", domainUrl, mode: action };
+
+        const res = await fetch(endpoint, {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ target: "google", domainUrl, mode: action }),
+          body: JSON.stringify(payload),
         });
-        const data = (await safeJson(res)) as IndexSubmitResponse | null;
-        const submitted = !!data?.google?.discovery?.submitted;
-        const indexable = !!data?.ok;
-        const actionOk = action === "discovery" ? submitted : indexable;
+        const data = await safeJson(res);
+        const submitted = !!(data as any)?.google?.discovery?.submitted;
+        const actionOk =
+          action === "discovery"
+            ? submitted
+            : action === "bing_indexnow"
+              ? !!(data as any)?.ok
+              : !!(data as any)?.ok;
         if (res.ok && data && actionOk) {
           okCount += 1;
           items.push({
@@ -1421,7 +1433,10 @@ export default function Home() {
           });
           updateRunItem(key, "done");
         } else {
-          const errMsg = data?.error || data?.google?.error || `HTTP ${res.status}`;
+          const errMsg =
+            (data as any)?.error ||
+            (data as any)?.google?.error ||
+            `HTTP ${res.status}`;
           items.push({
             key,
             rowName: rowName || domainUrl,
@@ -1447,17 +1462,19 @@ export default function Home() {
     }
 
     const failCount = rowsToRun.length - okCount;
+    const actionLabel =
+      action === "inspect"
+        ? "URL inspection"
+        : action === "discovery"
+          ? "Sitemap discovery"
+          : "Bing IndexNow";
     setTabSitemapStatus({
       kind,
       ok: failCount === 0,
       message:
         failCount === 0
-          ? action === "inspect"
-            ? `URL inspection completado para ${okCount}/${rowsToRun.length} ${kind}.`
-            : `Sitemap discovery enviado para ${okCount}/${rowsToRun.length} ${kind}.`
-          : action === "inspect"
-            ? `URL inspection completado ${okCount}/${rowsToRun.length}. Fallos: ${failCount}.`
-            : `Sitemap discovery enviado ${okCount}/${rowsToRun.length}. Fallos: ${failCount}.`,
+          ? `${actionLabel} completado para ${okCount}/${rowsToRun.length} ${kind}.`
+          : `${actionLabel} completado ${okCount}/${rowsToRun.length}. Fallos: ${failCount}.`,
     });
 
     setTabSitemapReports((prev) => ({
@@ -1480,14 +1497,14 @@ export default function Home() {
 
   async function submitTabAction(
     kind: "counties" | "cities",
-    action: TabGoogleAction,
+    action: TabAction,
   ) {
     await runTabSitemaps(kind, action, getActiveRowsForTab(kind), "all");
   }
 
   async function retryFailedTabSitemaps(
     kind: "counties" | "cities",
-    action: TabGoogleAction,
+    action: TabAction,
   ) {
     const runKey = tabRunKey(kind, action);
     const last = tabSitemapReports[runKey];
@@ -2182,6 +2199,26 @@ export default function Home() {
                   </button>
                   <button
                     className="smallBtn"
+                    onClick={() => submitTabAction("counties", "bing_indexnow")}
+                    disabled={tabSitemapSubmitting !== ""}
+                    title="Enviar URL principal a Bing IndexNow para todos los counties activos."
+                  >
+                    {tabSitemapSubmitting === tabRunKey("counties", "bing_indexnow")
+                      ? "Bing Counties..."
+                      : "Bing Counties"}
+                  </button>
+                  <button
+                    className="smallBtn"
+                    onClick={() => submitTabAction("cities", "bing_indexnow")}
+                    disabled={tabSitemapSubmitting !== ""}
+                    title="Enviar URL principal a Bing IndexNow para todas las cities activas."
+                  >
+                    {tabSitemapSubmitting === tabRunKey("cities", "bing_indexnow")
+                      ? "Bing Cities..."
+                      : "Bing Cities"}
+                  </button>
+                  <button
+                    className="smallBtn"
                     onClick={() =>
                       retryFailedTabSitemaps(detailTab, tabSitemapRunAction)
                     }
@@ -2354,7 +2391,9 @@ export default function Home() {
                             <b>{detailTab === "counties" ? "Counties" : "Cities"}</b>{" "}
                             {currentTabSitemapReport.action === "inspect"
                               ? "inspect"
-                              : "sitemap"}{" "}
+                              : currentTabSitemapReport.action === "discovery"
+                                ? "sitemap"
+                                : "bing"}{" "}
                             run ({currentTabSitemapReport.mode}) •{" "}
                             {currentTabSitemapReport.success}/{currentTabSitemapReport.total} ok •{" "}
                             {currentTabSitemapReport.failed} failed
@@ -2569,12 +2608,19 @@ export default function Home() {
                 <div className="badge">
                   {tabSitemapRunAction === "inspect"
                     ? "GOOGLE URL INSPECTION RUN"
-                    : "GOOGLE SITEMAP DISCOVERY RUN"}
+                    : tabSitemapRunAction === "discovery"
+                      ? "GOOGLE SITEMAP DISCOVERY RUN"
+                      : "BING INDEXNOW RUN"}
                 </div>
                 <h3 className="modalTitle" style={{ marginTop: 8 }}>
                   {openState} •{" "}
                   {tabSitemapRunKind === "counties" ? "Counties" : "Cities"} •{" "}
-                  {tabSitemapRunAction === "inspect" ? "URL Inspect" : "Sitemap Discovery"} •{" "}
+                  {tabSitemapRunAction === "inspect"
+                    ? "URL Inspect"
+                    : tabSitemapRunAction === "discovery"
+                      ? "Sitemap Discovery"
+                      : "Bing IndexNow"}{" "}
+                  •{" "}
                   {tabSitemapRunMode === "retry" ? "Retry Failed" : "Full Run"}
                 </h3>
                 <div className="mini" style={{ marginTop: 6 }}>

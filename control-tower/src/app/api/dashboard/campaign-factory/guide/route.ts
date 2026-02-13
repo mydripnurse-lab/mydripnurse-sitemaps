@@ -88,19 +88,19 @@ export async function POST(req: Request) {
           geo: clip((context.business as Record<string, unknown>)?.geo, 120),
           positioning: clip((context.business as Record<string, unknown>)?.positioning, 220),
         },
-        topGeo: topGeo.slice(0, 8).map((x) => ({
+        topGeo: topGeo.slice(0, 4).map((x) => ({
           name: clip((x as Record<string, unknown>).name, 120),
           level: clip((x as Record<string, unknown>).level, 40),
           leads: n((x as Record<string, unknown>).leads),
           opportunities: n((x as Record<string, unknown>).opportunities),
           revenue: n((x as Record<string, unknown>).revenue),
         })),
-        attribution: attribution.slice(0, 8).map((x) => ({
+        attribution: attribution.slice(0, 5).map((x) => ({
           source: clip((x as Record<string, unknown>).source, 80),
           leads: n((x as Record<string, unknown>).leads),
           revenue: n((x as Record<string, unknown>).revenue),
         })),
-        gscTopQueries: gscTopQueries.slice(0, 12).map((q) => clip(q, 100)),
+        gscTopQueries: gscTopQueries.slice(0, 6).map((q) => clip(q, 70)),
       },
     };
 

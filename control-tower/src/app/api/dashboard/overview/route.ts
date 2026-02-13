@@ -302,23 +302,14 @@ export async function GET(req: Request) {
                 )
                 : Promise.resolve({ ok: false, status: 0, data: {} as JsonObject }),
             fetchJson(`${origin}/api/dashboard/gsc/aggregate?start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}${forceQ}`),
-            fetchJson(
-                `${origin}/api/dashboard/search-performance/join?compare=1&start=${encodeURIComponent(start)}&end=${encodeURIComponent(end)}${forceQ}`,
-            ),
+            fetchJson(`${origin}/api/dashboard/search-performance/join?${syncParams.toString()}`),
             fetchJson(`${origin}/api/dashboard/ga/join?compare=1${forceQ}`),
             fetchJson(`${origin}/api/dashboard/ads/join?range=${encodeURIComponent(adsRange)}${forceQ}`),
         ]);
 
         let searchJoin = searchJoinInitial;
-        const searchMeta = (searchJoin.ok ? (searchJoin.data.meta as JsonObject) : {}) || {};
-        const searchStartDay = dayIso(s(searchMeta.startDate));
-        const searchEndDay = dayIso(s(searchMeta.endDate));
-        const searchRangeMismatch = !!startDay && !!endDay && (searchStartDay !== startDay || searchEndDay !== endDay);
-
-        if (searchRangeMismatch) {
-            searchJoin = await fetchJson(
-                `${origin}/api/dashboard/search-performance/join?compare=1&start=${encodeURIComponent(startDay)}&end=${encodeURIComponent(endDay)}${forceQ}`,
-            );
+        if (!searchJoin.ok) {
+            searchJoin = await fetchJson(`${origin}/api/dashboard/search-performance/join?${syncParams.toString()}`);
         }
 
         // Conversations are fetched sequentially to reduce GHL rate-limit pressure (429).
