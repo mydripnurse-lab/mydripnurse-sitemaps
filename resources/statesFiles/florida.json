@@ -125,8 +125,8 @@
                 "Zone": "US/Central",
                 "GMT_Offset": "(GMT-06:00)"
             },
-            "countyDomain": "https://bay.mydripnurse.com",
-            "countySitemap": "https://bay.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://bay-county.mydripnurse.com",
+            "countySitemap": "https://bay-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bay.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://callaway-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lynnhaven-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mexicobeach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://panamacity-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://panamabeach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://parker-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://springfield-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -158,9 +158,9 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://bradford.mydripnurse.com",
-            "countySitemap": "https://bradford.mydripnurse.com/sitemap.xml",
-            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bradford.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brooker-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hampton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lawtey-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://starke-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+            "countyDomain": "https://bradford-county.mydripnurse.com",
+            "countySitemap": "https://bradford-county.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://bradford-county.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brooker-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hampton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lawtey-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://starke-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Brevard",
@@ -516,8 +516,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://clay.mydripnurse.com",
-            "countySitemap": "https://clay.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://clay-florida.mydripnurse.com",
+            "countySitemap": "https://clay-florida.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://clay.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://green-cove-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://keystone-heights-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://orange-park-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://penney-farms-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -567,8 +567,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://columbia.mydripnurse.com",
-            "countySitemap": "https://columbia.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://columbia-county.mydripnurse.com",
+            "countySitemap": "https://columbia-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://columbia.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-white-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lakecity-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -585,8 +585,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://desoto.mydripnurse.com",
-            "countySitemap": "https://desoto.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://desoto-county.mydripnurse.com",
+            "countySitemap": "https://desoto-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://desoto.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://arcadia-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -608,8 +608,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://dixie.mydripnurse.com",
-            "countySitemap": "https://dixie.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://dixie-county.mydripnurse.com",
+            "countySitemap": "https://dixie-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://dixie.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crosscity-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://horseshoe-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -707,8 +707,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://flagler.mydripnurse.com",
-            "countySitemap": "https://flagler.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://flagler-county.mydripnurse.com",
+            "countySitemap": "https://flagler-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://flagler.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://beverly-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bunnel-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://flager-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marineland-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://palm-coast-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -773,8 +773,8 @@
                 "Zone": "US/Central",
                 "GMT_Offset": "(GMT-06:00)"
             },
-            "countyDomain": "https://gadsden.mydripnurse.com",
-            "countySitemap": "https://gadsden.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://gadsden-county.mydripnurse.com",
+            "countySitemap": "https://gadsden-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://gadsden.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chattahoochee-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://greensboro-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gretna-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://havana-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://midway-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://quincy-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -801,9 +801,9 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://gilchrist.mydripnurse.com",
-            "countySitemap": "https://gilchrist.mydripnurse.com/sitemap.xml",
-            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://gilchrist.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bell-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fanning-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://trenton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+            "countyDomain": "https://gilchrist-county.mydripnurse.com",
+            "countySitemap": "https://gilchrist-county.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://gilchrist-county.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bell-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fanning-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://trenton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Glades",
@@ -889,8 +889,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://hardee.mydripnurse.com",
-            "countySitemap": "https://hardee.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://hardee-county.mydripnurse.com",
+            "countySitemap": "https://hardee-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://hardee.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bowling-green-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wauchula-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://zolfo-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -912,8 +912,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://hendry.mydripnurse.com",
-            "countySitemap": "https://hendry.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://hendry-county.mydripnurse.com",
+            "countySitemap": "https://hendry-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://hendry.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clewiston-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://labelle-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -935,8 +935,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://hernando.mydripnurse.com",
-            "countySitemap": "https://hernando.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://hernando-county.mydripnurse.com",
+            "countySitemap": "https://hernando-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://hernando.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://brooksville-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://weeki-wachee-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -963,8 +963,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://highlands.mydripnurse.com",
-            "countySitemap": "https://highlands.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://highlands-county.mydripnurse.com",
+            "countySitemap": "https://highlands-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://highlands.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://avon-park-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-placid-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sebring-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -1254,8 +1254,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://lake.mydripnurse.com",
-            "countySitemap": "https://lake.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://lake-county.mydripnurse.com",
+            "countySitemap": "https://lake-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://lake.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://astatula-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://clermont-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://eustis-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fruitland-park-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://groveland-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://howey-in-the-hills-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lady-lake-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://leesburg-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mascotte-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://minneola-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://montverde-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mount-dora-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://tavares-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://umatilla-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -1368,8 +1368,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://levy.mydripnurse.com",
-            "countySitemap": "https://levy.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://levy-county.mydripnurse.com",
+            "countySitemap": "https://levy-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://levy.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bronson-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://cedar-key-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://chiefland-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fanning-springs-levy-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://inglis-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://otter-creek-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://williston-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://yankeetown-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -1457,8 +1457,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://manatee.mydripnurse.com",
-            "countySitemap": "https://manatee.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://manatee-county.mydripnurse.com",
+            "countySitemap": "https://manatee-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://manatee.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://anna-maria-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bradenton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bradenton-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://holmes-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://longboat-key-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://palmetto-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -1749,8 +1749,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://monroe.mydripnurse.com",
-            "countySitemap": "https://monroe.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://monroe-county.mydripnurse.com",
+            "countySitemap": "https://monroe-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://monroe.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://key-colony-beach-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://key-west-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://layton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://marathon-city-fl.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://islamorada-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -1777,8 +1777,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://nassau.mydripnurse.com",
-            "countySitemap": "https://nassau.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://nassau-county.mydripnurse.com",
+            "countySitemap": "https://nassau-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://nassau.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://callahan-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fernandina-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hilliard-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -1825,8 +1825,8 @@
                 "Zone": "US/Central",
                 "GMT_Offset": "(GMT-06:00)"
             },
-            "countyDomain": "https://okaloosa.mydripnurse.com",
-            "countySitemap": "https://okaloosa.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://okaloosa-county.mydripnurse.com",
+            "countySitemap": "https://okaloosa-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://okaloosa.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crestview-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://destin-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-walton-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://laurel-hill-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://mary-esther-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://niceville-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://valparaiso-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -1940,8 +1940,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://osceola.mydripnurse.com",
-            "countySitemap": "https://osceola.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://osceola-county.mydripnurse.com",
+            "countySitemap": "https://osceola-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://osceola.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://kissimmee-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-cloud-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2161,8 +2161,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://pasco.mydripnurse.com",
-            "countySitemap": "https://pasco.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://pasco-county.mydripnurse.com",
+            "countySitemap": "https://pasco-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://pasco.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dadecity-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://new-port-richey.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://port-richey-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://san-antonio-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-leo-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://zephyrhills-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2400,8 +2400,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://putnam.mydripnurse.com",
-            "countySitemap": "https://putnam.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://putnam-county.mydripnurse.com",
+            "countySitemap": "https://putnam-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://putnam.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://crescent-city-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://interlachen-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://palatka-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://pomona-Park-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://welaka-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2428,8 +2428,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://santa-rosa.mydripnurse.com",
-            "countySitemap": "https://santa-rosa.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://santa-rosa-county.mydripnurse.com",
+            "countySitemap": "https://santa-rosa-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://santa-rosa.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://gulf-breeze-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://jay-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://milton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2504,8 +2504,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://seminole.mydripnurse.com",
-            "countySitemap": "https://seminole.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://seminole-county.mydripnurse.com",
+            "countySitemap": "https://seminole-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://seminole.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://altamonte-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://casselberry-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-mary-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://longwood-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://oviedo-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://sanford-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://winter-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2532,8 +2532,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://st-johns.mydripnurse.com",
-            "countySitemap": "https://st-johns.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://stjohns-county.mydripnurse.com",
+            "countySitemap": "https://stjohns-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-johns.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://hastings-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://saint-augustine-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://saint-augustine-beach-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2560,8 +2560,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://st-lucie.mydripnurse.com",
-            "countySitemap": "https://st-lucie.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://stlucie-county.mydripnurse.com",
+            "countySitemap": "https://stlucie-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://st-lucie.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://fort-pierce-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://port-saint-lucie-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://st-lucie-village-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2598,8 +2598,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://sumter.mydripnurse.com",
-            "countySitemap": "https://sumter.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://sumter-county.mydripnurse.com",
+            "countySitemap": "https://sumter-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://sumter.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://bushnell-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://center-hill-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://coleman-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://webster-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://wildwood-city.mydripnurse/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2621,8 +2621,8 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://suwannee.mydripnurse.com",
-            "countySitemap": "https://suwannee.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://suwannee-county.mydripnurse.com",
+            "countySitemap": "https://suwannee-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://suwannee.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://branford-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://live-oak-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
@@ -2667,9 +2667,9 @@
                 "Zone": "US/Eastern",
                 "GMT_Offset": "(GMT-05:00)"
             },
-            "countyDomain": "https://union.mydripnurse.com",
-            "countySitemap": "https://union.mydripnurse.com/sitemap.xml",
-            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://union.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-butler-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://raiford-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://worthington-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
+            "countyDomain": "https://union-county.mydripnurse.com",
+            "countySitemap": "https://union-county.mydripnurse.com/sitemap.xml",
+            "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://union-county.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://lake-butler-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://raiford-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://worthington-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {
             "countyName": "Volusia",
@@ -2806,8 +2806,8 @@
                 "Zone": "US/Central",
                 "GMT_Offset": "(GMT-06:00)"
             },
-            "countyDomain": "https://walton.mydripnurse.com",
-            "countySitemap": "https://walton.mydripnurse.com/sitemap.xml",
+            "countyDomain": "https://walton-county.mydripnurse.com",
+            "countySitemap": "https://walton-county.mydripnurse.com/sitemap.xml",
             "embeddedSitemap": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <sitemap>\n    <loc>https://walton.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://dafuniak-springs-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://freeport-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n  <sitemap>\n    <loc>https://paxton-city.mydripnurse.com/sitemap.xml</loc>\n    <lastmod>2026-01-18</lastmod>\n  </sitemap>\n</sitemapindex>"
         },
         {

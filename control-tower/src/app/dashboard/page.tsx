@@ -297,6 +297,7 @@ type OverviewResponse = {
     calls?: {
       ok: boolean;
       total: number;
+      missed?: number;
       prevTotal: number;
       deltaPct: number | null;
       error: string | null;
@@ -2317,6 +2318,10 @@ export default function DashboardHome() {
                 <div className="moduleStat">
                   <div className="mini moduleStatLabel">Total calls</div>
                   <div className="moduleStatValue">{fmtInt(m?.calls?.total)}</div>
+                </div>
+                <div className="moduleStat">
+                  <div className="mini moduleStatLabel">Missed calls</div>
+                  <div className="moduleStatValue">{fmtInt(m?.calls?.missed)}</div>
                 </div>
               </div>
               <div className="moduleActions">

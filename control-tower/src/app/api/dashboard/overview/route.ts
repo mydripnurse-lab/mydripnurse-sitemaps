@@ -127,6 +127,11 @@ function isSuccessfulTxStatus(statusRaw: unknown) {
     return st.includes("succeed") || st.includes("paid") || st.includes("complete") || st.includes("approved");
 }
 
+function isMissedCallStatus(statusRaw: unknown) {
+    const st = s(statusRaw).toLowerCase();
+    return st === "no-answer" || st === "voicemail";
+}
+
 function computeBucketScore(
     b: BucketAgg,
     baselines: { maxActivity: number; maxRevenue: number },
@@ -352,6 +357,11 @@ export async function GET(req: Request) {
 
         const callsNow = callsCur.ok ? n(callsCur.data.total) : 0;
         const callsBefore = callsPrev.ok ? n(callsPrev.data.total) : 0;
+        const callsMissedNow = callsCur.ok
+            ? (((callsCur.data.rows as unknown[]) || []) as Array<Record<string, unknown>>).filter((r) =>
+                isMissedCallStatus(r["Phone Call Status"]),
+            ).length
+            : 0;
 
         const leadsNow = contactsCur.ok ? n(contactsCur.data.total) : 0;
         const leadsBefore = contactsPrev.ok ? n(contactsPrev.data.total) : 0;
@@ -1413,6 +1423,7 @@ export async function GET(req: Request) {
                 calls: {
                     ok: callsCur.ok,
                     total: callsNow,
+                    missed: callsMissedNow,
                     prevTotal: callsBefore,
                     deltaPct: percentChange(callsNow, callsBefore),
                     error: callsCur.ok ? null : s(callsCur.data.error || `HTTP ${callsCur.status}`),

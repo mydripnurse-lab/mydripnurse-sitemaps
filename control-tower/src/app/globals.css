@@ -213,6 +213,37 @@ button, input, select { font-family: inherit; }
   outline: none;
 }
 
+/* Windows/Edge/Chrome safe selects: avoid white dropdown/text mismatches */
+.select{
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color-scheme: dark;
+  background-color: #2c3342;
+  color: rgba(244,248,255,0.96);
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgba(255,255,255,0.72) 50%),
+    linear-gradient(135deg, rgba(255,255,255,0.72) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) calc(50% - 1px),
+    calc(100% - 12px) calc(50% - 1px);
+  background-size: 6px 6px, 6px 6px;
+  background-repeat: no-repeat;
+  padding-right: 34px;
+}
+
+.select option,
+.select optgroup{
+  background: #2b3240 !important;
+  color: rgba(245,248,255,0.96) !important;
+}
+
+.select:focus,
+.input:focus{
+  border-color: rgba(96,165,250,0.45);
+  box-shadow: 0 0 0 2px rgba(96,165,250,0.16);
+}
+
 .select:disabled,
 .input:disabled { opacity: 0.6; cursor: not-allowed; }
 
@@ -826,6 +857,58 @@ button, input, select { font-family: inherit; }
   animation: modalCelebrateGlow 1180ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
+.modalCelebrateHeadlineWrap{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  z-index:2;
+  opacity:0;
+}
+
+.modalCelebrate.isOn .modalCelebrateHeadlineWrap{
+  animation: modalCelebrateHeadlineWrap 1220ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.modalCelebrateHeadline{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:8px;
+  padding:18px 28px;
+  border-radius:18px;
+  border:1px solid rgba(255,255,255,0.22);
+  background:
+    linear-gradient(180deg, rgba(14,22,36,0.78), rgba(10,16,28,0.58));
+  box-shadow:
+    0 22px 70px rgba(0,0,0,0.5),
+    inset 0 1px 0 rgba(255,255,255,0.22);
+  backdrop-filter: blur(7px) saturate(1.15);
+}
+
+.modalCelebrateHeadlineTop{
+  font-size: clamp(16px, 2.1vw, 26px);
+  font-weight:800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(232,240,255,0.94);
+}
+
+.modalCelebrateHeadlineMain{
+  font-size: clamp(30px, 4.5vw, 66px);
+  line-height: 0.95;
+  font-weight: 1000;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #dff7ff 0%, #6ad0ff 35%, #6effc4 70%, #fff1a4 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow:
+    0 0 24px rgba(110,240,255,0.34),
+    0 0 52px rgba(102,255,196,0.2);
+}
+
 .modalCelebrateParticle {
   position: absolute;
   left: var(--ox, 50%);
@@ -925,12 +1008,66 @@ button, input, select { font-family: inherit; }
   }
 }
 
+@keyframes modalCelebrateHeadlineWrap{
+  0%{
+    opacity:0;
+    transform: translateY(14px) scale(0.95);
+  }
+  16%{
+    opacity:1;
+    transform: translateY(0) scale(1);
+  }
+  78%{
+    opacity:1;
+    transform: translateY(0) scale(1);
+  }
+  100%{
+    opacity:0;
+    transform: translateY(-8px) scale(1.02);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .modalCelebrate,
   .modalCelebrate.isOn .modalCelebrateGlow,
-  .modalCelebrate.isOn .modalCelebrateParticle {
+  .modalCelebrate.isOn .modalCelebrateParticle,
+  .modalCelebrate.isOn .modalCelebrateHeadlineWrap {
     animation: none !important;
-    opacity: 0 !important;
+  }
+  .modalCelebrate{ opacity: 0; }
+  .modalCelebrate.isOn{
+    opacity: 1 !important;
+  }
+  .modalCelebrate.isOn .modalCelebrateGlow{
+    opacity: 0.5 !important;
+  }
+  .modalCelebrate.isOn .modalCelebrateParticle{
+    opacity: 0.86 !important;
+    transform:
+      translate(calc(-50% + var(--tx, 0px)), calc(var(--ty, -360px) * 0.45))
+      scale(0.9)
+      rotate(var(--spin, 24deg)) !important;
+  }
+  .modalCelebrate.isOn .modalCelebrateHeadlineWrap{
+    opacity: 1 !important;
+  }
+}
+
+/* Windows High Contrast / forced-colors fallback */
+@media (forced-colors: active){
+  .select,
+  .input,
+  .btn,
+  .smallBtn{
+    forced-color-adjust: auto;
+    background: Canvas !important;
+    color: CanvasText !important;
+    border-color: GrayText !important;
+  }
+  .select option,
+  .select optgroup{
+    background: Canvas !important;
+    color: CanvasText !important;
   }
 }
 

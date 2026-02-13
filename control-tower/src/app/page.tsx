@@ -2735,6 +2735,12 @@ export default function Home() {
         aria-hidden="true"
       >
         <div className="modalCelebrateGlow" />
+        <div className="modalCelebrateHeadlineWrap">
+          <div className="modalCelebrateHeadline">
+            <span className="modalCelebrateHeadlineTop">Yo soy de</span>
+            <span className="modalCelebrateHeadlineMain">P FKN R</span>
+          </div>
+        </div>
         {celebrationParticles.map((p, idx) => (
           <span
             key={idx}
